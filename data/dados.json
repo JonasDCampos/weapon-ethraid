@@ -3144,7 +3144,7 @@
   },
   {
    "nome": "Brutal",
-   "desc": "Armas brutais são construídas para sujeitar adversários a maior quantia de ferimentos possíveis. O dano da arma nos críticos são triplicados, ao invés de dobrados."
+   "desc": "Armas brutais são feitas para causar o máximo de ferimentos possível. Quando você acerta um crítico com uma arma brutal, acrescente mais um dado de dano da arma ao acertar um crítico. Exemplo: uma arma que causa 1d12 passa a causar 3d12 no crítico. Uma que causa 2d6 passa a causar 5d6."
   },
   {
    "nome": "Carga",
