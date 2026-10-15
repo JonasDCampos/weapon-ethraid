@@ -11,8 +11,12 @@
 header{padding:14px 18px 0;max-width:1400px;margin:auto}h1{margin:0 0 2px;font-size:22px;color:var(--ac)}
 .sub{color:var(--mu);font-size:12px}
 #top{display:flex;gap:8px;margin:12px 0 0}#top button{padding:8px 18px;font-weight:600;font-size:15px}#top button.on{background:var(--ac);color:#fff;border-color:var(--ac)}
-table.ct td,table.ct th{text-align:center}table.ct td.ft{text-align:left;min-width:260px}table.ct .gh{border-bottom:1px solid var(--bd)}tr.cl:nth-child(even) td{background:color-mix(in srgb,var(--ac) 5%,transparent)}tr.cl:hover td{background:color-mix(in srgb,var(--ac) 12%,transparent)}
+table.ct td,table.ct th{text-align:center}table.ct td.ft{text-align:left;min-width:150px}table.ct th{white-space:normal;line-height:1.2;padding:6px 5px}table.ct td{padding:5px 6px}table.ct .gh{border-bottom:1px solid var(--bd)}tr.cl:nth-child(even) td{background:color-mix(in srgb,var(--ac) 5%,var(--card))}tr.cl:hover td{background:color-mix(in srgb,var(--ac) 12%,var(--card))}
 input.ci{width:100%;min-width:56px;field-sizing:content;padding:3px 5px;font-size:13px}th input.ci{font-weight:400;text-transform:none}
+td:first-child,tr:first-child>th:first-child{position:sticky;left:0;z-index:1;background:var(--card);box-shadow:1px 0 0 var(--bd)}tr:first-child>th:first-child{background:var(--hd);z-index:2}tr.g td:first-child{background:var(--hd)}
+.w{-webkit-overflow-scrolling:touch}#top{flex-wrap:wrap}
+@media(max-width:1100px){body{font-size:13px}th,td{padding:5px 6px}th{font-size:11px;letter-spacing:0}.chip{font-size:11px;padding:0 6px}.nv{display:none}header,main{padding-left:10px!important;padding-right:10px!important}td.n{white-space:normal;min-width:100px}}
+@media(max-width:700px){#top button{padding:6px 10px;font-size:13px}nav button{padding:6px 9px}#q{max-width:none;min-width:0}td.n{white-space:normal;min-width:90px}}
 nav{display:flex;gap:4px;flex-wrap:wrap;margin:12px 0 0;border-bottom:1px solid var(--bd)}
 nav button{border:0;background:none;color:var(--mu);padding:8px 14px;cursor:pointer;font:inherit;border-bottom:3px solid transparent}
 nav button.on{color:var(--ac);border-color:var(--ac);font-weight:600}
@@ -27,7 +31,7 @@ table{border-collapse:collapse;width:100%}th,td{padding:7px 10px;text-align:left
 th{background:var(--hd);font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--mu);white-space:nowrap}
 th.s{cursor:pointer}th.s:hover{color:var(--ac)}
 tr.g td{background:var(--hd);font-weight:700;color:var(--ac)}
-tr.r{cursor:pointer}tr.r:hover td{background:color-mix(in srgb,var(--ac) 7%,transparent)}
+tr.r{cursor:pointer}tr.r:hover td{background:color-mix(in srgb,var(--ac) 7%,var(--card))}
 td.n,td:nth-child(2){white-space:nowrap}td.n{font-weight:600}.nv{font-size:10px;background:var(--ac);color:#fff;border-radius:4px;padding:0 5px;margin-left:6px;vertical-align:2px}
 tr.d td{background:var(--bg);white-space:pre-wrap;max-width:900px}
 .chip{display:inline-block;background:var(--chip);border-radius:12px;padding:1px 9px;margin:1px 3px 1px 0;font-size:12px;border:1px dashed transparent}
@@ -104,7 +108,7 @@ function render(){
   $('#q').hidden=SEC=='classes';
   if(SEC=='classes'){const cl=D.classes;if(!cl[+tab])tab='0';
     $('#nav').innerHTML=cl.map((c,i)=>`<button data-t="${i}" class="${i==tab?'on':''}">${esc(c.nome)}</button>`).join('');
-    $('#fg').hidden=$('#fo').hidden=true;$('#app').innerHTML=classTab(cl[+tab],+tab);$('#em').checked=edit;document.body.classList.toggle('edit',edit);return}
+    $('#fg').hidden=$('#fo').hidden=true;$('#app').innerHTML=classTab(cl[+tab],+tab);fitCT();$('#em').checked=edit;document.body.classList.toggle('edit',edit);return}
   const T=SEC=='armas'?TABS:{itens:SEC=='armaduras'?'Armaduras':'Escudos',prop:'Propriedades'};
   $('#nav').innerHTML=Object.entries(T).map(([k,v])=>`<button data-t="${k}" class="${k==tab?'on':''}">${v}</button>`).join('');
   const q=N($('#q').value),isW=SEC=='armas'&&['cac','dist','fogo'].includes(tab),isG=tab=='itens';
@@ -197,6 +201,8 @@ function classTab(c,i){const g=c.colunas,hg=g.some(x=>x.g);let h;
     h=`<div class="mu" style="margin:8px 0">${esc(c.original)} · ${esc(c.fonte)}</div><div class="w"><table class="ct"><tr>${r1}</tr>${hg?`<tr>${r2}</tr>`:''}`+
     c.linhas.map(r=>`<tr class="cl">${r.map((v,j)=>`<td class="${j==2?'ft':''}">${esc(v)}</td>`).join('')}</tr>`).join('')+'</table></div>'}
   return h}
+function fitCT(){const t=document.querySelector('table.ct'),w=document.querySelector('.w');if(!t||!w)return;t.style.zoom=1;const a=t.scrollWidth,c=w.clientWidth;if(a>c)t.style.zoom=Math.max(.6,c/a*.99)}
+addEventListener('resize',fitCT);
 function newClass(){const rows=[];for(let n=1;n<=20;n++)rows.push([n+'º','+'+(2+Math.floor((n-1)/4)),'—']);
   D.classes.push({nome:'Nova classe',original:'',fonte:'',colunas:[{g:'',t:'Nível'},{g:'',t:'Bônus de Proficiência'},{g:'',t:'Características'}],linhas:rows});tab=String(D.classes.length-1);dirty();render()}
 /* armaduras e escudos */
