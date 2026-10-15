@@ -1,0 +1,96 @@
+{
+ "itens": [
+  {
+   "nome": "Escudo",
+   "grupo": "Escudos",
+   "ca": "2",
+   "custo": "10po",
+   "peso": "2,5kg",
+   "req": "",
+   "furt": "",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": ""
+  },
+  {
+   "nome": "Targe",
+   "grupo": "Escudos",
+   "ca": "1",
+   "custo": "10po",
+   "peso": "1,5kg",
+   "req": "",
+   "furt": "",
+   "props": [
+    "Especial"
+   ],
+   "origem": [],
+   "nova": true,
+   "desc": ""
+  },
+  {
+   "nome": "Pavisa",
+   "grupo": "Escudos",
+   "ca": "2",
+   "custo": "80po",
+   "peso": "7kg",
+   "req": "Força 11",
+   "furt": "Desvantagem",
+   "props": [
+    "Especial"
+   ],
+   "origem": [
+    "Domatano",
+    "Drealoniano",
+    "Draqueano (V)"
+   ],
+   "nova": true,
+   "desc": ""
+  },
+  {
+   "nome": "Escudo Torre",
+   "grupo": "Escudos",
+   "ca": "3",
+   "custo": "100po",
+   "peso": "10kg",
+   "req": "Força 13",
+   "furt": "Desvantagem",
+   "props": [
+    "Especial"
+   ],
+   "origem": [
+    "Hoheniano",
+    "Girladuhriano (V)",
+    "Strigoi (V)"
+   ],
+   "nova": true,
+   "desc": ""
+  },
+  {
+   "nome": "Broquel",
+   "grupo": "Escudos",
+   "ca": "1",
+   "custo": "15po",
+   "peso": "1kg",
+   "req": "Destreza 13",
+   "furt": "",
+   "props": [
+    "Especial"
+   ],
+   "origem": [
+    "Sereguiano",
+    "Glauriano"
+   ],
+   "nova": true,
+   "desc": ""
+  }
+ ],
+ "propriedades": [
+  {
+   "nome": "Especial",
+   "desc": ""
+  }
+ ],
+ "especiais": [],
+ "aliases": {}
+}

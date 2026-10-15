@@ -3,13 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Armas — Campeões de Ethraid</title>
+<title>Campeões de Ethraid</title>
 <style>
 :root{--bg:#faf7f2;--card:#fff;--tx:#2a2420;--mu:#7a6f66;--bd:#e4dcd0;--ac:#a8561a;--chip:#f1e8da;--hd:#efe6d6}
 @media(prefers-color-scheme:dark){:root{--bg:#1b1815;--card:#252019;--tx:#eee6da;--mu:#a39787;--bd:#3a3329;--ac:#e0924f;--chip:#352d22;--hd:#2e271e}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.45 system-ui,sans-serif}
 header{padding:14px 18px 0;max-width:1400px;margin:auto}h1{margin:0 0 2px;font-size:22px;color:var(--ac)}
 .sub{color:var(--mu);font-size:12px}
+#top{display:flex;gap:8px;margin:12px 0 0}#top button{padding:8px 18px;font-weight:600;font-size:15px}#top button.on{background:var(--ac);color:#fff;border-color:var(--ac)}
 nav{display:flex;gap:4px;flex-wrap:wrap;margin:12px 0 0;border-bottom:1px solid var(--bd)}
 nav button{border:0;background:none;color:var(--mu);padding:8px 14px;cursor:pointer;font:inherit;border-bottom:3px solid transparent}
 nav button.on{color:var(--ac);border-color:var(--ac);font-weight:600}
@@ -44,14 +45,15 @@ dialog::backdrop{background:#0008}dialog label{display:block;font-size:12px;colo
 </head>
 <body>
 <header>
-  <h1>⚔️ Armas — Campeões de Ethraid</h1>
-  <div class="sub">Passe o mouse (ou toque) nas propriedades, origens e danos alternativos para ver o que fazem. Clique numa arma para ver descrição e variantes.</div>
+  <h1>Campeões de Ethraid</h1>
+  <div class="sub">Passe o mouse (ou toque) nas propriedades, origens e danos alternativos para ver o que fazem. Clique numa linha para ver a descrição.</div>
+  <div id="top"></div>
   <nav id="nav"></nav>
   <div class="bar">
     <input id="q" type="search" placeholder="Buscar arma, propriedade, origem…">
     <select id="fg"></select><select id="fo"></select>
     <label style="margin-left:auto"><input type="checkbox" id="em"> ✏️ Modo edição</label>
-    <span class="ed"><button id="bn" class="p">+ Nova arma</button> <button id="bj">Baixar JSON</button> <button id="bs" class="p">Salvar no GitHub</button></span>
+    <span class="ed"><button id="bn" class="p">+ Novo item</button> <button id="bj">Baixar JSON</button> <button id="bs" class="p">Salvar no GitHub</button></span>
   </div>
   <div id="ban" hidden>● Você tem alterações não publicadas (rascunho salvo neste navegador). <button id="bd">Descartar rascunho</button></div>
 </header>
@@ -66,22 +68,24 @@ const cs=s=>{let o=[],d=0,c='';for(const ch of s){if(ch=='(')d++;if(ch==')')d--;
 const GR=['Simples','Marcial','Exótica','Exótica Híbrida','Secundária','Longa','Pesada'];
 const TABS={cac:'Corpo-a-corpo',dist:'Distância',fogo:'Armas de fogo',var:'Variantes',prop:'Propriedades',bloc:'Blocos culturais'};
 const REDUC='Dano alternativo: o dado cai um degrau (2d8>2d6, 1d12/2d6>1d10, 1d10>1d8, 1d8/2d4>1d6, 1d6>1d4, 1d4>1). Só vale no ataque corpo-a-corpo.';
-let D,tab='cac',edit=false,sk='',sd=1;
-const LS='ethraid_draft';
-async function init(){
-  try{const r=await fetch('data/dados.json?'+Date.now());D=await r.json()}catch(e){$('#app').innerHTML='Não foi possível carregar data/dados.json. Se abriu o arquivo direto do computador, use um servidor local (python -m http.server) ou o site publicado.';return}
-  const dr=localStorage.getItem(LS);if(dr){try{D=JSON.parse(dr);$('#ban').hidden=false}catch(e){}}
-  render()}
-const dirty=()=>{localStorage.setItem(LS,JSON.stringify(D));$('#ban').hidden=false};
+let D,tab='cac',edit=false,sk='',sd=1,SEC='armas';const DS={},FILES={armas:'data/dados.json',armaduras:'data/armaduras.json',escudos:'data/escudos.json'},SECN={armas:'⚔️ Armas',armaduras:'🛡️ Armaduras',escudos:'🔰 Escudos'};
+const LS=()=>'ethraid_draft_'+SEC,BL=()=>DS.armas?DS.armas.blocos:[];
+async function loadSec(x){if(!DS[x]){const r=await fetch(FILES[x]+'?'+Date.now());if(!r.ok)throw 0;DS[x]=await r.json()}return DS[x]}
+async function go(x){SEC=x;tab=x=='armas'?'cac':'itens';sk='';$('#q').value='';
+  try{await loadSec(x);if(x!='armas')await loadSec('armas')}catch(e){$('#app').innerHTML='Não foi possível carregar '+FILES[x]+'. Se abriu o arquivo direto do computador, use um servidor local (python -m http.server) ou o site publicado.';return}
+  const dr=localStorage.getItem(LS());if(dr){try{DS[x]=JSON.parse(dr)}catch(e){}}
+  D=DS[x];$('#ban').hidden=!dr;history.replaceState(null,'','#'+x);render()}
+const init=()=>go(['armaduras','escudos'].includes(location.hash.slice(1))?location.hash.slice(1):'armas');
+const dirty=()=>{localStorage.setItem(LS(),JSON.stringify(D));$('#ban').hidden=false};
 /* tooltips */
 function prop(raw,w){const k=N(raw);let b=null,bl=0;
   const t=(nm,p)=>{const n=N(nm);if((k==n||k.startsWith(n+' ')||k.startsWith(n+'('))&&n.length>bl){b=p;bl=n.length}};
   D.propriedades.forEach(p=>t(p.nome,p));for(const a in D.aliases){const p=D.propriedades.find(x=>x.nome==D.aliases[a]);if(p)t(a,p)}
   if(k.startsWith('especial')){const e=(D.especiais||[]).find(x=>N(x.nome)==N(w.nome));return{n:'Especial',d:e?e.desc:'Efeito especial desta arma — clique na linha para ver a descrição.'}}
-  return b?{n:b.nome,d:b.desc}:null}
+  return b&&b.desc?{n:b.nome,d:b.desc}:null}
 const tipA=o=>o?` data-tip="${esc('<b>'+esc(o.n)+'</b>\n'+o.d)}" tabindex="0"`:'';
 const chip=(raw,w)=>{const p=prop(raw,w);return`<span class="chip"${tipA(p)}>${esc(raw)}</span>`};
-function orig(o){const v=/\(V\)$/.test(o),n=o.replace(/\s*\(V\)$/,''),b=D.blocos.find(x=>N(x.nome)==N(n));
+function orig(o){const v=/\(V\)$/.test(o),n=o.replace(/\s*\(V\)$/,''),b=BL().find(x=>N(x.nome)==N(n));
   const d=(v?'Variante estética (V): a arma tem esta aparência nessa cultura.\n\n':'')+(b?b.desc:'');
   return`<span class="chip${v?' v':''}"${d?tipA({n:n+(b?' ('+b.nivel+')':''),d}):''}>${esc(o)}</span>`}
 const alt=a=>(a.alt||[]).map(x=>`<span class="chip"${tipA({n:'Dano alternativo: '+x,d:REDUC})}>${esc(x)}</span>`).join('');
@@ -94,13 +98,14 @@ document.addEventListener('mouseover',showTip);document.addEventListener('focusi
 /* render */
 const num=a=>{const m=(a.custo||'').match(/([\d.]+)(po|pp|pc)/);return m?parseFloat(m[1].replace(/\./g,''))*{po:1,pp:.1,pc:.01}[m[2]]:-1};
 function render(){
-  $('#nav').innerHTML=Object.entries(TABS).map(([k,v])=>`<button data-t="${k}" class="${k==tab?'on':''}">${v}</button>`).join('');
-  const q=N($('#q').value),isW=['cac','dist','fogo'].includes(tab);
-  $('#fg').hidden=$('#fo').hidden=!isW;
-  if(isW){const L=D.armas.filter(a=>a.cat==tab);fill('#fg','Todos os grupos',[...new Set(L.map(a=>a.grupo))].sort((a,b)=>GR.indexOf(a)-GR.indexOf(b)));
+  $('#top').innerHTML=Object.entries(SECN).map(([k,v])=>`<button data-sec="${k}" class="${k==SEC?'on':''}">${v}</button>`).join('');
+  const T=SEC=='armas'?TABS:{itens:SEC=='armaduras'?'Armaduras':'Escudos',prop:'Propriedades'};
+  $('#nav').innerHTML=Object.entries(T).map(([k,v])=>`<button data-t="${k}" class="${k==tab?'on':''}">${v}</button>`).join('');
+  const q=N($('#q').value),isW=SEC=='armas'&&['cac','dist','fogo'].includes(tab),isG=tab=='itens';
+  $('#fg').hidden=$('#fo').hidden=!(isW||isG);
+  if(isW||isG){const L=isW?D.armas.filter(a=>a.cat==tab):D.itens;fill('#fg','Todos os grupos',[...new Set(L.map(a=>a.grupo))].sort((a,b)=>isW?GR.indexOf(a)-GR.indexOf(b):0));
     fill('#fo','Todas as origens',[...new Set(L.flatMap(a=>a.origem.map(o=>o.replace(/\s*\(V\)$/,''))))].sort())}
-  const A=$('#app');
-  if(isW)A.innerHTML=weapons(q);else if(tab=='var')A.innerHTML=variants(q);else A.innerHTML=lists(q);
+  $('#app').innerHTML=isW?weapons(q):isG?gear(q):tab=='var'?variants(q):lists(q);
   $('#em').checked=edit;document.body.classList.toggle('edit',edit)}
 function fill(id,all,vals){const s=$(id),v=s.value;s.innerHTML=`<option value="">${all}</option>`+vals.map(x=>`<option>${esc(x)}</option>`).join('');s.value=vals.includes(v)?v:''}
 const hay=a=>N([a.nome,a.dano,a.custo,a.props,a.origem,a.sub,a.variantes,a.alt,a.distancia&&a.distancia.props].flat(9).join(' '));
@@ -133,21 +138,22 @@ function lists(q){
     return`<h2>${title}</h2>`+F.map(({x,i})=>edit?`<div class="card"><div class="row"><input data-l="${key}" data-i="${i}" data-f="nome" value="${esc(x.nome)}">${x.nivel!==undefined?`<input data-l="${key}" data-i="${i}" data-f="nivel" value="${esc(x.nivel)}">`:''}<button data-x="${key}:${i}">🗑</button></div><textarea rows="3" data-l="${key}" data-i="${i}" data-f="desc">${esc(x.desc)}</textarea></div>`
       :`<div class="card"><h3>${esc(x.nome)}${x.nivel?` <small class="mu">(${esc(x.nivel)})</small>`:''}</h3><p>${esc(x.desc)}</p></div>`).join('')+(edit?`<button data-a="${key}">+ Adicionar</button>`:'')};
   if(tab=='bloc')return sec('Blocos culturais','blocos',D.blocos);
-  return sec('Propriedades','propriedades',D.propriedades)+sec('Propriedades especiais (campo "Especial" de cada arma — o nome é o da arma)','especiais',D.especiais||[])}
+  return sec('Propriedades','propriedades',D.propriedades)+(SEC!='armas'?'':sec('Propriedades especiais (campo "Especial" de cada arma — o nome é o da arma)','especiais',D.especiais||[]))}
 /* eventos */
 document.addEventListener('click',e=>{const t=e.target;
+  if(t.dataset.sec){go(t.dataset.sec);return}
   if(t.dataset.t){tab=t.dataset.t;sk='';render();return}
   if(t.dataset.s){sd=sk==t.dataset.s?-sd:1;sk=t.dataset.s;render();return}
-  if(t.dataset.e!==undefined){editW(+t.dataset.e);return}
+  if(t.dataset.e!==undefined){(SEC=='armas'?editW:editG)(+t.dataset.e);return}
   if(t.dataset.x){const[k,i]=t.dataset.x.split(':');if(confirm('Excluir este item?')){D[k].splice(+i,1);dirty();render()}return}
   if(t.dataset.a){D[t.dataset.a]=D[t.dataset.a]||[];D[t.dataset.a].push({nome:'Novo',desc:'',...(t.dataset.a=='blocos'?{nivel:'Secundários'}:{})});dirty();render();return}
   const r=t.closest('tr.r');if(r&&!t.closest('button')){const d=r.nextElementSibling;d.hidden=!d.hidden}});
 document.addEventListener('input',e=>{const t=e.target;if(t.dataset.l){D[t.dataset.l][+t.dataset.i][t.dataset.f]=t.value;dirty()}});
 ['q','fg','fo'].forEach(i=>$('#'+i).addEventListener('input',render));
 $('#em').onchange=e=>{edit=e.target.checked;render()};
-$('#bd').onclick=()=>{if(confirm('Descartar suas alterações locais e voltar à versão publicada?')){localStorage.removeItem(LS);location.reload()}};
-$('#bn').onclick=()=>editW(-1);
-$('#bj').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(D,null,1)],{type:'application/json'}));a.download='dados.json';a.click()};
+$('#bd').onclick=()=>{if(confirm('Descartar suas alterações locais e voltar à versão publicada?')){localStorage.removeItem(LS());delete DS[SEC];go(SEC)}};
+$('#bn').onclick=()=>SEC=='armas'?editW(-1):editG(-1);
+$('#bj').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(D,null,1)],{type:'application/json'}));a.download=FILES[SEC].split('/')[1];a.click()};
 /* editor de arma */
 function editW(i){const n=i<0,a=n?{nome:'',cat:tab=='cac'||tab=='dist'||tab=='fogo'?tab:'cac',grupo:'Simples',dano:'',custo:'',peso:'',props:[],origem:[],sub:'',nova:false,alt:[],variantes:[],desc:''}:D.armas[i],d=a.distancia||{dano:'',props:[]};
   const f=(l,id,v,ph='')=>`<label>${l}<input id="w_${id}" value="${esc(v)}" placeholder="${ph}"></label>`;
@@ -170,9 +176,28 @@ function editW(i){const n=i<0,a=n?{nome:'',cat:tab=='cac'||tab=='dist'||tab=='fo
     const o={nome:v('nome'),cat:v('cat'),grupo:v('grupo'),dano:v('dano'),custo:v('custo'),peso:v('peso'),props:cs(v('props')),origem:cs(v('origem')),sub:v('sub'),nova:$('#w_nova').checked,alt:cs(v('alt')),variantes:v('var')?$('#w_var').value.split('\n').map(x=>x.trim()).filter(Boolean):[],desc:$('#w_desc').value.trim()};
     if(v('hd')||v('hp'))o.distancia={dano:v('hd'),props:cs(v('hp'))};
     if(n)D.armas.push(o);else D.armas[i]=o;dirty();$('#dlg').close();render()}}
+/* armaduras e escudos */
+function gear(q){const g=$('#fg').value,o=$('#fo').value,ex=SEC=='armaduras',nc=ex?10:9;
+  const L=D.itens.map((a,i)=>({a,i})).filter(({a})=>(!g||a.grupo==g)&&(!o||a.origem.some(x=>N(x).startsWith(N(o))))&&(!q||N([a.nome,a.ca,a.req,a.furt,a.props,a.prof,a.origem].flat(9).join(' ')).includes(q)));
+  let h=`<div class="mu" style="margin:4px 0">${L.length} item(ns)</div><div class="w"><table><tr>`+['Nome','CA','Custo','Peso','Requerimento','Furtividade','Propriedades',ex?'Proficiência':null,'Origem',''].filter(x=>x!==null).map(t=>`<th>${t}</th>`).join('')+'</tr>';
+  for(const gr of[...new Set(D.itens.map(a=>a.grupo))]){const X=L.filter(({a})=>a.grupo==gr);if(!X.length)continue;h+=`<tr class="g"><td colspan="${nc}">${esc(gr)}</td></tr>`;
+    for(const{a,i}of X)h+=`<tr class="r"><td class="n">${esc(a.nome)}${a.nova?'<span class="nv">novo</span>':''}</td><td>${esc(a.ca)||'—'}</td><td>${esc(a.custo)||'—'}</td><td>${esc(a.peso)||'—'}</td><td>${esc(a.req)||'—'}</td><td>${esc(a.furt)||'—'}</td><td>${a.props.map(p=>chip(p,a)).join('')||'—'}</td>${ex?`<td>${esc(a.prof)||'—'}</td>`:''}<td>${a.origem.map(orig).join('')||'—'}</td><td>${edit?`<button data-e="${i}">✎</button>`:''}</td></tr><tr class="d" hidden><td colspan="${nc}">${a.desc?esc(a.desc):'<i class="mu">Sem descrição ainda.</i>'}</td></tr>`}
+  return h+'</table></div>'}
+function editG(i){const n=i<0,a=n?{nome:'',grupo:D.itens[0]?D.itens[0].grupo:'',ca:'',custo:'',peso:'',req:'',furt:'',props:[],prof:'',origem:[],nova:false,desc:''}:D.itens[i];
+  const f=(l,id,v,ph='',x='')=>`<label>${l}<input id="i_${id}" value="${esc(v)}" placeholder="${ph}" ${x}></label>`;
+  $('#dlg').innerHTML=`<h3 style="margin:0">${n?'Novo item':'Editar: '+esc(a.nome)}</h3>${f('Nome','nome',a.nome)}${f('Grupo (escolha ou digite um novo)','grupo',a.grupo,'','list="gl"')}<datalist id="gl">${[...new Set(D.itens.map(x=>x.grupo))].map(x=>`<option>${esc(x)}</option>`).join('')}</datalist>
+  <div class="row">${f('Classe de Armadura','ca',a.ca,'11 + mod. de Destreza')}${f('Custo','custo',a.custo,'10po')}${f('Peso','peso',a.peso,'2,5kg')}</div>
+  <div class="row">${f('Requerimento','req',a.req,'Força 13')}${f('Furtividade','furt',a.furt,'Desvantagem')}${SEC=='armaduras'?f('Proficiência','prof',a.prof,'Armadura Leve'):''}</div>
+  <label>Propriedades (separadas por vírgula)<textarea id="i_props" rows="2">${esc(a.props.join(', '))}</textarea></label>${f('Origens (vírgula; (V) = variante estética)','origem',a.origem.join(', '))}
+  <label>Descrição<textarea id="i_desc" rows="4">${esc(a.desc)}</textarea></label><label><input type="checkbox" id="i_nova" ${a.nova?'checked':''}> Novo (marcar com “novo”)</label>
+  <div class="acts">${n?'':'<button id="i_del" style="margin-right:auto">🗑 Excluir</button>'}<button id="i_c">Cancelar</button><button id="i_s" class="p">Salvar</button></div>`;
+  $('#dlg').showModal();const v=id=>$('#i_'+id).value.trim();$('#i_c').onclick=()=>$('#dlg').close();
+  if(!n)$('#i_del').onclick=()=>{if(confirm('Excluir '+a.nome+'?')){D.itens.splice(i,1);dirty();$('#dlg').close();render()}};
+  $('#i_s').onclick=()=>{if(!v('nome'))return alert('Informe o nome.');const o={nome:v('nome'),grupo:v('grupo'),ca:v('ca'),custo:v('custo'),peso:v('peso'),req:v('req'),furt:v('furt'),props:cs(v('props')),origem:cs(v('origem')),nova:$('#i_nova').checked,desc:$('#i_desc').value.trim()};
+    if(SEC=='armaduras')o.prof=v('prof');if(n)D.itens.push(o);else D.itens[i]=o;dirty();$('#dlg').close();render()}}
 /* salvar no GitHub */
 $('#bs').onclick=()=>{const h=location.hostname,g=JSON.parse(localStorage.getItem('ethraid_gh')||'{}'),
-  c={o:g.o||(h.endsWith('github.io')?h.split('.')[0]:''),r:g.r||location.pathname.split('/')[1]||'',b:g.b||'',p:g.p||'data/dados.json',t:g.t||''};
+  c={o:g.o||(h.endsWith('github.io')?h.split('.')[0]:''),r:g.r||location.pathname.split('/')[1]||'',b:g.b||'',p:FILES[SEC],t:g.t||''};
   const f=(l,id,v,t='text')=>`<label>${l}<input id="g_${id}" type="${t}" value="${esc(v)}"></label>`;
   $('#gh').innerHTML=`<h3 style="margin:0">Salvar no GitHub</h3><p class="mu">Grava o <code>dados.json</code> direto no repositório (um commit). O site atualiza em cerca de 1 minuto. Você precisa de um token com permissão de escrita no repositório — ele fica só neste navegador.</p>
   <div class="row">${f('Usuário/organização','o',c.o)}${f('Repositório','r',c.r)}</div><div class="row">${f('Branch (vazio = padrão)','b',c.b)}${f('Arquivo','p',c.p)}</div>
@@ -185,7 +210,7 @@ $('#bs').onclick=()=>{const h=location.hostname,g=JSON.parse(localStorage.getIte
     try{st.textContent='Enviando…';const q=await fetch(api+(br?'?ref='+br:''),{headers:H});let sha;if(q.ok)sha=(await q.json()).sha;else if(q.status!=404)throw new Error('Leitura falhou ('+q.status+'). Confira token, usuário e repositório.');
       const body={message:v('m')||'Atualiza armas',content:btoa(unescape(encodeURIComponent(JSON.stringify(D,null,1)))),sha};if(br)body.branch=br;
       const p=await fetch(api,{method:'PUT',headers:H,body:JSON.stringify(body)});if(!p.ok)throw new Error('Gravação falhou ('+p.status+'): '+((await p.json()).message||''));
-      localStorage.removeItem(LS);$('#ban').hidden=true;st.textContent='✔ Publicado! Atualize o site em ~1 min.'}catch(e){st.textContent='⚠ '+e.message}}};
+      localStorage.removeItem(LS());$('#ban').hidden=true;st.textContent='✔ Publicado! Atualize o site em ~1 min.'}catch(e){st.textContent='⚠ '+e.message}}};
 init();
 </script>
 </body>

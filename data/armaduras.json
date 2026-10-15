@@ -1,0 +1,305 @@
+{
+ "itens": [
+  {
+   "nome": "Acolchoada",
+   "grupo": "Armaduras Leves",
+   "ca": "11 + mod. de Destreza",
+   "custo": "5po",
+   "peso": "3,5kg",
+   "req": "",
+   "furt": "Desvantagem",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Couro",
+   "grupo": "Armaduras Leves",
+   "ca": "11 + mod. de Destreza",
+   "custo": "10po",
+   "peso": "4,5kg",
+   "req": "",
+   "furt": "",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Couro Guarnecido",
+   "grupo": "Armaduras Leves",
+   "ca": "12 + mod. de Destreza",
+   "custo": "45po",
+   "peso": "6kg",
+   "req": "",
+   "furt": "",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Gibão de Peles",
+   "grupo": "Armaduras Médias",
+   "ca": "12 + mod. de Destreza (max 2)",
+   "custo": "10po",
+   "peso": "5,5kg",
+   "req": "",
+   "furt": "",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Camisa de Malha",
+   "grupo": "Armaduras Médias",
+   "ca": "13 + mod. de Destreza (max 2)",
+   "custo": "50po",
+   "peso": "9kg",
+   "req": "",
+   "furt": "",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Brunea",
+   "grupo": "Armaduras Médias",
+   "ca": "14 + mod. de Destreza (max 2)",
+   "custo": "50po",
+   "peso": "20kg",
+   "req": "",
+   "furt": "Desvantagem",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Peitoral",
+   "grupo": "Armaduras Médias",
+   "ca": "14 + mod. de Destreza (max 2)",
+   "custo": "400po",
+   "peso": "9kg",
+   "req": "",
+   "furt": "",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Meia-Placa",
+   "grupo": "Armaduras Médias",
+   "ca": "15 + mod. de Destreza (max 2)",
+   "custo": "750po",
+   "peso": "18kg",
+   "req": "",
+   "furt": "Desvantagem",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Cota de Anéis",
+   "grupo": "Armaduras Pesadas",
+   "ca": "14",
+   "custo": "30po",
+   "peso": "18kg",
+   "req": "",
+   "furt": "Desvantagem",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Cota de Malha",
+   "grupo": "Armaduras Pesadas",
+   "ca": "16",
+   "custo": "75po",
+   "peso": "25kg",
+   "req": "Força 13",
+   "furt": "Desvantagem",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Cota de Talas",
+   "grupo": "Armaduras Pesadas",
+   "ca": "17",
+   "custo": "200po",
+   "peso": "27kg",
+   "req": "Força 15",
+   "furt": "Desvantagem",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Placas",
+   "grupo": "Armaduras Pesadas",
+   "ca": "18",
+   "custo": "1.500po",
+   "peso": "30kg",
+   "req": "Força 15",
+   "furt": "Desvantagem",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Túnica de Batalha",
+   "grupo": "Armaduras Exóticas",
+   "ca": "11 + mod. de Conjuração",
+   "custo": "900po",
+   "peso": "2kg",
+   "req": "Conjuração",
+   "furt": "",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Couraça Arcana",
+   "grupo": "Armaduras Exóticas",
+   "ca": "12 + mod. de Conjuração",
+   "custo": "2.000po",
+   "peso": "7kg",
+   "req": "Força 11, Conjuração",
+   "furt": "",
+   "props": [],
+   "origem": [],
+   "nova": false,
+   "desc": "",
+   "prof": ""
+  },
+  {
+   "nome": "Malha Élfica",
+   "grupo": "Armaduras Exóticas",
+   "ca": "13 + mod. de Destreza",
+   "custo": "2.000po",
+   "peso": "7kg",
+   "req": "",
+   "furt": "",
+   "props": [
+    "Modularidade (Leve, Média)",
+    "Confortável",
+    "Defletora (Cortante, Concussivo)"
+   ],
+   "origem": [
+    "Élfico"
+   ],
+   "nova": false,
+   "desc": "",
+   "prof": "Armadura Leve"
+  },
+  {
+   "nome": "Lamellar Yuan",
+   "grupo": "Armaduras Exóticas",
+   "ca": "16 + mod. de Destreza (max 3)",
+   "custo": "2.200po",
+   "peso": "15kg",
+   "req": "",
+   "furt": "Desvantagem",
+   "props": [
+    "Distribuição de Impacto (6 Cortante e Perfurante)"
+   ],
+   "origem": [
+    "Qiangi",
+    "Talakhani",
+    "Chajin",
+    "Draqueano (V)"
+   ],
+   "nova": false,
+   "desc": "",
+   "prof": "Armadura Média"
+  },
+  {
+   "nome": "Lorica Segmentata",
+   "grupo": "Armaduras Exóticas",
+   "ca": "17 + mod. de Destreza (max 1)",
+   "custo": "1.100po",
+   "peso": "25kg",
+   "req": "Força 15",
+   "furt": "Desvantagem",
+   "props": [
+    "Modularidade (Média, Pesada)",
+    "Distribuição de Impacto (6 Cortante e Perfurante)"
+   ],
+   "origem": [
+    "Strigoi",
+    "Drealoniano",
+    "Heikei (V)"
+   ],
+   "nova": false,
+   "desc": "",
+   "prof": "Armadura Média"
+  },
+  {
+   "nome": "Placas Pesadas Anã",
+   "grupo": "Armaduras Exóticas",
+   "ca": "19",
+   "custo": "4.000po",
+   "peso": "40kg",
+   "req": "Força 17",
+   "furt": "Desvantagem",
+   "props": [
+    "Defletora (Cortante, Concussivo, Perfurante)",
+    "Estabilidade"
+   ],
+   "origem": [
+    "Anã"
+   ],
+   "nova": false,
+   "desc": "",
+   "prof": "Armadura Pesada"
+  }
+ ],
+ "propriedades": [
+  {
+   "nome": "Modularidade",
+   "desc": ""
+  },
+  {
+   "nome": "Confortável",
+   "desc": ""
+  },
+  {
+   "nome": "Defletora",
+   "desc": ""
+  },
+  {
+   "nome": "Distribuição de Impacto",
+   "desc": ""
+  },
+  {
+   "nome": "Estabilidade",
+   "desc": ""
+  }
+ ],
+ "especiais": [],
+ "aliases": {}
+}
