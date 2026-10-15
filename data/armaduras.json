@@ -281,23 +281,23 @@
  "propriedades": [
   {
    "nome": "Modularidade",
-   "desc": ""
+   "desc": "1"
   },
   {
    "nome": "Confortável",
-   "desc": ""
+   "desc": "2"
   },
   {
    "nome": "Defletora",
-   "desc": ""
+   "desc": "3"
   },
   {
    "nome": "Distribuição de Impacto",
-   "desc": ""
+   "desc": "4"
   },
   {
    "nome": "Estabilidade",
-   "desc": ""
+   "desc": "5"
   }
  ],
  "especiais": [],
