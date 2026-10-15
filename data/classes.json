@@ -1,0 +1,4050 @@
+{
+ "classes": [
+  {
+   "nome": "Artífice",
+   "original": "Artificer",
+   "fonte": "EFA (2024)",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Planos Conhecidos"
+    },
+    {
+     "g": "",
+     "t": "Itens Mágicos"
+    },
+    {
+     "g": "",
+     "t": "Truques"
+    },
+    {
+     "g": "",
+     "t": "Magias Preparadas"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "1º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "2º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "3º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "4º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "5º"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Conjuração, Magia do Engenhoqueiro",
+     "—",
+     "—",
+     "2",
+     "2",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "2º",
+     "+2",
+     "Replicar Item Mágico",
+     "4",
+     "2",
+     "2",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "3º",
+     "+2",
+     "Subclasse de Artífice",
+     "4",
+     "2",
+     "2",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "4",
+     "2",
+     "2",
+     "5",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "5º",
+     "+3",
+     "Característica de Subclasse",
+     "4",
+     "2",
+     "2",
+     "6",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "6º",
+     "+3",
+     "Engenhoca com Itens Mágicos",
+     "5",
+     "3",
+     "2",
+     "6",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "7º",
+     "+3",
+     "Lampejo de Genialidade",
+     "5",
+     "3",
+     "2",
+     "7",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "5",
+     "3",
+     "2",
+     "7",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "9º",
+     "+4",
+     "Característica de Subclasse",
+     "5",
+     "3",
+     "2",
+     "9",
+     "4",
+     "3",
+     "2",
+     "—",
+     "—"
+    ],
+    [
+     "10º",
+     "+4",
+     "Adepto em Itens Mágicos",
+     "6",
+     "4",
+     "3",
+     "9",
+     "4",
+     "3",
+     "2",
+     "—",
+     "—"
+    ],
+    [
+     "11º",
+     "+4",
+     "Item Armazenador de Magia",
+     "6",
+     "4",
+     "3",
+     "10",
+     "4",
+     "3",
+     "3",
+     "—",
+     "—"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "6",
+     "4",
+     "3",
+     "10",
+     "4",
+     "3",
+     "3",
+     "—",
+     "—"
+    ],
+    [
+     "13º",
+     "+5",
+     "—",
+     "6",
+     "4",
+     "3",
+     "11",
+     "4",
+     "3",
+     "3",
+     "1",
+     "—"
+    ],
+    [
+     "14º",
+     "+5",
+     "Artifício Avançado",
+     "7",
+     "5",
+     "4",
+     "11",
+     "4",
+     "3",
+     "3",
+     "1",
+     "—"
+    ],
+    [
+     "15º",
+     "+5",
+     "Característica de Subclasse",
+     "7",
+     "5",
+     "4",
+     "12",
+     "4",
+     "3",
+     "3",
+     "2",
+     "—"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "7",
+     "5",
+     "4",
+     "12",
+     "4",
+     "3",
+     "3",
+     "2",
+     "—"
+    ],
+    [
+     "17º",
+     "+6",
+     "—",
+     "7",
+     "5",
+     "4",
+     "14",
+     "4",
+     "3",
+     "3",
+     "3",
+     "1"
+    ],
+    [
+     "18º",
+     "+6",
+     "Mestre em Itens Mágicos",
+     "8",
+     "6",
+     "4",
+     "14",
+     "4",
+     "3",
+     "3",
+     "3",
+     "1"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "8",
+     "6",
+     "4",
+     "15",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2"
+    ],
+    [
+     "20º",
+     "+6",
+     "Alma do Artifício",
+     "8",
+     "6",
+     "4",
+     "15",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2"
+    ]
+   ]
+  },
+  {
+   "nome": "Bárbaro",
+   "original": "Barbarian",
+   "fonte": "PHB 2024",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Fúrias"
+    },
+    {
+     "g": "",
+     "t": "Dano da Fúria"
+    },
+    {
+     "g": "",
+     "t": "Maestria em Armas"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Fúria, Defesa sem Armadura, Maestria em Armas",
+     "2",
+     "+2",
+     "2"
+    ],
+    [
+     "2º",
+     "+2",
+     "Sentido de Perigo, Ataque Imprudente",
+     "2",
+     "+2",
+     "2"
+    ],
+    [
+     "3º",
+     "+2",
+     "Subclasse de Bárbaro, Conhecimento Primitivo",
+     "3",
+     "+2",
+     "2"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "3",
+     "+2",
+     "3"
+    ],
+    [
+     "5º",
+     "+3",
+     "Ataque Extra, Movimento Rápido",
+     "3",
+     "+2",
+     "3"
+    ],
+    [
+     "6º",
+     "+3",
+     "Característica de Subclasse",
+     "4",
+     "+2",
+     "3"
+    ],
+    [
+     "7º",
+     "+3",
+     "Instinto Selvagem, Bote Instintivo",
+     "4",
+     "+2",
+     "3"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "4",
+     "+2",
+     "3"
+    ],
+    [
+     "9º",
+     "+4",
+     "Golpe Brutal",
+     "4",
+     "+3",
+     "3"
+    ],
+    [
+     "10º",
+     "+4",
+     "Característica de Subclasse",
+     "4",
+     "+3",
+     "4"
+    ],
+    [
+     "11º",
+     "+4",
+     "Fúria Implacável",
+     "4",
+     "+3",
+     "4"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "5",
+     "+3",
+     "4"
+    ],
+    [
+     "13º",
+     "+5",
+     "Golpe Brutal Aprimorado",
+     "5",
+     "+3",
+     "4"
+    ],
+    [
+     "14º",
+     "+5",
+     "Característica de Subclasse",
+     "5",
+     "+3",
+     "4"
+    ],
+    [
+     "15º",
+     "+5",
+     "Fúria Persistente",
+     "5",
+     "+3",
+     "4"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "5",
+     "+4",
+     "4"
+    ],
+    [
+     "17º",
+     "+6",
+     "Golpe Brutal Aprimorado",
+     "6",
+     "+4",
+     "4"
+    ],
+    [
+     "18º",
+     "+6",
+     "Poder Indomável",
+     "6",
+     "+4",
+     "4"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "6",
+     "+4",
+     "4"
+    ],
+    [
+     "20º",
+     "+6",
+     "Campeão Primitivo",
+     "6",
+     "+4",
+     "4"
+    ]
+   ]
+  },
+  {
+   "nome": "Bardo",
+   "original": "Bard",
+   "fonte": "PHB 2024",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Dado de Bardo"
+    },
+    {
+     "g": "",
+     "t": "Truques"
+    },
+    {
+     "g": "",
+     "t": "Magias Preparadas"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "1º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "2º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "3º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "4º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "5º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "6º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "7º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "8º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "9º"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Inspiração de Bardo, Conjuração",
+     "1d6",
+     "2",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "2º",
+     "+2",
+     "Especialização, Pau para Toda Obra",
+     "1d6",
+     "2",
+     "5",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "3º",
+     "+2",
+     "Subclasse de Bardo",
+     "1d6",
+     "2",
+     "6",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "1d6",
+     "3",
+     "7",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "5º",
+     "+3",
+     "Fonte de Inspiração",
+     "1d8",
+     "3",
+     "9",
+     "4",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "6º",
+     "+3",
+     "Característica de Subclasse",
+     "1d8",
+     "3",
+     "10",
+     "4",
+     "3",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "7º",
+     "+3",
+     "Contrafeitiço",
+     "1d8",
+     "3",
+     "11",
+     "4",
+     "3",
+     "3",
+     "1",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "1d8",
+     "3",
+     "12",
+     "4",
+     "3",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "9º",
+     "+4",
+     "Especialização",
+     "1d8",
+     "3",
+     "14",
+     "4",
+     "3",
+     "3",
+     "3",
+     "1",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "10º",
+     "+4",
+     "Segredos Mágicos",
+     "1d10",
+     "4",
+     "15",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "11º",
+     "+4",
+     "—",
+     "1d10",
+     "4",
+     "16",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "1d10",
+     "4",
+     "16",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "13º",
+     "+5",
+     "—",
+     "1d10",
+     "4",
+     "17",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "—",
+     "—"
+    ],
+    [
+     "14º",
+     "+5",
+     "Característica de Subclasse",
+     "1d10",
+     "4",
+     "17",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "—",
+     "—"
+    ],
+    [
+     "15º",
+     "+5",
+     "—",
+     "1d12",
+     "4",
+     "18",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "—"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "1d12",
+     "4",
+     "18",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "—"
+    ],
+    [
+     "17º",
+     "+6",
+     "—",
+     "1d12",
+     "4",
+     "19",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "18º",
+     "+6",
+     "Inspiração Superior",
+     "1d12",
+     "4",
+     "20",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "1d12",
+     "4",
+     "21",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "20º",
+     "+6",
+     "Palavras de Criação",
+     "1d12",
+     "4",
+     "22",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "2",
+     "2",
+     "1",
+     "1"
+    ]
+   ]
+  },
+  {
+   "nome": "Bruxo",
+   "original": "Warlock",
+   "fonte": "PHB 2024",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Invocações"
+    },
+    {
+     "g": "",
+     "t": "Truques"
+    },
+    {
+     "g": "",
+     "t": "Magias Preparadas"
+    },
+    {
+     "g": "",
+     "t": "Espaços de Magia"
+    },
+    {
+     "g": "",
+     "t": "Nível do Espaço"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Invocações Místicas, Magia de Pacto, Opções de Invocações Místicas",
+     "1",
+     "2",
+     "2",
+     "1",
+     "1"
+    ],
+    [
+     "2º",
+     "+2",
+     "Astúcia Mágica",
+     "3",
+     "2",
+     "3",
+     "2",
+     "1"
+    ],
+    [
+     "3º",
+     "+2",
+     "Subclasse de Bruxo",
+     "3",
+     "2",
+     "4",
+     "2",
+     "2"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "3",
+     "3",
+     "5",
+     "2",
+     "2"
+    ],
+    [
+     "5º",
+     "+3",
+     "—",
+     "5",
+     "3",
+     "6",
+     "2",
+     "3"
+    ],
+    [
+     "6º",
+     "+3",
+     "Característica de Subclasse",
+     "5",
+     "3",
+     "7",
+     "2",
+     "3"
+    ],
+    [
+     "7º",
+     "+3",
+     "—",
+     "6",
+     "3",
+     "8",
+     "2",
+     "4"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "6",
+     "3",
+     "9",
+     "2",
+     "4"
+    ],
+    [
+     "9º",
+     "+4",
+     "Contatar Patrono",
+     "7",
+     "3",
+     "10",
+     "2",
+     "5"
+    ],
+    [
+     "10º",
+     "+4",
+     "Característica de Subclasse",
+     "7",
+     "4",
+     "10",
+     "2",
+     "5"
+    ],
+    [
+     "11º",
+     "+4",
+     "Arcana Mística",
+     "7",
+     "4",
+     "11",
+     "3",
+     "5"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "8",
+     "4",
+     "11",
+     "3",
+     "5"
+    ],
+    [
+     "13º",
+     "+5",
+     "Arcana Mística",
+     "8",
+     "4",
+     "12",
+     "3",
+     "5"
+    ],
+    [
+     "14º",
+     "+5",
+     "Característica de Subclasse",
+     "8",
+     "4",
+     "12",
+     "3",
+     "5"
+    ],
+    [
+     "15º",
+     "+5",
+     "Arcana Mística",
+     "9",
+     "4",
+     "13",
+     "3",
+     "5"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "9",
+     "4",
+     "13",
+     "3",
+     "5"
+    ],
+    [
+     "17º",
+     "+6",
+     "Arcana Mística",
+     "9",
+     "4",
+     "14",
+     "4",
+     "5"
+    ],
+    [
+     "18º",
+     "+6",
+     "—",
+     "10",
+     "4",
+     "14",
+     "4",
+     "5"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "10",
+     "4",
+     "15",
+     "4",
+     "5"
+    ],
+    [
+     "20º",
+     "+6",
+     "Mestre Místico",
+     "10",
+     "4",
+     "15",
+     "4",
+     "5"
+    ]
+   ]
+  },
+  {
+   "nome": "Caçador de Sangue",
+   "original": "Blood Hunter",
+   "fonte": "Wikidot (versão da comunidade)",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Dado de Hemocraft"
+    },
+    {
+     "g": "",
+     "t": "Maldições de Sangue Conhecidas"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Ruína do Caçador, Maledicência de Sangue",
+     "1d4",
+     "1"
+    ],
+    [
+     "2º",
+     "+2",
+     "Estilo de Luta, Rito Carmesim",
+     "1d4",
+     "1"
+    ],
+    [
+     "3º",
+     "+2",
+     "Ordem de Caçador de Sangue",
+     "1d4",
+     "1"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "1d4",
+     "1"
+    ],
+    [
+     "5º",
+     "+3",
+     "Ataque Extra",
+     "1d6",
+     "1"
+    ],
+    [
+     "6º",
+     "+3",
+     "Marca do Castigo, Maledicência de Sangue (2/descanso)",
+     "1d6",
+     "2"
+    ],
+    [
+     "7º",
+     "+3",
+     "Característica da Ordem, Aprimoramento do Rito Carmesim",
+     "1d6",
+     "2"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "1d6",
+     "2"
+    ],
+    [
+     "9º",
+     "+4",
+     "Psicometria Sombria",
+     "1d6",
+     "2"
+    ],
+    [
+     "10º",
+     "+4",
+     "Aumento Sombrio",
+     "1d6",
+     "3"
+    ],
+    [
+     "11º",
+     "+4",
+     "Característica da Ordem",
+     "1d8",
+     "3"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "1d8",
+     "3"
+    ],
+    [
+     "13º",
+     "+5",
+     "Marca da Atadura, Maledicência de Sangue (3/descanso)",
+     "1d8",
+     "3"
+    ],
+    [
+     "14º",
+     "+5",
+     "Alma Endurecida, Aprimoramento do Rito Carmesim",
+     "1d8",
+     "4"
+    ],
+    [
+     "15º",
+     "+5",
+     "Característica da Ordem",
+     "1d8",
+     "4"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "1d8",
+     "4"
+    ],
+    [
+     "17º",
+     "+6",
+     "Maledicência de Sangue (4/descanso)",
+     "1d10",
+     "4"
+    ],
+    [
+     "18º",
+     "+6",
+     "Característica da Ordem",
+     "1d10",
+     "5"
+    ],
+    [
+     "19º",
+     "+6",
+     "Aumento de Valor de Atributo",
+     "1d10",
+     "5"
+    ],
+    [
+     "20º",
+     "+6",
+     "Maestria Sanguínea",
+     "1d10",
+     "5"
+    ]
+   ]
+  },
+  {
+   "nome": "Clérigo",
+   "original": "Cleric",
+   "fonte": "PHB 2024",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Canalizar Divindade"
+    },
+    {
+     "g": "",
+     "t": "Truques"
+    },
+    {
+     "g": "",
+     "t": "Magias Preparadas"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "1º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "2º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "3º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "4º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "5º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "6º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "7º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "8º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "9º"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Conjuração, Ordem Divina",
+     "0",
+     "3",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "2º",
+     "+2",
+     "Canalizar Divindade",
+     "2",
+     "3",
+     "5",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "3º",
+     "+2",
+     "Subclasse de Clérigo",
+     "2",
+     "3",
+     "6",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "2",
+     "4",
+     "7",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "5º",
+     "+3",
+     "Queimar Mortos-Vivos",
+     "2",
+     "4",
+     "9",
+     "4",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "6º",
+     "+3",
+     "Característica de Subclasse",
+     "3",
+     "4",
+     "10",
+     "4",
+     "3",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "7º",
+     "+3",
+     "Golpes Abençoados",
+     "3",
+     "4",
+     "11",
+     "4",
+     "3",
+     "3",
+     "1",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "3",
+     "4",
+     "12",
+     "4",
+     "3",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "9º",
+     "+4",
+     "—",
+     "3",
+     "4",
+     "14",
+     "4",
+     "3",
+     "3",
+     "3",
+     "1",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "10º",
+     "+4",
+     "Intervenção Divina",
+     "3",
+     "5",
+     "15",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "11º",
+     "+4",
+     "—",
+     "3",
+     "5",
+     "16",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "3",
+     "5",
+     "16",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "13º",
+     "+5",
+     "—",
+     "3",
+     "5",
+     "17",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "—",
+     "—"
+    ],
+    [
+     "14º",
+     "+5",
+     "Golpes Abençoados Aprimorados",
+     "3",
+     "5",
+     "17",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "—",
+     "—"
+    ],
+    [
+     "15º",
+     "+5",
+     "—",
+     "3",
+     "5",
+     "18",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "—"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "3",
+     "5",
+     "18",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "—"
+    ],
+    [
+     "17º",
+     "+6",
+     "Característica de Subclasse",
+     "3",
+     "5",
+     "19",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "18º",
+     "+6",
+     "—",
+     "4",
+     "5",
+     "20",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "4",
+     "5",
+     "21",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "20º",
+     "+6",
+     "Intervenção Divina Maior",
+     "4",
+     "5",
+     "22",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "2",
+     "2",
+     "1",
+     "1"
+    ]
+   ]
+  },
+  {
+   "nome": "Druida",
+   "original": "Druid",
+   "fonte": "PHB 2024",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Forma Selvagem"
+    },
+    {
+     "g": "",
+     "t": "Truques"
+    },
+    {
+     "g": "",
+     "t": "Magias Preparadas"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "1º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "2º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "3º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "4º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "5º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "6º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "7º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "8º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "9º"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Druídico, Ordem Primitiva, Conjuração",
+     "0",
+     "2",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "2º",
+     "+2",
+     "Companheiro Selvagem, Forma Selvagem",
+     "2",
+     "2",
+     "5",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "3º",
+     "+2",
+     "Subclasse de Druida",
+     "2",
+     "2",
+     "6",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "2",
+     "3",
+     "7",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "5º",
+     "+3",
+     "Ressurgimento Selvagem",
+     "2",
+     "3",
+     "9",
+     "4",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "6º",
+     "+3",
+     "Característica de Subclasse",
+     "3",
+     "3",
+     "10",
+     "4",
+     "3",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "7º",
+     "+3",
+     "Fúria Elemental",
+     "3",
+     "3",
+     "11",
+     "4",
+     "3",
+     "3",
+     "1",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "3",
+     "3",
+     "12",
+     "4",
+     "3",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "9º",
+     "+4",
+     "—",
+     "3",
+     "3",
+     "14",
+     "4",
+     "3",
+     "3",
+     "3",
+     "1",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "10º",
+     "+4",
+     "Característica de Subclasse",
+     "3",
+     "4",
+     "15",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "11º",
+     "+4",
+     "—",
+     "3",
+     "4",
+     "16",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "3",
+     "4",
+     "16",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "13º",
+     "+5",
+     "—",
+     "3",
+     "4",
+     "17",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "—",
+     "—"
+    ],
+    [
+     "14º",
+     "+5",
+     "Característica de Subclasse",
+     "3",
+     "4",
+     "17",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "—",
+     "—"
+    ],
+    [
+     "15º",
+     "+5",
+     "Fúria Elemental Aprimorada",
+     "3",
+     "4",
+     "18",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "—"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "3",
+     "4",
+     "18",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "—"
+    ],
+    [
+     "17º",
+     "+6",
+     "—",
+     "4",
+     "4",
+     "19",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "18º",
+     "+6",
+     "Magias Bestiais",
+     "4",
+     "4",
+     "20",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "4",
+     "4",
+     "21",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "20º",
+     "+6",
+     "Arquidruida",
+     "4",
+     "4",
+     "22",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "2",
+     "2",
+     "1",
+     "1"
+    ]
+   ]
+  },
+  {
+   "nome": "Feiticeiro",
+   "original": "Sorcerer",
+   "fonte": "PHB 2024",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Pontos de Feitiçaria"
+    },
+    {
+     "g": "",
+     "t": "Truques"
+    },
+    {
+     "g": "",
+     "t": "Magias Preparadas"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "1º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "2º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "3º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "4º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "5º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "6º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "7º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "8º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "9º"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Conjuração, Feitiçaria Inata",
+     "0",
+     "4",
+     "2",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "2º",
+     "+2",
+     "Fonte de Magia, Metamagia, Opções de Metamagia",
+     "2",
+     "4",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "3º",
+     "+2",
+     "Subclasse de Feiticeiro",
+     "3",
+     "4",
+     "6",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "4",
+     "5",
+     "7",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "5º",
+     "+3",
+     "Restauração Feiticeira",
+     "5",
+     "5",
+     "9",
+     "4",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "6º",
+     "+3",
+     "Característica de Subclasse",
+     "6",
+     "5",
+     "10",
+     "4",
+     "3",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "7º",
+     "+3",
+     "Feitiçaria Encarnada",
+     "7",
+     "5",
+     "11",
+     "4",
+     "3",
+     "3",
+     "1",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "8",
+     "5",
+     "12",
+     "4",
+     "3",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "9º",
+     "+4",
+     "—",
+     "9",
+     "5",
+     "14",
+     "4",
+     "3",
+     "3",
+     "3",
+     "1",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "10º",
+     "+4",
+     "Metamagia",
+     "10",
+     "6",
+     "15",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "11º",
+     "+4",
+     "—",
+     "11",
+     "6",
+     "16",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "12",
+     "6",
+     "16",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "13º",
+     "+5",
+     "—",
+     "13",
+     "6",
+     "17",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "—",
+     "—"
+    ],
+    [
+     "14º",
+     "+5",
+     "Característica de Subclasse",
+     "14",
+     "6",
+     "17",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "—",
+     "—"
+    ],
+    [
+     "15º",
+     "+5",
+     "—",
+     "15",
+     "6",
+     "18",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "—"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "16",
+     "6",
+     "18",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "—"
+    ],
+    [
+     "17º",
+     "+6",
+     "Metamagia",
+     "17",
+     "6",
+     "19",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "18º",
+     "+6",
+     "Característica de Subclasse",
+     "18",
+     "6",
+     "20",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "19",
+     "6",
+     "21",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "20º",
+     "+6",
+     "Apoteose Arcana",
+     "20",
+     "6",
+     "22",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "2",
+     "2",
+     "1",
+     "1"
+    ]
+   ]
+  },
+  {
+   "nome": "Guerreiro",
+   "original": "Fighter",
+   "fonte": "PHB 2024",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Retomar o Fôlego"
+    },
+    {
+     "g": "",
+     "t": "Maestria em Armas"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Estilo de Luta, Retomar o Fôlego, Maestria em Armas",
+     "2",
+     "3"
+    ],
+    [
+     "2º",
+     "+2",
+     "Surto de Ação, Mente Tática",
+     "2",
+     "3"
+    ],
+    [
+     "3º",
+     "+2",
+     "Subclasse de Guerreiro",
+     "2",
+     "3"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "3",
+     "4"
+    ],
+    [
+     "5º",
+     "+3",
+     "Ataque Extra, Mudança Tática",
+     "3",
+     "4"
+    ],
+    [
+     "6º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "3",
+     "4"
+    ],
+    [
+     "7º",
+     "+3",
+     "Característica de Subclasse",
+     "3",
+     "4"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "3",
+     "4"
+    ],
+    [
+     "9º",
+     "+4",
+     "Indomável, Mestre Tático",
+     "3",
+     "4"
+    ],
+    [
+     "10º",
+     "+4",
+     "Característica de Subclasse",
+     "4",
+     "5"
+    ],
+    [
+     "11º",
+     "+4",
+     "Dois Ataques Extras",
+     "4",
+     "5"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "4",
+     "5"
+    ],
+    [
+     "13º",
+     "+5",
+     "Indomável, Ataques Estudados",
+     "4",
+     "5"
+    ],
+    [
+     "14º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "4",
+     "5"
+    ],
+    [
+     "15º",
+     "+5",
+     "Característica de Subclasse",
+     "4",
+     "5"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "4",
+     "6"
+    ],
+    [
+     "17º",
+     "+6",
+     "Surto de Ação, Indomável",
+     "4",
+     "6"
+    ],
+    [
+     "18º",
+     "+6",
+     "Característica de Subclasse",
+     "4",
+     "6"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "4",
+     "6"
+    ],
+    [
+     "20º",
+     "+6",
+     "Três Ataques Extras",
+     "4",
+     "6"
+    ]
+   ]
+  },
+  {
+   "nome": "Ladino",
+   "original": "Rogue",
+   "fonte": "PHB 2024",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Ataque Furtivo"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Especialização, Ataque Furtivo, Gíria de Ladrões, Maestria em Armas",
+     "1d6"
+    ],
+    [
+     "2º",
+     "+2",
+     "Ação Ardilosa",
+     "1d6"
+    ],
+    [
+     "3º",
+     "+2",
+     "Subclasse de Ladino, Mira Firme",
+     "2d6"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "2d6"
+    ],
+    [
+     "5º",
+     "+3",
+     "Golpe Ardiloso, Esquiva Sobrenatural",
+     "3d6"
+    ],
+    [
+     "6º",
+     "+3",
+     "Especialização",
+     "3d6"
+    ],
+    [
+     "7º",
+     "+3",
+     "Evasão, Talento Confiável",
+     "4d6"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "4d6"
+    ],
+    [
+     "9º",
+     "+4",
+     "Característica de Subclasse",
+     "5d6"
+    ],
+    [
+     "10º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "5d6"
+    ],
+    [
+     "11º",
+     "+4",
+     "Golpe Ardiloso Aprimorado",
+     "6d6"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "6d6"
+    ],
+    [
+     "13º",
+     "+5",
+     "Característica de Subclasse",
+     "7d6"
+    ],
+    [
+     "14º",
+     "+5",
+     "Golpes Traiçoeiros",
+     "7d6"
+    ],
+    [
+     "15º",
+     "+5",
+     "Mente Escorregadia",
+     "8d6"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "8d6"
+    ],
+    [
+     "17º",
+     "+6",
+     "Característica de Subclasse",
+     "9d6"
+    ],
+    [
+     "18º",
+     "+6",
+     "Elusivo",
+     "9d6"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "10d6"
+    ],
+    [
+     "20º",
+     "+6",
+     "Golpe de Sorte",
+     "10d6"
+    ]
+   ]
+  },
+  {
+   "nome": "Mago",
+   "original": "Wizard",
+   "fonte": "PHB 2024",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Truques"
+    },
+    {
+     "g": "",
+     "t": "Magias Preparadas"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "1º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "2º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "3º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "4º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "5º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "6º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "7º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "8º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "9º"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Conjuração, Adepto de Rituais, Recuperação Arcana",
+     "3",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "2º",
+     "+2",
+     "Erudito",
+     "3",
+     "5",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "3º",
+     "+2",
+     "Subclasse de Mago",
+     "3",
+     "6",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "4",
+     "7",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "5º",
+     "+3",
+     "Memorizar Magia",
+     "4",
+     "9",
+     "4",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "6º",
+     "+3",
+     "Característica de Subclasse",
+     "4",
+     "10",
+     "4",
+     "3",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "7º",
+     "+3",
+     "—",
+     "4",
+     "11",
+     "4",
+     "3",
+     "3",
+     "1",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "4",
+     "12",
+     "4",
+     "3",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "9º",
+     "+4",
+     "—",
+     "4",
+     "14",
+     "4",
+     "3",
+     "3",
+     "3",
+     "1",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "10º",
+     "+4",
+     "Característica de Subclasse",
+     "5",
+     "15",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "11º",
+     "+4",
+     "—",
+     "5",
+     "16",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "5",
+     "16",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "13º",
+     "+5",
+     "—",
+     "5",
+     "17",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "—",
+     "—"
+    ],
+    [
+     "14º",
+     "+5",
+     "Característica de Subclasse",
+     "5",
+     "18",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "—",
+     "—"
+    ],
+    [
+     "15º",
+     "+5",
+     "—",
+     "5",
+     "19",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "—"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "5",
+     "21",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "—"
+    ],
+    [
+     "17º",
+     "+6",
+     "—",
+     "5",
+     "22",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "18º",
+     "+6",
+     "Maestria em Magias",
+     "5",
+     "23",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "5",
+     "24",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "2",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "20º",
+     "+6",
+     "Magias de Assinatura",
+     "5",
+     "25",
+     "4",
+     "3",
+     "3",
+     "3",
+     "3",
+     "2",
+     "2",
+     "1",
+     "1"
+    ]
+   ]
+  },
+  {
+   "nome": "Monge",
+   "original": "Monk",
+   "fonte": "PHB 2024",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Artes Marciais"
+    },
+    {
+     "g": "",
+     "t": "Pontos de Foco"
+    },
+    {
+     "g": "",
+     "t": "Mov. sem Armadura"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Artes Marciais, Defesa sem Armadura",
+     "1d6",
+     "0",
+     "+0 m"
+    ],
+    [
+     "2º",
+     "+2",
+     "Foco do Monge, Movimento sem Armadura, Metabolismo Sobrenatural",
+     "1d6",
+     "2",
+     "+3 m"
+    ],
+    [
+     "3º",
+     "+2",
+     "Defletir Ataques, Subclasse de Monge",
+     "1d6",
+     "3",
+     "+3 m"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo, Queda Lenta",
+     "1d6",
+     "4",
+     "+3 m"
+    ],
+    [
+     "5º",
+     "+3",
+     "Ataque Extra, Golpe Atordoante",
+     "1d8",
+     "5",
+     "+3 m"
+    ],
+    [
+     "6º",
+     "+3",
+     "Golpes Potencializados, Característica de Subclasse",
+     "1d8",
+     "6",
+     "+4,5 m"
+    ],
+    [
+     "7º",
+     "+3",
+     "Evasão",
+     "1d8",
+     "7",
+     "+4,5 m"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "1d8",
+     "8",
+     "+4,5 m"
+    ],
+    [
+     "9º",
+     "+4",
+     "Movimento Acrobático",
+     "1d8",
+     "9",
+     "+4,5 m"
+    ],
+    [
+     "10º",
+     "+4",
+     "Foco Aprimorado, Autorrestauração",
+     "1d8",
+     "10",
+     "+6 m"
+    ],
+    [
+     "11º",
+     "+4",
+     "Característica de Subclasse",
+     "1d10",
+     "11",
+     "+6 m"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "1d10",
+     "12",
+     "+6 m"
+    ],
+    [
+     "13º",
+     "+5",
+     "Defletir Energia",
+     "1d10",
+     "13",
+     "+6 m"
+    ],
+    [
+     "14º",
+     "+5",
+     "Sobrevivente Disciplinado",
+     "1d10",
+     "14",
+     "+7,5 m"
+    ],
+    [
+     "15º",
+     "+5",
+     "Foco Perfeito",
+     "1d10",
+     "15",
+     "+7,5 m"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "1d10",
+     "16",
+     "+7,5 m"
+    ],
+    [
+     "17º",
+     "+6",
+     "Característica de Subclasse",
+     "1d12",
+     "17",
+     "+7,5 m"
+    ],
+    [
+     "18º",
+     "+6",
+     "Defesa Superior",
+     "1d12",
+     "18",
+     "+9 m"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "1d12",
+     "19",
+     "+9 m"
+    ],
+    [
+     "20º",
+     "+6",
+     "Corpo e Mente",
+     "1d12",
+     "20",
+     "+9 m"
+    ]
+   ]
+  },
+  {
+   "nome": "Paladino",
+   "original": "Paladin",
+   "fonte": "PHB 2024",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Canalizar Divindade"
+    },
+    {
+     "g": "",
+     "t": "Magias Preparadas"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "1º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "2º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "3º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "4º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "5º"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Mãos Consagradas, Conjuração, Maestria em Armas",
+     "0",
+     "2",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "2º",
+     "+2",
+     "Estilo de Luta, Punição do Paladino",
+     "0",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "3º",
+     "+2",
+     "Canalizar Divindade, Subclasse de Paladino",
+     "2",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "2",
+     "5",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "5º",
+     "+3",
+     "Ataque Extra, Montaria Fiel",
+     "2",
+     "6",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "6º",
+     "+3",
+     "Aura de Proteção",
+     "2",
+     "6",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "7º",
+     "+3",
+     "Característica de Subclasse",
+     "2",
+     "7",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "2",
+     "7",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "9º",
+     "+4",
+     "Rechaçar Inimigos",
+     "2",
+     "9",
+     "4",
+     "3",
+     "2",
+     "—",
+     "—"
+    ],
+    [
+     "10º",
+     "+4",
+     "Aura de Coragem",
+     "2",
+     "9",
+     "4",
+     "3",
+     "2",
+     "—",
+     "—"
+    ],
+    [
+     "11º",
+     "+4",
+     "Golpes Radiantes",
+     "3",
+     "10",
+     "4",
+     "3",
+     "3",
+     "—",
+     "—"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "3",
+     "10",
+     "4",
+     "3",
+     "3",
+     "—",
+     "—"
+    ],
+    [
+     "13º",
+     "+5",
+     "—",
+     "3",
+     "11",
+     "4",
+     "3",
+     "3",
+     "1",
+     "—"
+    ],
+    [
+     "14º",
+     "+5",
+     "Toque Restaurador",
+     "3",
+     "11",
+     "4",
+     "3",
+     "3",
+     "1",
+     "—"
+    ],
+    [
+     "15º",
+     "+5",
+     "Característica de Subclasse",
+     "3",
+     "12",
+     "4",
+     "3",
+     "3",
+     "2",
+     "—"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "3",
+     "12",
+     "4",
+     "3",
+     "3",
+     "2",
+     "—"
+    ],
+    [
+     "17º",
+     "+6",
+     "—",
+     "3",
+     "14",
+     "4",
+     "3",
+     "3",
+     "3",
+     "1"
+    ],
+    [
+     "18º",
+     "+6",
+     "Expansão de Aura",
+     "3",
+     "14",
+     "4",
+     "3",
+     "3",
+     "3",
+     "1"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "3",
+     "15",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2"
+    ],
+    [
+     "20º",
+     "+6",
+     "Característica de Subclasse",
+     "3",
+     "15",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2"
+    ]
+   ]
+  },
+  {
+   "nome": "Patrulheiro",
+   "original": "Ranger",
+   "fonte": "PHB 2024",
+   "colunas": [
+    {
+     "g": "",
+     "t": "Nível"
+    },
+    {
+     "g": "",
+     "t": "Bônus de Proficiência"
+    },
+    {
+     "g": "",
+     "t": "Características"
+    },
+    {
+     "g": "",
+     "t": "Inimigo Favorito"
+    },
+    {
+     "g": "",
+     "t": "Magias Preparadas"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "1º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "2º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "3º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "4º"
+    },
+    {
+     "g": "Espaços de Magia por Nível de Magia",
+     "t": "5º"
+    }
+   ],
+   "linhas": [
+    [
+     "1º",
+     "+2",
+     "Conjuração, Inimigo Favorito, Maestria em Armas",
+     "2",
+     "2",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "2º",
+     "+2",
+     "Explorador Hábil, Estilo de Luta",
+     "2",
+     "3",
+     "2",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "3º",
+     "+2",
+     "Subclasse de Patrulheiro",
+     "2",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "4º",
+     "+2",
+     "Aumento de Valor de Atributo",
+     "2",
+     "5",
+     "3",
+     "—",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "5º",
+     "+3",
+     "Ataque Extra",
+     "3",
+     "6",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "6º",
+     "+3",
+     "Errante",
+     "3",
+     "6",
+     "4",
+     "2",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "7º",
+     "+3",
+     "Característica de Subclasse",
+     "3",
+     "7",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "8º",
+     "+3",
+     "Aumento de Valor de Atributo",
+     "3",
+     "7",
+     "4",
+     "3",
+     "—",
+     "—",
+     "—"
+    ],
+    [
+     "9º",
+     "+4",
+     "Especialização",
+     "4",
+     "9",
+     "4",
+     "3",
+     "2",
+     "—",
+     "—"
+    ],
+    [
+     "10º",
+     "+4",
+     "Incansável",
+     "4",
+     "9",
+     "4",
+     "3",
+     "2",
+     "—",
+     "—"
+    ],
+    [
+     "11º",
+     "+4",
+     "Característica de Subclasse",
+     "4",
+     "10",
+     "4",
+     "3",
+     "3",
+     "—",
+     "—"
+    ],
+    [
+     "12º",
+     "+4",
+     "Aumento de Valor de Atributo",
+     "4",
+     "10",
+     "4",
+     "3",
+     "3",
+     "—",
+     "—"
+    ],
+    [
+     "13º",
+     "+5",
+     "Caçador Implacável",
+     "5",
+     "11",
+     "4",
+     "3",
+     "3",
+     "1",
+     "—"
+    ],
+    [
+     "14º",
+     "+5",
+     "Véu da Natureza",
+     "5",
+     "11",
+     "4",
+     "3",
+     "3",
+     "1",
+     "—"
+    ],
+    [
+     "15º",
+     "+5",
+     "Característica de Subclasse",
+     "5",
+     "12",
+     "4",
+     "3",
+     "3",
+     "2",
+     "—"
+    ],
+    [
+     "16º",
+     "+5",
+     "Aumento de Valor de Atributo",
+     "5",
+     "12",
+     "4",
+     "3",
+     "3",
+     "2",
+     "—"
+    ],
+    [
+     "17º",
+     "+6",
+     "Caçador Preciso",
+     "6",
+     "14",
+     "4",
+     "3",
+     "3",
+     "3",
+     "1"
+    ],
+    [
+     "18º",
+     "+6",
+     "Sentidos Selvagens",
+     "6",
+     "14",
+     "4",
+     "3",
+     "3",
+     "3",
+     "1"
+    ],
+    [
+     "19º",
+     "+6",
+     "Dádiva Épica",
+     "6",
+     "15",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2"
+    ],
+    [
+     "20º",
+     "+6",
+     "Algoz de Inimigos",
+     "6",
+     "15",
+     "4",
+     "3",
+     "3",
+     "3",
+     "2"
+    ]
+   ]
+  }
+ ]
+}

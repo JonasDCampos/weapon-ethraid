@@ -11,6 +11,8 @@
 header{padding:14px 18px 0;max-width:1400px;margin:auto}h1{margin:0 0 2px;font-size:22px;color:var(--ac)}
 .sub{color:var(--mu);font-size:12px}
 #top{display:flex;gap:8px;margin:12px 0 0}#top button{padding:8px 18px;font-weight:600;font-size:15px}#top button.on{background:var(--ac);color:#fff;border-color:var(--ac)}
+table.ct td,table.ct th{text-align:center}table.ct td.ft{text-align:left;min-width:260px}table.ct .gh{border-bottom:1px solid var(--bd)}tr.cl:nth-child(even) td{background:color-mix(in srgb,var(--ac) 5%,transparent)}tr.cl:hover td{background:color-mix(in srgb,var(--ac) 12%,transparent)}
+input.ci{width:100%;min-width:56px;field-sizing:content;padding:3px 5px;font-size:13px}th input.ci{font-weight:400;text-transform:none}
 nav{display:flex;gap:4px;flex-wrap:wrap;margin:12px 0 0;border-bottom:1px solid var(--bd)}
 nav button{border:0;background:none;color:var(--mu);padding:8px 14px;cursor:pointer;font:inherit;border-bottom:3px solid transparent}
 nav button.on{color:var(--ac);border-color:var(--ac);font-weight:600}
@@ -68,14 +70,14 @@ const cs=s=>{let o=[],d=0,c='';for(const ch of s){if(ch=='(')d++;if(ch==')')d--;
 const GR=['Simples','Marcial','Exótica','Exótica Híbrida','Secundária','Longa','Pesada'];
 const TABS={cac:'Corpo-a-corpo',dist:'Distância',fogo:'Armas de fogo',var:'Variantes',prop:'Propriedades',bloc:'Blocos culturais'};
 const REDUC='Dano alternativo: o dado cai um degrau (2d8>2d6, 1d12/2d6>1d10, 1d10>1d8, 1d8/2d4>1d6, 1d6>1d4, 1d4>1). Só vale no ataque corpo-a-corpo.';
-let D,tab='cac',edit=false,sk='',sd=1,SEC='armas';const DS={},FILES={armas:'data/dados.json',armaduras:'data/armaduras.json',escudos:'data/escudos.json'},SECN={armas:'⚔️ Armas',armaduras:'🛡️ Armaduras',escudos:'🔰 Escudos'};
+let D,tab='cac',edit=false,sk='',sd=1,SEC='armas';const DS={},FILES={armas:'data/dados.json',armaduras:'data/armaduras.json',escudos:'data/escudos.json',classes:'data/classes.json'},SECN={armas:'⚔️ Armas',armaduras:'🛡️ Armaduras',escudos:'🔰 Escudos',classes:'📜 Classes'};
 const LS=()=>'ethraid_draft_'+SEC,BL=()=>DS.armas?DS.armas.blocos:[];
 async function loadSec(x){if(!DS[x]){const r=await fetch(FILES[x]+'?'+Date.now());if(!r.ok)throw 0;DS[x]=await r.json()}return DS[x]}
-async function go(x){SEC=x;tab=x=='armas'?'cac':'itens';sk='';$('#q').value='';
-  try{await loadSec(x);if(x!='armas')await loadSec('armas')}catch(e){$('#app').innerHTML='Não foi possível carregar '+FILES[x]+'. Se abriu o arquivo direto do computador, use um servidor local (python -m http.server) ou o site publicado.';return}
+async function go(x){SEC=x;tab=x=='armas'?'cac':x=='classes'?'0':'itens';sk='';$('#q').value='';
+  try{await loadSec(x);if(x=='armaduras'||x=='escudos')await loadSec('armas')}catch(e){$('#app').innerHTML='Não foi possível carregar '+FILES[x]+'. Se abriu o arquivo direto do computador, use um servidor local (python -m http.server) ou o site publicado.';return}
   const dr=localStorage.getItem(LS());if(dr){try{DS[x]=JSON.parse(dr)}catch(e){}}
   D=DS[x];$('#ban').hidden=!dr;history.replaceState(null,'','#'+x);render()}
-const init=()=>go(['armaduras','escudos'].includes(location.hash.slice(1))?location.hash.slice(1):'armas');
+const init=()=>go(['armaduras','escudos','classes'].includes(location.hash.slice(1))?location.hash.slice(1):'armas');
 const dirty=()=>{localStorage.setItem(LS(),JSON.stringify(D));$('#ban').hidden=false};
 /* tooltips */
 function prop(raw,w){const k=N(raw);let b=null,bl=0;
@@ -99,6 +101,10 @@ document.addEventListener('mouseover',showTip);document.addEventListener('focusi
 const num=a=>{const m=(a.custo||'').match(/([\d.]+)(po|pp|pc)/);return m?parseFloat(m[1].replace(/\./g,''))*{po:1,pp:.1,pc:.01}[m[2]]:-1};
 function render(){
   $('#top').innerHTML=Object.entries(SECN).map(([k,v])=>`<button data-sec="${k}" class="${k==SEC?'on':''}">${v}</button>`).join('');
+  $('#q').hidden=SEC=='classes';
+  if(SEC=='classes'){const cl=D.classes;if(!cl[+tab])tab='0';
+    $('#nav').innerHTML=cl.map((c,i)=>`<button data-t="${i}" class="${i==tab?'on':''}">${esc(c.nome)}</button>`).join('');
+    $('#fg').hidden=$('#fo').hidden=true;$('#app').innerHTML=classTab(cl[+tab],+tab);$('#em').checked=edit;document.body.classList.toggle('edit',edit);return}
   const T=SEC=='armas'?TABS:{itens:SEC=='armaduras'?'Armaduras':'Escudos',prop:'Propriedades'};
   $('#nav').innerHTML=Object.entries(T).map(([k,v])=>`<button data-t="${k}" class="${k==tab?'on':''}">${v}</button>`).join('');
   const q=N($('#q').value),isW=SEC=='armas'&&['cac','dist','fogo'].includes(tab),isG=tab=='itens';
@@ -142,17 +148,21 @@ function lists(q){
 /* eventos */
 document.addEventListener('click',e=>{const t=e.target;
   if(t.dataset.sec){go(t.dataset.sec);return}
+  if(t.dataset.ac!==undefined){const c=D.classes[+t.dataset.ac];c.colunas.push({g:'',t:'Nova coluna'});c.linhas.forEach(r=>r.push('—'));dirty();render();return}
+  if(t.dataset.dc){const[a,b]=t.dataset.dc.split(':').map(Number),c=D.classes[a];if(confirm('Excluir a coluna "'+c.colunas[b].t+'"?')){c.colunas.splice(b,1);c.linhas.forEach(r=>r.splice(b,1));dirty();render()}return}
+  if(t.dataset.dcl!==undefined){const a=+t.dataset.dcl;if(confirm('Excluir a classe '+D.classes[a].nome+'?')){D.classes.splice(a,1);tab='0';dirty();render()}return}
   if(t.dataset.t){tab=t.dataset.t;sk='';render();return}
   if(t.dataset.s){sd=sk==t.dataset.s?-sd:1;sk=t.dataset.s;render();return}
   if(t.dataset.e!==undefined){(SEC=='armas'?editW:editG)(+t.dataset.e);return}
   if(t.dataset.x){const[k,i]=t.dataset.x.split(':');if(confirm('Excluir este item?')){D[k].splice(+i,1);dirty();render()}return}
   if(t.dataset.a){D[t.dataset.a]=D[t.dataset.a]||[];D[t.dataset.a].push({nome:'Novo',desc:'',...(t.dataset.a=='blocos'?{nivel:'Secundários'}:{})});dirty();render();return}
   const r=t.closest('tr.r');if(r&&!t.closest('button')){const d=r.nextElementSibling;d.hidden=!d.hidden}});
-document.addEventListener('input',e=>{const t=e.target;if(t.dataset.l){D[t.dataset.l][+t.dataset.i][t.dataset.f]=t.value;dirty()}});
+document.addEventListener('input',e=>{const t=e.target;
+  if(t.dataset.c!==undefined){const c=D.classes[+t.dataset.c];if(t.dataset.r!==undefined)c.linhas[+t.dataset.r][+t.dataset.j]=t.value;else if(t.dataset.f)c.colunas[+t.dataset.j][t.dataset.f]=t.value;else c[t.dataset.k]=t.value;dirty();return}if(t.dataset.l){D[t.dataset.l][+t.dataset.i][t.dataset.f]=t.value;dirty()}});
 ['q','fg','fo'].forEach(i=>$('#'+i).addEventListener('input',render));
 $('#em').onchange=e=>{edit=e.target.checked;render()};
 $('#bd').onclick=()=>{if(confirm('Descartar suas alterações locais e voltar à versão publicada?')){localStorage.removeItem(LS());delete DS[SEC];go(SEC)}};
-$('#bn').onclick=()=>SEC=='armas'?editW(-1):editG(-1);
+$('#bn').onclick=()=>SEC=='armas'?editW(-1):SEC=='classes'?newClass():editG(-1);
 $('#bj').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(D,null,1)],{type:'application/json'}));a.download=FILES[SEC].split('/')[1];a.click()};
 /* editor de arma */
 function editW(i){const n=i<0,a=n?{nome:'',cat:tab=='cac'||tab=='dist'||tab=='fogo'?tab:'cac',grupo:'Simples',dano:'',custo:'',peso:'',props:[],origem:[],sub:'',nova:false,alt:[],variantes:[],desc:''}:D.armas[i],d=a.distancia||{dano:'',props:[]};
@@ -176,6 +186,19 @@ function editW(i){const n=i<0,a=n?{nome:'',cat:tab=='cac'||tab=='dist'||tab=='fo
     const o={nome:v('nome'),cat:v('cat'),grupo:v('grupo'),dano:v('dano'),custo:v('custo'),peso:v('peso'),props:cs(v('props')),origem:cs(v('origem')),sub:v('sub'),nova:$('#w_nova').checked,alt:cs(v('alt')),variantes:v('var')?$('#w_var').value.split('\n').map(x=>x.trim()).filter(Boolean):[],desc:$('#w_desc').value.trim()};
     if(v('hd')||v('hp'))o.distancia={dano:v('hd'),props:cs(v('hp'))};
     if(n)D.armas.push(o);else D.armas[i]=o;dirty();$('#dlg').close();render()}}
+/* classes */
+function classTab(c,i){const g=c.colunas,hg=g.some(x=>x.g);let h;
+  if(edit){h=`<div class="row" style="margin:8px 0"><label>Nome<input class="ci" data-c="${i}" data-k="nome" value="${esc(c.nome)}"></label><label>Nome original<input class="ci" data-c="${i}" data-k="original" value="${esc(c.original)}"></label><label>Fonte<input class="ci" data-c="${i}" data-k="fonte" value="${esc(c.fonte)}"></label></div>
+    <div style="margin:6px 0"><button data-ac="${i}">+ Coluna</button> <button data-dcl="${i}">🗑 Excluir classe</button> <span class="mu">Cada coluna tem “grupo” (cabeçalho que agrupa colunas vizinhas com o mesmo nome) e “título”.</span></div>
+    <div class="w"><table><tr>${g.map((x,j)=>`<th><input class="ci" data-c="${i}" data-j="${j}" data-f="g" placeholder="grupo" value="${esc(x.g)}"><br><input class="ci" data-c="${i}" data-j="${j}" data-f="t" value="${esc(x.t)}"><button data-dc="${i}:${j}" title="Excluir coluna">✖</button></th>`).join('')}</tr>`+
+    c.linhas.map((r,k)=>`<tr>${r.map((v,j)=>`<td><input class="ci" data-c="${i}" data-r="${k}" data-j="${j}" value="${esc(v)}"></td>`).join('')}</tr>`).join('')+'</table></div>'}
+  else{let r1='',r2='';for(let j=0;j<g.length;){let k=j;while(k<g.length&&g[k].g&&g[k].g==g[j].g)k++;
+      if(g[j].g){r1+=`<th colspan="${k-j}" class="gh">${esc(g[j].g)}</th>`;for(let m=j;m<k;m++)r2+=`<th>${esc(g[m].t)}</th>`;j=k}else{r1+=`<th rowspan="${hg?2:1}">${esc(g[j].t)}</th>`;j++}}
+    h=`<div class="mu" style="margin:8px 0">${esc(c.original)} · ${esc(c.fonte)}</div><div class="w"><table class="ct"><tr>${r1}</tr>${hg?`<tr>${r2}</tr>`:''}`+
+    c.linhas.map(r=>`<tr class="cl">${r.map((v,j)=>`<td class="${j==2?'ft':''}">${esc(v)}</td>`).join('')}</tr>`).join('')+'</table></div>'}
+  return h}
+function newClass(){const rows=[];for(let n=1;n<=20;n++)rows.push([n+'º','+'+(2+Math.floor((n-1)/4)),'—']);
+  D.classes.push({nome:'Nova classe',original:'',fonte:'',colunas:[{g:'',t:'Nível'},{g:'',t:'Bônus de Proficiência'},{g:'',t:'Características'}],linhas:rows});tab=String(D.classes.length-1);dirty();render()}
 /* armaduras e escudos */
 function gear(q){const g=$('#fg').value,o=$('#fo').value,ex=SEC=='armaduras',nc=ex?10:9;
   const L=D.itens.map((a,i)=>({a,i})).filter(({a})=>(!g||a.grupo==g)&&(!o||a.origem.some(x=>N(x).startsWith(N(o))))&&(!q||N([a.nome,a.ca,a.req,a.furt,a.props,a.prof,a.origem].flat(9).join(' ')).includes(q)));
