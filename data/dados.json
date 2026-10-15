@@ -94,3 +94,3448 @@
       "grupo": "Simples",
       "dano": "1d8 Concussão",
       "custo": "2pp",
+      "peso": "5kg",
+      "props": [
+        "Pesada",
+        "Duas Mãos"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Malho de Madeira",
+        "Otsuchi (Heikei, Chajin)",
+        "Leiomano (Na Keiki)",
+        "Longoquilquil (Povo Yunga)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Foice Curta",
+      "cat": "cac",
+      "grupo": "Simples",
+      "dano": "1d4 Cortante",
+      "custo": "1po",
+      "peso": "1kg",
+      "props": [
+        "Leve"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Foice Grande",
+      "cat": "cac",
+      "grupo": "Simples",
+      "dano": "1d8 Cortante",
+      "custo": "2po",
+      "peso": "4kg",
+      "props": [
+        "Pesada",
+        "Duas Mãos"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": true,
+      "alt": [],
+      "variantes": [
+        "Machado de Lenhador"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Lança",
+      "cat": "cac",
+      "grupo": "Simples",
+      "dano": "1d6 Perfurante",
+      "custo": "1po",
+      "peso": "1,5kg",
+      "props": [
+        "Arremesso (distância 6/18m)",
+        "Versátil (1d8 Perfurante)"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [
+        "Hasta (Strigoi, Etruscano)",
+        "Dory (Empysiano)",
+        "Ahlspiess (Hoheniano)",
+        "Iklwa (Igbó)",
+        "Tepoztopilli (Tlametiano)",
+        "Tacuara (Povo Yunga)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Maça",
+      "cat": "cac",
+      "grupo": "Simples",
+      "dano": "1d6 Concussão",
+      "custo": "5po",
+      "peso": "2kg",
+      "props": [],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Maça Redonda (Alariano, Kersiano, Dakshano)",
+        "Maça de Disco (Tetocoyano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Machadinha",
+      "cat": "cac",
+      "grupo": "Simples",
+      "dano": "1d6 Cortante",
+      "custo": "5po",
+      "peso": "1kg",
+      "props": [
+        "Leve",
+        "Arremesso (distância 6/18m)"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [
+        "Kpinga (Igbó)",
+        "Águia da Guerra (Skâw)",
+        "Cutelo",
+        "Onzil (Izingane)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Martelo Leve",
+      "cat": "cac",
+      "grupo": "Simples",
+      "dano": "1d4 Concussão",
+      "custo": "2po",
+      "peso": "1kg",
+      "props": [
+        "Leve",
+        "Arremesso (distância 6/18m)"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [
+        "Maça Leve"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Porrete",
+      "cat": "cac",
+      "grupo": "Simples",
+      "dano": "1d4 Concussão",
+      "custo": "2pp",
+      "peso": "1kg",
+      "props": [
+        "Leve"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Jitte",
+        "Nunchaki e Tonfa (Qiangi, Heikei, Chajin)",
+        "Cassetete",
+        "Tsvimbo (Usathane, Isidumbu)",
+        "Gata (Na Keiki)",
+        "Macana (Povo Yunga)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Adaga de Defesa",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d4 Perfurante",
+      "custo": "10po",
+      "peso": "0,5kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Arremesso (distância 6/18m)",
+        "Defensiva"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": true,
+      "alt": [],
+      "variantes": [
+        "Sai (Qiangi, Chajin)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Alabarda",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d10 Cortante",
+      "custo": "20po",
+      "peso": "3kg",
+      "props": [
+        "Pesada",
+        "Alcance",
+        "Duas Mãos",
+        "Preparar"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [
+        "Ji (Qiangi, Chajin)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Lucerne",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d10 Perfurante",
+      "custo": "20po",
+      "peso": "3kg",
+      "props": [
+        "Pesada",
+        "Alcance",
+        "Duas Mãos",
+        "Perfurante"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": true,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [
+        "Podadeira de Batalha (Hiberniano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Cimitarra",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d6 Cortante",
+      "custo": "25po",
+      "peso": "1,5kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Ágil"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Cortante"
+      ],
+      "variantes": [
+        "Shashka (Anadyriano)",
+        "Makhaira (Empysiano, Draqueano)",
+        "Wakizashi (Heikei, Chajin)",
+        "Messer (Hoheniano)",
+        "Alfanje"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Chicote",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d4 Cortante",
+      "custo": "2po",
+      "peso": "1,5kg",
+      "props": [
+        "Acuidade",
+        "Alcance",
+        "Ágil"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Espada Curta",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d6 Perfurante",
+      "custo": "25po",
+      "peso": "1kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Defensiva"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Cortante"
+      ],
+      "variantes": [
+        "Faca Khyber (Alariano, Saknuano)",
+        "Xiphos (Empysiano)",
+        "Ikul (Igbó)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Espada Grande",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "2d6 Cortante",
+      "custo": "50po",
+      "peso": "3kg",
+      "props": [
+        "Pesada",
+        "Duas Mãos",
+        "Brutal"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [
+        "Flamberge (Hoheniano, Ornoiriano)",
+        "Nodachi (Heikei)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Espada Longa",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d8 Cortante",
+      "custo": "15po",
+      "peso": "1,5kg",
+      "props": [
+        "Versátil (1d10 Cortante)",
+        "Defensiva"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão",
+        "Perfurante"
+      ],
+      "variantes": [
+        "Espada Ampla",
+        "Tsurugi e Chokuto (Heikei, Chajin)",
+        "Miaodao (Qiangi)",
+        "Kriegmesser (Hoheniano)",
+        "Paramerion (Draqueano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Glaive",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d10 Cortante",
+      "custo": "20po",
+      "peso": "3kg",
+      "props": [
+        "Pesada",
+        "Alcance",
+        "Duas Mãos",
+        "Brutal"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [
+        "Guandao (Qiangi)",
+        "Woldo (Chajin)",
+        "Machado Longo (Jökulsano)",
+        "Partisano (Domatano)",
+        "Ngao (Rak, Kuobao)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Lança de Montaria",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d12 Perfurante",
+      "custo": "10po",
+      "peso": "3kg",
+      "props": [
+        "Alcance",
+        "Especial",
+        "Carga"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Lança Longa",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d10 Perfurante",
+      "custo": "5po",
+      "peso": "4kg",
+      "props": [
+        "Pesada",
+        "Alcance",
+        "Duas Mãos",
+        "Preparar"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão",
+        "Cortante"
+      ],
+      "variantes": [
+        "Pique",
+        "Kontarion (Draqueano)",
+        "Chuki (Teohuacano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Maça Estrela",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d8 Perfurante",
+      "custo": "15po",
+      "peso": "2kg",
+      "props": [
+        "Perfurante",
+        "Carga"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Langya Bang (Glauriano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Grande Maça Estrela",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d12 Perfurante",
+      "custo": "30po",
+      "peso": "3,5kg",
+      "props": [
+        "Pesada",
+        "Duas Mãos",
+        "Perfurante"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": true,
+      "alt": [],
+      "variantes": [
+        "Picareta de Guerra Pesada"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Machado Grande",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d12 Cortante",
+      "custo": "30po",
+      "peso": "3,5kg",
+      "props": [
+        "Pesada",
+        "Duas Mãos",
+        "Carga"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [
+        "Bardiche (Anadyriano, Zhenyano, Alariano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Machado de Batalha",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d8 Cortante",
+      "custo": "10po",
+      "peso": "2kg",
+      "props": [
+        "Versátil (1d10 Cortante)",
+        "Carga"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [
+        "Tzouron (Draqueano)",
+        "Machado Crescente (Kersiano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Malho",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "2d6 Concussão",
+      "custo": "10po",
+      "peso": "5kg",
+      "props": [
+        "Pesada",
+        "Duas Mãos",
+        "Derrubar"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Kanabo (Heikei)",
+        "Bordão de Aço",
+        "Mangual Pesado (Sereguiano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Mangual",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d8 Concussão",
+      "custo": "10po",
+      "peso": "1kg",
+      "props": [
+        "Derrubar",
+        "Brutal"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Chang Xiao Bang (Qiangi, Chajin)",
+        "Chigiriki (Heikei)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Martelo de Guerra",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d8 Concussão",
+      "custo": "15po",
+      "peso": "1kg",
+      "props": [
+        "Versátil (1d10 Concussão)",
+        "Perfurante"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [
+        "Maça Flangeada (Sereguiano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Picareta de Guerra",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d8 Perfurante",
+      "custo": "5po",
+      "peso": "1kg",
+      "props": [
+        "Perfurante",
+        "Brutal"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [
+        "Martelo de Cavalaria (Sereguiano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Rapieira",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d8 Perfurante",
+      "custo": "25po",
+      "peso": "1kg",
+      "props": [
+        "Acuidade",
+        "Defensiva"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Cortante"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Sabre",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d8 Cortante",
+      "custo": "25po",
+      "peso": "1kg",
+      "props": [
+        "Acuidade",
+        "Brutal"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": true,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [
+        "Falchion (Ornoir, Domato)",
+        "Schiavona (Domatano)",
+        "Krabi (Rak, Kuobao)",
+        "Talwar (Dakshano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Tridente",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d6 Perfurante",
+      "custo": "5po",
+      "peso": "2kg",
+      "props": [
+        "Arremesso (distância 6/18m)",
+        "Versátil (1d8 Perfurante)",
+        "Brutal",
+        "Carga"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [
+        "Bidente Militar"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Espada de Mão",
+      "cat": "cac",
+      "grupo": "Marcial",
+      "dano": "1d8 Cortante",
+      "custo": "10po",
+      "peso": "1kg",
+      "props": [
+        "Defensiva",
+        "Ágil"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": true,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [
+        "Khanda (Dakshano)",
+        "Spathion (Draqueano)",
+        "Lâmina de Folha (Kersiano)",
+        "Saif (Alariano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Urumi",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "100po",
+      "peso": "3kg",
+      "props": [
+        "Acuidade",
+        "Alcance",
+        "Brutal"
+      ],
+      "origem": [
+        "Dakshano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Luvas com Garras",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "2 Cortante",
+      "custo": "80po",
+      "peso": "1kg",
+      "props": [
+        "Luta Desarmada",
+        "Anti-Desarme",
+        "Leve",
+        "Empunhadura Livre"
+      ],
+      "origem": [
+        "Glauriano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Luvas Pesadas",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "2 Concussão",
+      "custo": "80po",
+      "peso": "1kg",
+      "props": [
+        "Luta Desarmada",
+        "Anti-Desarme",
+        "Leve",
+        "Empunhadura Livre"
+      ],
+      "origem": [
+        "Glauriano",
+        "Strigoi(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Cestus (Strigoi)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Manoplas de Espinhos",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "2 Perfurante",
+      "custo": "80po",
+      "peso": "1kg",
+      "props": [
+        "Luta Desarmada",
+        "Anti-Desarme",
+        "Leve",
+        "Empunhadura Livre"
+      ],
+      "origem": [
+        "Glauriano",
+        "Anã"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Lâmina Oculta",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d4 Perfurante",
+      "custo": "100po",
+      "peso": "1kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Empunhadura Livre",
+        "Anti-Desarme",
+        "Oculta"
+      ],
+      "origem": [
+        "Glauriano",
+        "Sereguiano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Bico de Corvo",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d12 Perfurante",
+      "custo": "40po",
+      "peso": "3kg",
+      "props": [
+        "Pesada",
+        "Alcance",
+        "Duas Mãos",
+        "Equilibrada (1d12 Concussão)",
+        "Perfurante"
+      ],
+      "origem": [
+        "Onoiriano",
+        "Braith",
+        "Girladuhriano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Espada Bastarda",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d10 Cortante",
+      "custo": "40po",
+      "peso": "2kg",
+      "props": [
+        "Versátil (1d12 Cortante)"
+      ],
+      "origem": [
+        "Sereguiano",
+        "Qiangi (V)",
+        "Chajin (V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão",
+        "Perfurante"
+      ],
+      "variantes": [
+        "Niuweidao (Qiangi, Chajin)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Jian",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Perfurante",
+      "custo": "40po",
+      "peso": "1,5kg",
+      "props": [
+        "Acuidade",
+        "Ágil",
+        "Defensiva",
+        "Equilibrada (1d8 Cortante)"
+      ],
+      "origem": [
+        "Qiangi",
+        "Chajin",
+        "Ariasiano(V)",
+        "Domatano (V)",
+        "Restaliano (V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Spada de Lato (Ariasiano, Domatano, Etruscano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Glaive Élfica",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d10 Cortante",
+      "custo": "120po",
+      "peso": "3kg",
+      "props": [
+        "Acuidade",
+        "Alcance",
+        "Duas Mãos",
+        "Brutal"
+      ],
+      "origem": [
+        "Elfico",
+        "Heikei(V)",
+        "Chajin(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [
+        "Naginata (Heikei, Chajin)"
+      ],
+      "desc": "As culturas élficas de Ethraid valorizam muito a maestria do corpo e da precisão dos movimentos de um guerreiro, no entanto, não é algo exclusivo. Elfos podem dedicar as suas longas vidas para terem corpos poderosos e fortes, mas também podem preferir por maior atletismo e agilidade. Graças a estes fatos, é comum na sociedade élfica armas serém construídas para valorizar tanto o poder físico quanto a precisão. A Glaive Élfica é um exemplo perfeito deste fato, uma arma construída para permitir combatentes tanto fortes quanto ágeis a usar o melhor que armas de haste podem oferecer, com movimentos fluídos e precisos e podendo ser utilizadas em formações de guerra.\nBatalhões e divisões de guerreiros élficos com estas glaives geralmente são alocados para acompanhar diferentes estratégias. Em Arboria, estas armas geralmente são vistas como um suporte estratégico para longas linhas de lanceiros escudados. Em Silvania, no entanto, eles serão toda a proteção que a linha de frente terá, já que Silvania prefere armar mais arqueiros que infantaria escudada. Independente do caso, a cultura élfica de Silvania e Arboria valoriza a maestria destas armas, acreditando que há um mérito inato superior em se tornar um mestre em uma arma tão versátil quanto a Glaive Élfica."
+    },
+    {
+      "nome": "Estoc",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Perfurante",
+      "custo": "60po",
+      "peso": "1,5kg",
+      "props": [
+        "Versátil (1d10 Perfurante)",
+        "Perfurante",
+        "Defensiva"
+      ],
+      "origem": [
+        "Onoiriano",
+        "Domatano",
+        "Drealoniano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Falcata",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "2d4 Cortante",
+      "custo": "40po",
+      "peso": "1,5kg",
+      "props": [
+        "Brutal",
+        "Carga"
+      ],
+      "origem": [
+        "Restaliano",
+        "Empysiano (V)",
+        "Hoheniano (V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [
+        "Kopis (Empysiano)",
+        "Katzbalger (Hoheniano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Falx",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "45po",
+      "peso": "2kg",
+      "props": [
+        "Versátil (1d12 Perfurante)",
+        "Perfurante",
+        "Carga"
+      ],
+      "origem": [
+        "Anadyriano",
+        "Zhenyano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Katana",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "45po",
+      "peso": "1,5kg",
+      "props": [
+        "Acuidade",
+        "Versátil (1d10 Cortante)",
+        "Precisa"
+      ],
+      "origem": [
+        "Heikei",
+        "Chajin"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Khopesh",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "40po",
+      "peso": "1,5kg",
+      "props": [
+        "Acuidade",
+        "Desarme",
+        "Carga"
+      ],
+      "origem": [
+        "Kersiano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Kusarigama",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "80po",
+      "peso": "2kg",
+      "props": [
+        "Acuidade",
+        "Alcance",
+        "Duas Mãos",
+        "Prender",
+        "Arma Dupla (1d6 Concussão)"
+      ],
+      "origem": [
+        "Heikei",
+        "Qiangi"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Pata",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "45po",
+      "peso": "2kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Anti-Desarme",
+        "Ágil"
+      ],
+      "origem": [
+        "Dakshano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Cortante"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Espada-Gancho",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "45po",
+      "peso": "1,5kg",
+      "props": [
+        "Acuidade",
+        "Desarme",
+        "Derrubar",
+        "Defensiva"
+      ],
+      "origem": [
+        "Qiangi",
+        "Chajin",
+        "Heikei"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Kris",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "60po",
+      "peso": "1,5kg",
+      "props": [
+        "Acuidade",
+        "Foco Arcano",
+        "Brutal"
+      ],
+      "origem": [
+        "Serakiano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Kunai",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d4 Perfurante",
+      "custo": "20po",
+      "peso": "0,5kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Arremesso (9/36m)",
+        "Oculta",
+        "Ágil"
+      ],
+      "origem": [
+        "Qiangi",
+        "Heikei",
+        "Chajin(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Shuriken (Chajin)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Kukri",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "40po",
+      "peso": "0,5kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Arremesso (6/18m)",
+        "Brutal"
+      ],
+      "origem": [
+        "Hlengiwe",
+        "Ramano",
+        "Izinba",
+        "Jökulsano(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [
+        "Okse (Jökulsano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Pilum",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Perfurante",
+      "custo": "30po",
+      "peso": "1,5kg",
+      "props": [
+        "Arremesso (9/36m)",
+        "Brutal"
+      ],
+      "origem": [
+        "Strigoi",
+        "Restaliano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Gladius",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "2d4 Perfurante",
+      "custo": "80po",
+      "peso": "1,5kg",
+      "props": [
+        "Brutal",
+        "Precisa"
+      ],
+      "origem": [
+        "Strigoi",
+        "Restaliano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Cortante"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Zweihander",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "2d8 Cortante",
+      "custo": "200po",
+      "peso": "5kg",
+      "props": [
+        "Duas Mãos",
+        "Muito Pesada",
+        "Brutal"
+      ],
+      "origem": [
+        "Hoheniano",
+        "Braith(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [
+        "Claymore (Hiberniano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Punhal do Assassino",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d4 Perfurante",
+      "custo": "80po",
+      "peso": "0,5kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Especial",
+        "Precisa"
+      ],
+      "origem": [
+        "Ariasiano",
+        "Domatano",
+        "Restaliano",
+        "Strigoi",
+        "Alariano",
+        "Kersiano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Um punhal geralmente de aparência estranha, o Punhal do Assassino é uma arma elaborada e de complicada fabricação. O punhal geralmente será constituído de um reservatório para veneno em sua empunhadura ou no pumo, que pode ser preenchido com a substância nociva preferida e será mantido ali até perder suas propriedades. Há um pequeno botão ou gatilho na empunhadura próximo da guarda, aonde abre a passagem do veneno para um pequeno cano que percorre a lâmina até a ponta da arma. Graças ao método de aplicação do veneno e a forma de poupar os usos, este tipo de adaga geralmente aplica o veneno não apenas de forma mais eficiente, mas também poupa a dose de veneno para mais usos."
+    },
+    {
+      "nome": "Stilleto",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d4 Perfurante",
+      "custo": "30po",
+      "peso": "0,5kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Perfurante",
+        "Ágil",
+        "Precisa"
+      ],
+      "origem": [
+        "Domatano",
+        "Ariasiano",
+        "Drealoniano(V)",
+        "Onoiriano(V)",
+        "Braith(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Rondel (Drealoniano, Ornoiriano, Hiberniano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Lâmina de Guerra Élfica",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d12 Cortante",
+      "custo": "100po",
+      "peso": "3kg",
+      "props": [
+        "Acuidade",
+        "Pesada",
+        "Duas Mãos",
+        "Carga"
+      ],
+      "origem": [
+        "Elfico",
+        "Alariano(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [
+        "Shamshir Maeraka (Alariano)"
+      ],
+      "desc": "Também conhecida Maerakana ou Shamshir Longa, a Shamshir Maeraka foi nomeada em homenagem ao primeiro cavaleiro Alariano a utilizar esta espada, Maeraka. O objetivo da longa lâmina é servir como uma espada pesada utilizável pela cavalaria Alariana, mas também uma arma requintada da nobreza da nação. Com uma empunhadura de duas mãos, a espada possui uma lâmina um pouco mais longa que uma shamshir comum, tendo em média de 1,15m e 1,25m de comprimento total junto da empunhadura. É uma espada considerada um tanto delicada e fácil de perder o seu fio, mas nas mãos de um espadachim ágil e preciso, ela é muitas vezes comparada com as poderosas Lâminas de Guerra Élficas.\nUma Shamshir Maeraka devidamente forjada pode ser comparada com uma Lâmina de Guerra Élfica e os motivos são tanto óbvios quanto nem tanto. O estilo de luta das armas é relativamente diferente, mas sua aplicação é muito similar, se trata de uma espada de guerra leve o suficiente para ser aplicada com imensa precisão. O que não é tanto óbvio, é que a tradição foi herdada a partir da cultura dos Elfos do Deserto que influenciariam imensamente muitos aspectos marciais de Alaria."
+    },
+    {
+      "nome": "Kjungrik",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "2d6 Cortante",
+      "custo": "100po",
+      "peso": "3kg",
+      "props": [
+        "Duas Mãos",
+        "Alcance",
+        "Muito Pesada",
+        "Perfurante",
+        "Arma Dupla (1d10 Perfurante)"
+      ],
+      "origem": [
+        "Anã"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão",
+        "Perfurante"
+      ],
+      "variantes": [],
+      "desc": "Guerreiros Anões sempre tiveram a preferência por lutarem com armas de curta distância, graças a sua cultura marcial de procurar encarar os inimigos nos olhos antes de os matar. Espadas, machados, martelos, maças costumam ser a preferência de armas de guerreiros anões, principalmente os mais tradicionais. Com a passagem do tempo e cada vez perdendo mais dos seus guerreiros em campo de batalha para monstros grandes demais para serem enfrentados com armas curtas, os anões começaram a adotar armas de haste utilizadas pelos humanos na superfície. No entanto, as alabardas e bicos de corvo utilizados pelos humanos não eram aptos para o tipo de guerra lutado pelos anões, sendo armas frágeis demais, então os anões desenvolveriam o Kjungrik. \nUm anão ferreiro jamais irá dizer que esta antiga arma de haste é baseada em armas da superfície, alegando que é o contrário, no entanto qualquer historiador pode afirmar os fatos. O Kjungrik é um tipo de arma de haste que possui uma lâmina de machado angular, uma cabeça de martelo pequena do lado oposto, uma ponta longa arredonda de lança na parte superior da cabeça e uma ponta de lança fina e afiada do lado oposto. A arma é geralmente utilizada em formações, aonde a cabeça de machado/martelo é usada para destruir a carapaça de monstros, partir machados e armaduras pesadas, ou em formações de lança, aonde a ponta inferior é usada defensivamente contra inimigos menores se aproximando. Mas como anões são criaturas orgulhosas, estas armas também foram construídas para lutar por combatentes individuais em duelos de cavaleiros, utilizando técnicas de movimentos fluídos aonde golpes com o machado/martelo são realizados seguido de uma estocada da lâmina inferior. É, no entanto, uma arma imensamente pesada de ser utilizada, mas o povo anão é orgulhoso de suas armas pesadas e grandes, talvez para compensar algo."
+    },
+    {
+      "nome": "Espada-Bengala",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Perfurante",
+      "custo": "50po",
+      "peso": "1kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Oculta",
+        "Ágil"
+      ],
+      "origem": [
+        "Sereguiano",
+        "Glauriano",
+        "Daes"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Cortante"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Shotel",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "60po",
+      "peso": "1,5kg",
+      "props": [
+        "Acuidade",
+        "Ágil",
+        "Especial"
+      ],
+      "origem": [
+        "Hlengiwe",
+        "Kersiano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Chakri",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d6 Cortante",
+      "custo": "20po",
+      "peso": "0,5kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Arremesso (distância 9/36m)",
+        "Oculta"
+      ],
+      "origem": [
+        "Dakshano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Chakram",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "40po",
+      "peso": "1kg",
+      "props": [
+        "Acuidade",
+        "Arremesso (distância 6/18m)",
+        "Oculta",
+        "Brutal"
+      ],
+      "origem": [
+        "Dakshano",
+        "Vaathuen(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Estrela Vaathuen (Vaathuen)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Tessen",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d6 Perfurante",
+      "custo": "60po",
+      "peso": "1kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Equilibrada (1d6 Cortante)",
+        "Oculta",
+        "Ágil"
+      ],
+      "origem": [
+        "Heikei",
+        "Qiangi",
+        "Chajin"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Tabar Shishpar",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d12 Cortante",
+      "custo": "80po",
+      "peso": "3kg",
+      "props": [
+        "Duas Mãos",
+        "Pesada",
+        "Equilibrada (1d12 Concussão)",
+        "Perfurante",
+        "Brutal"
+      ],
+      "origem": [
+        "Alariano",
+        "Dakshano",
+        "Draqueano",
+        "Saknuano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Corrente Escorpiana",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "80po",
+      "peso": "3kg",
+      "props": [
+        "Alcance",
+        "Duas Mãos",
+        "Prender",
+        "Brutal",
+        "Arma Dupla (1d6 Cortante)"
+      ],
+      "origem": [
+        "Vaathuen",
+        "Shadar-kai"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Uma arma desenvolvida pelos Drow Vaathuen, não para auxiliar em formações ou por eficiência, mas como uma demonstração de controle e aptidão marcial. A Corrente Escorpiana é para os Vaathuen o que uma Rapieira é para povos de Sereg, uma arma para duelos, para demonstrar sua precisão e sua capacidade de movimentação. Diferente de outras armas de duelo, as Correntes Escorpianas não deseja guerreiros adaptáveis, mas sim individuos fortes e poderosos, que se sujeitam a sacrificar a sua segurança em nome de uma arma brutal e imprática em muitas situações. \nA corrente geralmente é constituída de um anel central, podendo ser substituído por uma empunhadura curta ou outra forma de ligação. De cada lado, haverá correntes e então anéis novamente, menores, que servirão para conectar a parte de ataque da arma. As extremidades da corrente possuem muitas vertentes, como correntes com lâminas, correntes com espinhos ou correntes com ganchos, todas igualmente eficientes em se prender em membros dos inimigos e os rasgar em pedaços.\nNão se sabe exatamente como estas armas foram adaptadas para a cultura marcial dos Shadar-Kai, ainda assim, estes elfos do Plano Umbral utilizam estes armamentos com imensa eficiência, em padrões de combate similares aos dos Vaathuen. Alguns historiadores extraplanares suspeitam que os Vaathuen possam ter entrado em contato com os Shadar-Kai através de uma de muitas das passagens para o Plano Umbral que são encontrados na Umbreterna."
+    },
+    {
+      "nome": "Lança Dupla",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d10 Perfurante",
+      "custo": "80po",
+      "peso": "3kg",
+      "props": [
+        "Alcance",
+        "Duas Mãos",
+        "Defensiva",
+        "Arma Dupla (1d8 Cortante)"
+      ],
+      "origem": [
+        "Etruscano",
+        "Drealoniano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "É comumente dito que o militar Etruscano é apenas uma cópia simplificada do Strigoi, assim como o militar de Drealon é uma amálgama dos padrões militares de toda Sereg. No entanto, ambas constatações não podiam estar mais erradas e isto é exemplificado nesta arma, que apesar de não possuir características obviamente exóticas, seu estilo de luta definitivamente é. \nA Lança Dupla é uma extensão desta ideia, possuindo uma ponta afiada na parte superior, comum em lanças de duas mãos, com uma ponta menor mas com um fio mais afiado na parte inferior, para oferecer cortes rápidos. Este tipo de arma de haste não é normalmente utilizada em formações, ao invés disso é uma arma reconhecida como símbolo entre guerreiros, um sinal de habilidade marcial. Este tipo de lança quando usada em campo de batalha, é utilizada em paredes de lança como outras, mas quando o combate corpo-a-corpo ocorre, a postura de luta muda para uma similar de alabardas e glaives. O objetivo é manter uma empunhadura central, utilizando a ponta de lança para perfurar aberturas na arma e a lâmina inferior para surpreender o inimigo após bloqueios ou deflecções. Em Etrusca, ela é um símbolo de habilidade marcial e versatilidade, uma demonstração da adaptibilidade necessária para combater Strigos e Vaine. Em Drealon, é um símbolo de nobreza e habilidade marcial, similar a como uma espada longa ou uma espada de duas mãos é vista na maior parte de Sereg."
+    },
+    {
+      "nome": "Espada Dupla",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d10 Cortante",
+      "custo": "80po",
+      "peso": "3kg",
+      "props": [
+        "Duas Mãos",
+        "Ágil",
+        "Arma Dupla (1d10 Cortante)"
+      ],
+      "origem": [
+        "Kohuna",
+        "Shadar-Kai"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [],
+      "desc": "Diferente das Lanças Duplas, as Espadas Duplas foram uma invenção dos povos nativos de Hale Maemae. Armas com duas lâminas, uma de cada lado, foram vistas em outros lugares de Ethraid ao longo da história, mas sempre armas consideradas mais \"únicas\" do que realmente uma característica cultural. Os Hale Maemae, no entanto, adotaram o estilo como algo profundamente cultural. Não há muita riqueza mineral no território dos Hale Maemae, tanto sua ilha central quanto as menores possuem poucos minérios, principalmente os utilizáveis para armamentos de guerra. Sendo assim, a grande maioria de suas armas de guerra são clavas de madeira, bordões e lanças de arremesso. O ferro e aço é comercializado, comprado de fora, geralmente transformado em armas para a elite guerreira, e a arma de preferência destes é a Espada Dupla. \nEnquanto clavas e bordões são usados para combater ameaças menores, lanças de arremesso e arcos curtos para combater inimigos maiores, as Espadas Duplas são armas de prestígio utilizadas para enfrentar os maiores inimigos deste povo, seja em terra ou no mar. Estas armas geralmente possuem lâminas curvadas para facilitar cortes poderosos e rápidos contra os seus inimigos, decoradas com presas de criaturas do mar derrotadas e a pele de animais criados nas ilhas.\nAs técnicas desta arma envolvem cortes fluídos, rápidos e breves, se aproveitando da vantagem temporária após bloqueios. Quando lutando na água, o foco é realizar cortes breves e poderosos, para tentar combater a resistência que a água oferece contra armas cortantes, ou talvez estocadas rápidas com as pontas normalmente encontradas nestas armas."
+    },
+    {
+      "nome": "Katar",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "2d4 Perfurante",
+      "custo": "45po",
+      "peso": "1kg",
+      "props": [
+        "Acuidade",
+        "Leve",
+        "Ágil"
+      ],
+      "origem": [
+        "Dakshano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Cortante"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Sabre Élfico",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "60po",
+      "peso": "1kg",
+      "props": [
+        "Acuidade",
+        "Brutal",
+        "Defensivo"
+      ],
+      "origem": [
+        "Elfico",
+        "Hat'Challeano(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Perfurante"
+      ],
+      "variantes": [
+        "Sabre Longo (Hat'Challiano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Bumerangue",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d6 Cortante",
+      "custo": "20po",
+      "peso": "1kg",
+      "props": [
+        "Acuidade",
+        "Brutal",
+        "Especial",
+        "Arremesso (distância 9/36m)"
+      ],
+      "origem": [
+        "Kohuna"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Macuahuitl",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d8 Cortante",
+      "custo": "60po",
+      "peso": "1,5kg",
+      "props": [
+        "Versátil (1d10 Cortante)",
+        "Brutal",
+        "Carga",
+        "Obsidiana"
+      ],
+      "origem": [
+        "Drau'muri"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Macuahuilzoctli",
+      "cat": "cac",
+      "grupo": "Exótica",
+      "dano": "1d12 Cortante",
+      "custo": "80po",
+      "peso": "4kg",
+      "props": [
+        "Duas Mãos",
+        "Pesado",
+        "Brutal",
+        "Carga",
+        "Obsidiana"
+      ],
+      "origem": [
+        "Drau'muri"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Lança de Fogo",
+      "cat": "cac",
+      "grupo": "Exótica Híbrida",
+      "dano": "1d10 Perfurante",
+      "custo": "100po",
+      "peso": "3kg",
+      "props": [
+        "Alcance",
+        "Duas Mãos",
+        "Pesada"
+      ],
+      "origem": [
+        "Qiangi",
+        "Chajin"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [],
+      "desc": "",
+      "distancia": {
+        "dano": "1d8 Perfurante",
+        "props": [
+          "Munição Cartucho 13mm (distância 12/42m)",
+          "Duas Mãos",
+          "Pesada",
+          "Recarga",
+          "Pólvora Negra",
+          "Arcaica",
+          "Erro de Ignição 3",
+          "Ataque Híbrido"
+        ]
+      }
+    },
+    {
+      "nome": "Quebra-Infantaria",
+      "cat": "cac",
+      "grupo": "Exótica Híbrida",
+      "dano": "1d12 Cortante",
+      "custo": "150po",
+      "peso": "5kg",
+      "props": [
+        "Duas Mãos",
+        "Pesada"
+      ],
+      "origem": [
+        "Hiberniano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Concussão"
+      ],
+      "variantes": [],
+      "desc": "Um dos grandes desafios do desenvolvimento de armas de fogo para uma determinada cultura, é tornar possível a adoção deste armamento para os seus soldados, combatentes e guerreiros. Armas de fogo precisam de uma infraestrutura totalmente nova para sua produção, uma infraestrutura em etapas que requer marceneiros experientes, mecânicos, ferreiros e alquimistas. A maior parte de Ethraid não adotou estes armamentos em larga escala por não conseguir construir a infraestrutura ou pela incapacidade de adequar a cultura local. Os Hibernianos é um caso aonde foi possível a adoção, mas não como desejado.\nApesar de armas de fogo nunca serem adotadas em larga escala, eles foram influenciados pelos poucos clãs de anões que vivem nas montanhas do norte, os quais possuem uma preferência por armas de fogo utilizadas em conjunto de infantaria corpo-a-corpo. Armas híbridas se tornaram um equipamento para tropas especializadas em Hibernia e o Quebra-Infantaria foi a primeira delas. Ele é um machado de duas mãos relativamente curto, sempre de lâmina única, acoplado em efetivamente um bacamarte curto. É uma arma feita para infantaria, um machado para romper formações e uma chuva de chumbo para limpar o caminho para as tropas.",
+      "distancia": {
+        "dano": "1d8 Perfurante",
+        "props": [
+          "Munição Chumbo Grosso (3/12m)",
+          "Duas Mãos",
+          "Pesada",
+          "Recarga",
+          "Pólvora Negra",
+          "Arcaica",
+          "Erro de Ignição 3",
+          "Dispersão (1d6)",
+          "Ataque Hibrido"
+        ]
+      }
+    },
+    {
+      "nome": "Duelista",
+      "cat": "cac",
+      "grupo": "Exótica Híbrida",
+      "dano": "1d8 Perfurante",
+      "custo": "150po",
+      "peso": "2,5kg",
+      "props": [
+        "Acuidade"
+      ],
+      "origem": [
+        "Domatano",
+        "Ariasiano",
+        "Hiberniano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [
+        "Cortante"
+      ],
+      "variantes": [],
+      "desc": "Houveram muitas tentativas de adaptar pequenas armas de fogo para diferentes tipos de espadas em Hibernia, após a sua adoção de Armas Híbridas. O principal problema seria construir pistolas resistentes o suficiente em espadas longas ou de duas mãos, armas infames por impactos pesados. Eventualmente, o modelo mais aceito por nobres seria a Duelista, uma rapieira com uma pequena pistola de baixo calibre. A nobreza Hiberniana não é uma grande admiradora de rapieiras, preferindo o uso de outros tipos de espadas mais robustas, mas o duelista encontraria uso entre nobres influenciados pela cultura sulista.\nO modelo encontraria maior uso em Domato, aonde não apenas rapieiras são abertamente usadas por nobres para duelos, mas a pistola seria uma ótima forma para eliminar o seu rival de duelos antes mesmo de trocarem golpes.",
+      "distancia": {
+        "dano": "1d6 Perfurante",
+        "props": [
+          "Munição Cartucho 13mm (distância 12/42m)",
+          "Recarga",
+          "Pólvora Negra",
+          "Arcaica",
+          "Erro de Ignição 3",
+          "Ataque Híbrido"
+        ]
+      }
+    },
+    {
+      "nome": "Surpresa Hiberniana",
+      "cat": "cac",
+      "grupo": "Exótica Híbrida",
+      "dano": "1d4 Perfurante",
+      "custo": "50po",
+      "peso": "1,5kg",
+      "props": [
+        "Acuidade",
+        "Oculta"
+      ],
+      "origem": [
+        "Domatano",
+        "Hiberniano",
+        "Ariasiano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Hibernianos possuem a costumeira cultura cavalereiresca da Aliança de Onoir, mas aonde há honrados cavaleiros, também há hábeis e espertos assassinos. Surpresa Hiberniana foi uma progressão natural para as Armas Híbridas em Hibernia, uma ferramenta para eliminar inimigos com certa facilidade. Uma ferramenta de assassinos ou até a arma terciaria de um cavaleiro, que precis de algo para se proteger quando desarmado e, mais importante, surpreender seu inimigo.\nEm Domato e Arias o uso da Surpresa Hiberniana é muito mais aberto, principalmente em Domato, aonde \"honra cavaleiresca\" é quase uma piada interna para os Domatanos. É um armamento mais comumente encontrado entre as ferramentas de combate de nobres e até mercenários.",
+      "distancia": {
+        "dano": "1d6 Perfurante",
+        "props": [
+          "Munição Cartucho 13mm (distância 6/18m)",
+          "Recarga",
+          "Pólvora Negra",
+          "Arcaica",
+          "Erro de Ignição 3",
+          "Ataque Híbrido"
+        ]
+      }
+    },
+    {
+      "nome": "Soco Sujo",
+      "cat": "cac",
+      "grupo": "Exótica Híbrida",
+      "dano": "1 Concussivo",
+      "custo": "50po",
+      "peso": "2kg",
+      "props": [
+        "Luta Desarmada",
+        "Anti-Desarme",
+        "Empunhadura Livre"
+      ],
+      "origem": [
+        "Hiberniano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "",
+      "distancia": {
+        "dano": "1d4 Perfurante",
+        "props": [
+          "Munição Chumbo Grosso (3/12m)",
+          "Recarga",
+          "Pólvora Negra",
+          "Arcaica",
+          "Erro de Ignição 3",
+          "Dispersão (1d4)",
+          "Ataque Híbrido"
+        ]
+      }
+    },
+    {
+      "nome": "Arco Curto",
+      "cat": "dist",
+      "grupo": "Simples",
+      "dano": "1d6 Perfurante",
+      "custo": "25po",
+      "peso": "1kg",
+      "props": [
+        "Munição Flecha (distância 24/96m)",
+        "Duas Mãos"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Besta Leve",
+      "cat": "dist",
+      "grupo": "Simples",
+      "dano": "1d8 Perfurante",
+      "custo": "25po",
+      "peso": "2,5kg",
+      "props": [
+        "Munição Virote"
+      ],
+      "origem": [],
+      "sub": "(distância 24/96m), Duas Mãos",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Dardo",
+      "cat": "dist",
+      "grupo": "Simples",
+      "dano": "1d4 Perfurante",
+      "custo": "5pc",
+      "peso": "0,1kg",
+      "props": [
+        "Acuidade",
+        "Arremesso (distância 6/18m)"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Bo Shuriken (Heikei)",
+        "Plumbata (Etruscano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Funda",
+      "cat": "dist",
+      "grupo": "Simples",
+      "dano": "1d4 Concussão",
+      "custo": "1pp",
+      "peso": "0,1kg",
+      "props": [
+        "Munição Bala de Funda (distância 9/36m)"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Estilingue",
+      "cat": "dist",
+      "grupo": "Simples",
+      "dano": "1d4 Concussão",
+      "custo": "1pp",
+      "peso": "0,1kg",
+      "props": [
+        "Munição Bala de Funda (distância 9/36m)"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Arco Longo",
+      "cat": "dist",
+      "grupo": "Marcial",
+      "dano": "1d8 Perfurante",
+      "custo": "50po",
+      "peso": "1kg",
+      "props": [
+        "Munição Flecha (distância 45/180m)",
+        "Pesada",
+        "Duas Mãos"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Yumi (Heikei)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Besta de Mão",
+      "cat": "dist",
+      "grupo": "Marcial",
+      "dano": "1d6 Perfurante",
+      "custo": "75po",
+      "peso": "1,5kg",
+      "props": [
+        "Munição Virote (distância 9/36m)",
+        "Leve",
+        "Recarga"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Besta Pesada",
+      "cat": "dist",
+      "grupo": "Marcial",
+      "dano": "1d10 Perfurante",
+      "custo": "50po",
+      "peso": "4,5kg",
+      "props": [
+        "Munição Virote (distância 30/120m)",
+        "Pesada",
+        "Recarga",
+        "Duas Mãos"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Rede",
+      "cat": "dist",
+      "grupo": "Marcial",
+      "dano": "",
+      "custo": "1po",
+      "peso": "1,5kg",
+      "props": [
+        "Especial",
+        "Arremesso (distância 1,5/4,5m)"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Zarabatana",
+      "cat": "dist",
+      "grupo": "Marcial",
+      "dano": "1 Perfurante",
+      "custo": "10po",
+      "peso": "0,5kg",
+      "props": [
+        "Munição Dardos de Zarabatana (distância 7",
+        "5/30m)",
+        "Recarga"
+      ],
+      "origem": [],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Arbalesta",
+      "cat": "dist",
+      "grupo": "Exótica",
+      "dano": "1d12 Perfurante",
+      "custo": "300po",
+      "peso": "6kg",
+      "props": [
+        "Pesada",
+        "Duas Mãos",
+        "Recarga",
+        "Munição Virote (distância 40/130m)",
+        "Perfurante"
+      ],
+      "origem": [
+        "Braith",
+        "Ariasiano",
+        "Anã",
+        "Domatano",
+        "Draqueano(V)",
+        "Restaliano(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Tzangra (Draqueano, Etruscano)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Besta Leve de Repetição",
+      "cat": "dist",
+      "grupo": "Exótica",
+      "dano": "1d8 Perfurante",
+      "custo": "100po",
+      "peso": "4kg",
+      "props": [
+        "Duas Mãos",
+        "Recarga 8",
+        "Munição Virote (distância 18/72m)"
+      ],
+      "origem": [
+        "Anã",
+        "Deir",
+        "Qiangi(V)",
+        "Chajin(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Chu-Ko-Nu (Qiangi, Chajin)"
+      ],
+      "desc": ""
+    },
+    {
+      "nome": "Besta Pesada de Repetição",
+      "cat": "dist",
+      "grupo": "Exótica",
+      "dano": "1d10 Perfurante",
+      "custo": "200po",
+      "peso": "6kg",
+      "props": [
+        "Pesada",
+        "Duas Mãos",
+        "Recarga 4",
+        "Munição Virote (distância 24/96m)"
+      ],
+      "origem": [
+        "Anã",
+        "Deir",
+        "Qiangi(V)",
+        "Chajin(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Laohu Chu-Ko-Nu (Qiangi, Chajin)"
+      ],
+      "desc": "O Chu Ko Nu é a besta de repetição original em Ethraid, todas as outras foram inspiradas nesta arma de Qiang, até mesmo os geniais Anões e os antigos Drows copiaram este armamento, apesar de que jamais irão admitir isto. O Chu Ko Nu é uma besta capaz de realizar disparos seguidos sem a necessidade de recarregar, permitindo que soldados pouco treinados no manuseio de bestas seja capaz de despejar muitos projéteis antes de ter que recarregar a arma. \nO Chu Ko Nu usa um inteligente sistema aonde uma alavanca é puxada para tanto preparar a corda quanto colocar um virote, de um carregador de madeira, no cano que dispara a munição. O Laohu e Yetu Chu Ko Nu são variações desta arma ancestral, o Laohu sendo a versão mais pesada com um arco de aço e disparando projéteis mais pesados, e o Yetu sendo uma versão portátil capaz de disparar pequenos virotes.\nO Chu Ko Nu padrão é comumente fabricado em massa para o uso por praticamente toda infantaria de Qiang, como a arma de escolha para proteção de fortificações e postos avançados. O Laohu Chu Ko Nu é uma arma mais especializada, dedicada para besteiros profissionais e muito bem armados, como uma resposta para cavalaria pesada e o avanço de monstros inimigos. O Laohu despeja uma quantia notável de projéteis contra os inimigos, permitindo a recarga rápida com os seus carregadores de madeira.\nJá o Yetu Chu Ko Nu é uma arma de uso muito especifico. Ela costuma ser a arma secundária de oficiais de Qiang e Feng, mas também a arma de escolha de agentes destes dois governos. São armas relativamente fáceis de serem desmontadas e ocultas em mochilas, malas e outros lugares. Apesar de possuir pouco alcance e força em seus projéteis, a capacidade de recarga rápida e fácil permite o preparo de muitos projéteis envenenados, sendo a arma favorita de assassinos por todo o oriente."
+    },
+    {
+      "nome": "Besta de Mão de Repetição",
+      "cat": "dist",
+      "grupo": "Exótica",
+      "dano": "1d6 Perfurante",
+      "custo": "400po",
+      "peso": "2kg",
+      "props": [
+        "Leve",
+        "Recarga 12",
+        "Munição Virote (distância 6/24m)"
+      ],
+      "origem": [
+        "Anã",
+        "Deir",
+        "Qiangi(V)",
+        "Chajin(V)"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [
+        "Yetu Chu-Ko-Nu (Qiangi, Chajin)"
+      ],
+      "desc": "O Chu Ko Nu é a besta de repetição original em Ethraid, todas as outras foram inspiradas nesta arma de Qiang, até mesmo os geniais Anões e os antigos Drows copiaram este armamento, apesar de que jamais irão admitir isto. O Chu Ko Nu é uma besta capaz de realizar disparos seguidos sem a necessidade de recarregar, permitindo que soldados pouco treinados no manuseio de bestas seja capaz de despejar muitos projéteis antes de ter que recarregar a arma. \nO Chu Ko Nu usa um inteligente sistema aonde uma alavanca é puxada para tanto preparar a corda quanto colocar um virote, de um carregador de madeira, no cano que dispara a munição. O Laohu e Yetu Chu Ko Nu são variações desta arma ancestral, o Laohu sendo a versão mais pesada com um arco de aço e disparando projéteis mais pesados, e o Yetu sendo uma versão portátil capaz de disparar pequenos virotes.\nO Chu Ko Nu padrão é comumente fabricado em massa para o uso por praticamente toda infantaria de Qiang, como a arma de escolha para proteção de fortificações e postos avançados. O Laohu Chu Ko Nu é uma arma mais especializada, dedicada para besteiros profissionais e muito bem armados, como uma resposta para cavalaria pesada e o avanço de monstros inimigos. O Laohu despeja uma quantia notável de projéteis contra os inimigos, permitindo a recarga rápida com os seus carregadores de madeira.\nJá o Yetu Chu Ko Nu é uma arma de uso muito especifico. Ela costuma ser a arma secundária de oficiais de Qiang e Feng, mas também a arma de escolha de agentes destes dois governos. São armas relativamente fáceis de serem desmontadas e ocultas em mochilas, malas e outros lugares. Apesar de possuir pouco alcance e força em seus projéteis, a capacidade de recarga rápida e fácil permite o preparo de muitos projéteis envenenados, sendo a arma favorita de assassinos por todo o oriente."
+    },
+    {
+      "nome": "Besta Automática",
+      "cat": "dist",
+      "grupo": "Exótica",
+      "dano": "2d8 Perfurante",
+      "custo": "2.500po",
+      "peso": "8kg",
+      "props": [
+        "Pesada",
+        "Duas Mãos",
+        "Recarga 8",
+        "Munição Virote (distância 15/60m)",
+        "Salva",
+        "Erro de Ignição 2"
+      ],
+      "origem": [
+        "Anã",
+        "Deir",
+        "Onoiriano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Considerada uma arma tão complexa e elaborada quanto as armas de fogo mais avançadas, a Besta Automática é um armamento de origem disputada. Os drows do Matriarcado de Deireadh relatam que a arma foi inventada como uma resposta direta ao progresso em armas de longa distância dos anões e duergares, sendo um progresso natural das Bestas de Repetição que eles já usam a milênios. Os anões, por outro lado, compartilham uma teoria similar sobre o progresso das Bestas de Repetição que eles também dizem ter inventado, mas expandem elaborando que esta invenção foi feita em nome de antigos acordos com o Sacro Reino de Ornoir. O Sacro Reino obviamente confirma o argumento dos anões, não que seja mais confiável por isso, por esta nação ter um uso especial para estas armas. Enquanto em Deireadh elas são usadas por esquadrões de tiro especializados, em Girladuhr são uma arma designada para atiradores anões de postos-avançados com pouco acesso a pólvora negra. No Sacro Reino, a Inquisição possui suas próprias manufaturas destas armas, que são utilizadas em grande quantidade contra os seus inimigos, sendo uma arma especialmente adaptável para a caça de diversos tipos de criaturas malignas.\nA besta automática é uma arma grande e um tanto pesada, alguns dizem que é dificil de manusear ela sem o treinamento correto. Ela consiste de dois arcos, geralmente de aço flexível, um acima do outro. O centro da arma é um carregador que pode ser alimentado por uma pequena abertura atrás da arma, logo acima de sua coronha. O mecanismo de recarregamento é movido por um sistema de molas e alavancas, conectados a um gatilho secundário junto do gatilho de disparar. Cada vez que um dos arcos da besta é disparado, o gatilho secundário já apertado entra em funcionamento e começa o processo de puxar a corda através do mecanismo de recarregamento e empurrar um virote para cima ou para baixo. A arma possui tecnicamente uma velocidade de disparo muito baixa, e por isso possui dois arcos, permitindo que a velocidade aumente drásticamente. O nome da arma no entanto é um exagero intencional, uma forma de propaganda para causar medo nos inimigos, já que a arma não é verdadeiramente automática, mas sim capaz de disparar uma salva de disparos."
+    },
+    {
+      "nome": "Arco Recurvo",
+      "cat": "dist",
+      "grupo": "Exótica",
+      "dano": "1d8 Perfurante",
+      "custo": "80po",
+      "peso": "2kg",
+      "props": [
+        "Duas Mãos",
+        "Munição Flecha (distância 36/96m)",
+        "Ágil"
+      ],
+      "origem": [
+        "Talakhani",
+        "Ir'Hatano",
+        "Anadyriano",
+        "Zhenyano",
+        "Alariano",
+        "Saknuano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Arco de Guerra",
+      "cat": "dist",
+      "grupo": "Exótica",
+      "dano": "1d8 Perfurante",
+      "custo": "100po",
+      "peso": "3kg",
+      "props": [
+        "Pesada",
+        "Duas Mãos",
+        "Munição Flecha (distância 45/180m)",
+        "Especial"
+      ],
+      "origem": [
+        "Hoheniano",
+        "Jökulsano",
+        "Hlengiwe"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Arco de Guerra Élfico",
+      "cat": "dist",
+      "grupo": "Exótica",
+      "dano": "1d10 Perfurante",
+      "custo": "2.500po",
+      "peso": "1,5kg",
+      "props": [
+        "Pesada",
+        "Duas Mãos",
+        "Munição Flecha (distância 48/192m)",
+        "Especial"
+      ],
+      "origem": [
+        "Silvano",
+        "Arboriano"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "O druídismo élfico é famoso em praticamente todos os cantos de Ethraid, como um exemplo perfeito da união da natureza com os esforços do progresso de sociedades mortais. Antigas lendas dizem que Saoirse ensinou para o Povo apenas aspectos da paz e convívio, e quando a Guerra alcançou eles, tiveram que adaptar estes ensinamentos. É parte da doutrina de guerra de todos os elfos (até os drows) de que metade de uma vitória em campo deve ser garantida antes mesmo da batalha realmente começar. Eles favorecem emboscadas, guerrilha e, principalmente maestria de armas de projéteis. As sociedades élficas no entanto permaneceram no inicio da Era do Renascimento, nunca desenvolvendo armas de fogo ou aceitando o seu uso, acreditando que o uso da pólvora negra agride o ecosistema aonde vivem. Ao invés disso, eles simplesmente se dedicaram ainda mais ao uso de arcos e flechas.\nO Arco de Guerra Élfico é uma arma considerada mágica pela maior parte dos povos de Ethraid, e apesar de usar magia em sua criação, não é um armamento realmente mágico. Ele é construído a partir de um método de confecção de armas élfica chamada de Co-sheirm Nàdarra, ou Harmonia Natural em Élfico. Este método envolve o uso de magia druídica, conectando a vontade de druídas e artesãos com os desejos da natureza. A madeira é praticamente moldada por espíritos naturais, permitindo a criação de arcos impossivelmente precisos e resilientes, que geram uma força e impacto com os seus disparos muito além de qualquer outro arco construído por mortais. Apesar dos métodos, os arcos não possuem inatamente nenhuma propriedade mágica, favorecendo o uso contra sociedades que neutralizam o uso de magia."
+    },
+    {
+      "nome": "Atlatl",
+      "cat": "dist",
+      "grupo": "Exótica",
+      "dano": "1d8 Perfurante",
+      "custo": "20po",
+      "peso": "0,5kg",
+      "props": [
+        "Munição Azagaia (distância 15/48m)",
+        "Brutal"
+      ],
+      "origem": [
+        "Drau'muri",
+        "Uqunqil"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Boleadeira",
+      "cat": "dist",
+      "grupo": "Exótica",
+      "dano": "1 Concussivo",
+      "custo": "10po",
+      "peso": "0,5kg",
+      "props": [
+        "Arremesso (distância 9/36m)",
+        "Especial"
+      ],
+      "origem": [
+        "Uqunqil"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Arpoeira Anã",
+      "cat": "dist",
+      "grupo": "Exótica",
+      "dano": "2d10 Perfurante",
+      "custo": "5.500po",
+      "peso": "12kg",
+      "props": [
+        "Munição Azagaia (distância 18/72m)",
+        "Duas Mãos",
+        "Recarga",
+        "Muito Pesada",
+        "Especial"
+      ],
+      "origem": [
+        "Anã"
+      ],
+      "sub": "",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Em regiões do Império de Girladuhr aonde não havia a riqueza mineral para a produção em larga escala de armas de fogo, bestas e balistas são construídas para substituir o uso destes armamentos. Isto é uma realidade até para os Cavaleiros-Encouraçados, e as Arpoeiras Anãs são a arma de escolha destes nestas terras distantes.\nArpoeiras são balistas portáteis que utiliza um relativamente avançado sistema de polias e rondanas para armazenar a força e pressão de seus cabos de aço, então disparar arpões e azagaias em uma considerável velocidade e em relativamente longas distâncias. Estas armas não possuem a precisão em longas distâncias de armas de fogo, mas oferece poder de fogo para infantarias pesadas e, principalmente, versatilidade. Os arpões geralmente podem ser fabricados com dezenas de efeitos diferentes e até possuirem propriedades mágicas que munições comuns geralmente não teriam."
+    },
+    {
+      "nome": "Pistola de Pederneira",
+      "cat": "fogo",
+      "grupo": "Secundária",
+      "dano": "1d8 Perfurante",
+      "custo": "100po",
+      "peso": "1kg",
+      "props": [
+        "Munição Cartucho 13mm (distância 18/72m)",
+        "Recarga",
+        "Leve",
+        "Erro de Ignição 3",
+        "Arcaica",
+        "Pólvora Negra"
+      ],
+      "origem": [
+        "Ariasiano",
+        "Alariano",
+        "Anadyriano",
+        "Anã",
+        "Uqunqil"
+      ],
+      "sub": "Pistolas Leves",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Pé de Pato",
+      "cat": "fogo",
+      "grupo": "Secundária",
+      "dano": "2d6 Perfurante",
+      "custo": "300po",
+      "peso": "2kg",
+      "props": [
+        "Munição Chumbo Grosso (distância 4",
+        "5/12m)",
+        "Recarga",
+        "Dispersão (1d6)",
+        "Erro de Ignição 2",
+        "Arcaica",
+        "Pólvora Negra"
+      ],
+      "origem": [
+        "Ariasiano",
+        "Alariano",
+        "Anadyriano",
+        "Anã",
+        "Uqunqil"
+      ],
+      "sub": "Pistolas Médias",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Pimenteira",
+      "cat": "fogo",
+      "grupo": "Secundária",
+      "dano": "1d8 Perfurante",
+      "custo": "400po",
+      "peso": "2kg",
+      "props": [
+        "Munição Cartucho 13mm (distância 18/72m)",
+        "Recarga 4",
+        "Erro de Ignição 2",
+        "Arcaica",
+        "Pólvora Negra"
+      ],
+      "origem": [
+        "Ariasiano",
+        "Anã"
+      ],
+      "sub": "Pistolas Médias",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Trovejante",
+      "cat": "fogo",
+      "grupo": "Secundária",
+      "dano": "1d10 Perfurante",
+      "custo": "1.500po",
+      "peso": "3kg",
+      "props": [
+        "Munição Cartucho 16mm (distância 12/48m)",
+        "Recarga Lenta 6",
+        "Erro de Ignição 3",
+        "Arcaica",
+        "Pólvora Negra",
+        "Muito Pesada"
+      ],
+      "origem": [
+        "Anã"
+      ],
+      "sub": "Pistolas Pesadas",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "O auge do desenvolvimento de armas de fogo em Girladuhr se trata do final do primeiro milênio da Era do Renascimetno com a criação da Pimenteira, quando a tecnologia do processo de criação de Pólvora Negra se tornou avançado o suficiente para o desenvolvimento de armas de fogo elaboradas, capazes de maior poder de fogo. Os anões já possuem a capacidade do uso e aplicação de diferentes tipos de cartuchos de carregamento individual, mas graças ao processo extremamente lento das Guildas Anãnicas de aceitar mudança, eles acabam favorecendo o aperfeiçoamento de antigas tecnologias ao invés de aplicar novas. Um exemplo claro disto é o desenvolvimento e aplicação da pistola Trovejante, se tratando de um tipo de aprimoramento para a Pimenteira.\nA pistola Pimenteira possui diversos canos que são disparados individualmente conforme o mecanismo central que sustenta os canos é girado, permitindo a realização de uma série de disparos de relativo alto calibre sem a necessidade de recarregamento. No entanto, conforme Girladuhr começou a sonhar novamente na reconquista de suas antigas cidades perdidas na Guerra Divina, maior poder de fogo era necessário para todas as áreas do seu militar. Armas de fogo longas são geralmente dedicadas a divisões especializadas, mas infantaria de combate frontal e marinheiros precisam de armas portáteis, é ai que a Trovejante entrava. Ela era para ser uma arma para esquadrões especializados lutarem em locais apertados, oferecendo grande poder de fogo. Cada Trovejante é uma Pimenteira com maior capacidade de disparos, por ao invés de usar um mecanismo aonde vários canos revolvem em um mecanismo central, ele possui um tambor de munições separado do cano. Isso aumenta quantos disparos são possíveis serem disparados antes de recarregar, além de facilitar modularidade para aplicar tambores maiores. No entanto, é uma arma excessivamente cara de se produzir, tornando-se rara e utilizada apenas por oficiais de esquadrões de assalto ou divisões extremamente especializadas."
+    },
+    {
+      "nome": "Pistola de Palma",
+      "cat": "fogo",
+      "grupo": "Secundária",
+      "dano": "1d8 Perfurante",
+      "custo": "300po",
+      "peso": "1kg",
+      "props": [
+        "Munição Cartucho 16mm (distância 12/48m)",
+        "Recarga",
+        "Leve",
+        "Erro de Ignição 2",
+        "Arcaica",
+        "Pólvora Negra",
+        "Oculta"
+      ],
+      "origem": [
+        "Ariasiano",
+        "Alariano",
+        "Anadyriano",
+        "Anã"
+      ],
+      "sub": "Pistolas Leves",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Canhão de Mão",
+      "cat": "fogo",
+      "grupo": "Secundária",
+      "dano": "2d8 Perfurante",
+      "custo": "3.500po",
+      "peso": "3,5kg",
+      "props": [
+        "Munição Cartucho 20mm (distância 18/72m)",
+        "Recarga 2",
+        "Erro de Ignição 3",
+        "Arcaica",
+        "Pólvora Negra",
+        "Muito Pesada"
+      ],
+      "origem": [
+        "Anã"
+      ],
+      "sub": "Pistolas Pesadas",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "\"Enquanto eu puder carregar um Ferro, vou carregar um Ferro maior.\" É um ditado dos Barbaspretas, anões veteranos de divisões de uso de armas de fogo. O Canhão de Mão era mais uma classificação de arma do que realmente um tipo de arma, no entanto por volta da metade da Era do Renascimento, o nome é dado para armas de mão única que disparam munições de 20mm. A grande maioria destas pistolas imensamente pesadas são apenas armas de porte maior as quais o cano foi encurtado e a coronha retirada, para tornar a arma mais fácil de esconder e então ser usada em emboscadas e ataques contra inimigos pesadamente armadurados. Mas também há uma procura pela manufatura de armas dedicadas á serem Canhões de Mão, geralmente para as mãos de oficiais ou como uma arma reserva para esquadrões de anões dedicados a caça de grandes monstros.\nO Canhão de Mão é uma pistola pesada quase do tamanho de uma carabina, no entanto graças a sua empunhadura encurtada, ela é obrigatoriamente classificada como pistola por uma tecnicalidade de nomenclatura anãnica. A arma geralmente irá possuir dois canos que disparam de forma separada, utilizando a infame munição da arma Más Notícias. A arma é principalmente utilizada por anões que pertencem as divisões de guerreiros em Armadura Energizada, já que nem todo anão tem o braço para sustentar disparos consecutivos desta arma, mesmo que qualquer anão irá dizer que tem."
+    },
+    {
+      "nome": "Anadyra Kremen",
+      "cat": "fogo",
+      "grupo": "Secundária",
+      "dano": "3d4 Energia",
+      "custo": "900po",
+      "peso": "2,5kg",
+      "props": [
+        "Munição Cristal Aeternitas (distância 12/48m)",
+        "Recarga 10",
+        "Tecnomágica",
+        "Instável"
+      ],
+      "origem": [
+        "Anadyriano"
+      ],
+      "sub": "Pistolas Tecnomágicas",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "O Czarado de Anadyr teve uma adoção muito lenta de armas de pólvora negra para os arsenais do Exército Vermelho. A demora na adoção destas armas é devido a dificuldade que Anadyr teve ao acesso as receitas de pólvora negra, eventualmente não conseguindo uma fonte acessível de produção a partir de Girladuhr e nem de Kol Darohn. Eventualmente, eles desenvolveriam a sua própria receita, baseada na Qiangui e adotariam estas armas em larga escala, mas nunca substituíndo completamente o uso de arcos e bestas. No entanto, Anadyr está sempre procurando por armamentos mais eficientes para serem utilizados em campo de batalha, e uma coisa que eles tem acesso a uma imensa quantia, é Aeternitas.\nAnadyr possui acesso à vastas extensões da Umbreterna, principalmente regiões ricas em Aeternitas, graças a infusão de Energia Necrótica causada por conflitos passados, mas também experimentos intencionais. Aeternitas é usada em dezenas de fórmulas diferentes na alquimia Anadyriana, e também é utilizada como combustível para tecnomagia, como em outros lugares de Ethraid. Armas que utilizam Aeternitas para seus disparos foram criadas em diferentes lugares de Ethraid, mas quase todas elas possuem conexão em seu desenvolvimento, com exceção das armas criadas em Anadyr, que são projetos totalmente independentes. A Anadyra Kremen foi uma das duas armas desenvolvidas em Anadyr, uma pistola que utiliza pequenos cristais Aeternitas como munição. A arma possui uma aparência similar a qualquer outra pederneira, no entanto há um repositório do seu lado esquerdo próximo do gatilho, aonde o cristal é depositado. Este repositório possui um composto alquímico líquido que reage á Cristais Aeternitas, o transformando em uma substância gelatinosa. Esta substância flui para a câmara da pistola, então quando o gatilho é apertado, a comporta do cano da pistola se abre e a ignição causa o composto ser disparado da arma. Quando o repositório do cristal é aberto, o líquido imediatamente solidifica contra as paredes do repositório, permitindo ser retirado e a munição trocada, substituída ou destruída. Graças a este processo elaborado alquimico, estas armas são extremamente instáveis, garantindo o potencial de intensificarem seus disparos ao risco de sobreaquecerem e causarem terríveis queimaduras mágicas.\nUma Anadyra Arkebus é apenas a versão mais potente e precisa da Kremen, mas também mais longa."
+    },
+    {
+      "nome": "Pederneira Arcana",
+      "cat": "fogo",
+      "grupo": "Secundária",
+      "dano": "3d4 Energia",
+      "custo": "900po",
+      "peso": "1kg",
+      "props": [
+        "Munição Cristal Aeternitas (distância 12/48m)",
+        "Recarga 10",
+        "Tecnomágica",
+        "Versatilidade Arcana"
+      ],
+      "origem": [
+        "Alariano",
+        "Nuwereldiano"
+      ],
+      "sub": "Pistolas Tecnomágicas",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Enquanto em Anadyr armas tecnomágicas estavam sendo desenvolvidas através de alquimia, no sul de Ethraid estes armamentos estavam sendo criados através de elaborados encantamentos mágicos. Alaria e Nuwereld estavam em uma disputa amigável para o desenvolvimento de armas tecnomágicas, e eventualmente, acabariam trabalhando em conjunto no processo de desenvolvimento. Nuwereld nunca realmente adotou o uso de armas de pólvora negra por questões culturais, mas Alaria tentou diversas vezes, todas elas sendo sabotadas pelo Reino de Arias, o que fez a nação por um longo período de tempo procurar desenvolver outros tipos de armamentos.\nA Pederneira Arcana é uma arma adequadamente mágica, construída com elaborados encantamentos que permitem se aproveitar da energia mágica de Cristais Aeternitas. A arma é capaz de concentrar a energia dos cristais e realizar disparos poderosos, sem nenhum risco para o usuário da arma. Além disso, o encantamento da arma pode ser modificado pelo seu usuário através do manuseio de anéis ou alavancas na arma, permitindo que a energia do cristal seja adaptada para os disparos da arma mudarem de elemento. Assim como o desenvolvimento de outras armas tecnomágicas em Ethraid, o uso dela acabou se tornando mais adequado para divisões especializadas.\nUm Mosquete Arcano é apenas a versão mais potente e precisa da Pederneira, mas também mais longa."
+    },
+    {
+      "nome": "Revólver Hat'Challiano",
+      "cat": "fogo",
+      "grupo": "Secundária",
+      "dano": "1d10 Perfurante",
+      "custo": "2.200po",
+      "peso": "1,5kg",
+      "props": [
+        "Munição Cartucho Elemental (distância 18/72m)",
+        "Recarga 6",
+        "Erro de Ignição 1"
+      ],
+      "origem": [
+        "Hat'Challiano"
+      ],
+      "sub": "Pistolas Tecnomágicas",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Pistola de Chave de Roda",
+      "cat": "fogo",
+      "grupo": "Secundária",
+      "dano": "1d8 Perfurante",
+      "custo": "200po",
+      "peso": "1,5kg",
+      "props": [
+        "Munição Cartucho 13mm (distância 18/72m)",
+        "Recarga",
+        "Leve",
+        "Erro de Ignição 2",
+        "Arcaica",
+        "Pólvora Negra"
+      ],
+      "origem": [
+        "Ariasiano",
+        "Anã"
+      ],
+      "sub": "Pistolas Leves",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Mosquete",
+      "cat": "fogo",
+      "grupo": "Longa",
+      "dano": "1d12 Perfurante",
+      "custo": "400po",
+      "peso": "6kg",
+      "props": [
+        "Munição Cartucho 16mm (distância 36/144m)",
+        "Duas Mãos",
+        "Recarga",
+        "Erro de Ignição 3",
+        "Arcaica",
+        "Pólvora Negra"
+      ],
+      "origem": [
+        "Ariasiano",
+        "Alariano",
+        "Anadyriano",
+        "Anã",
+        "Uqunqil"
+      ],
+      "sub": "Mosquetes",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Arquebus",
+      "cat": "fogo",
+      "grupo": "Longa",
+      "dano": "1d10 Perfurante",
+      "custo": "50po",
+      "peso": "7kg",
+      "props": [
+        "Munição Cartucho 16mm (distância 24/96m)",
+        "Duas Mãos",
+        "Recarga",
+        "Erro de Ignição 4",
+        "Arcaica",
+        "Pólvora Negra"
+      ],
+      "origem": [
+        "Ariasiano",
+        "Alariano",
+        "Anadyriano",
+        "Anã",
+        "Uqunqil",
+        "Qiangi",
+        "Heikei"
+      ],
+      "sub": "Mosquetes",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Bacamarte",
+      "cat": "fogo",
+      "grupo": "Longa",
+      "dano": "2d8 Perfurante",
+      "custo": "500po",
+      "peso": "6,5kg",
+      "props": [
+        "Munição Chumbo Grosso (distância 4",
+        "5/12m)",
+        "Duas Mãos",
+        "Recarga",
+        "Erro de Ignição 3",
+        "Dispersão (1d8)",
+        "Arcaica",
+        "Pólvora Negra"
+      ],
+      "origem": [
+        "Ariasiano",
+        "Alariano",
+        "Anadyriano",
+        "Anã",
+        "Uqunqil"
+      ],
+      "sub": "Armas de Salva",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Mosquete Chave de Roda",
+      "cat": "fogo",
+      "grupo": "Longa",
+      "dano": "1d12 Perfurante",
+      "custo": "600po",
+      "peso": "6kg",
+      "props": [
+        "Munição Cartucho 16mm (distância 36/144m)",
+        "Duas Mãos",
+        "Recarga",
+        "Erro de Ignição 2",
+        "Arcaica",
+        "Pólvora Negra"
+      ],
+      "origem": [
+        "Ariasiano",
+        "Anã"
+      ],
+      "sub": "Mosquetes",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Bramido",
+      "cat": "fogo",
+      "grupo": "Longa",
+      "dano": "2d6 Perfurante",
+      "custo": "1.500po",
+      "peso": "7kg",
+      "props": [
+        "Munição Cartucho 16mm (distância 48/192m)",
+        "Duas Mãos",
+        "Recarga Lenta 4",
+        "Erro de Ignição 2",
+        "Arcaica",
+        "Pólvora Negra"
+      ],
+      "origem": [
+        "Anã"
+      ],
+      "sub": "Mosquetes",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "As Guildas Anãnicas são organizações extremamente bem organizadas, repletas de códigos e leis que estabelecem seus métodos de funcionamento, suas limitações e funções. Elas são famosas e infames por diversos motivos, como por exemplo as suas Licenças de Comércio e as Patentes. Para os Anões, Bramidos são mosquetes construídos no padrão anãnico, com tecnologia anãnica e uma oficina com ferramentas e métodos anãnicos e, geralmente, construído por anões. Para qualquer pessoa que estude um Bramido, eles vão identificar que um Bramido é basicamente um Mosquete (seja de Pederneira ou Chave de Roda) construído de forma excepcional, com artesanato manual cuidadoso e todas suas peças forjadas a mão. Não são armas únicas como os anões dizem que são, mas sim armas construídas de forma majestral.\nNo entanto, logo após o período de desenvolvimento das Trovejantes, os senhores de clãs anões chegaram a conclusão de que a tecnologia poderia ser adaptada para os Bramidos. Isto gerou uma disputa de patentes tão grave que, dentro de Girladuhr, é chamada de Guerra do Bramido. Eventualmente, após quinhentos anos de disputa, os Bramidos foram adaptados para Mosquetes Anões utilizando o mecanismo de tambor de Trovejantes.\nBramidos são praticamente utilizados apenas em Girladuhr e Kol Darohm. Em Girladuhr, estas armas geralmente serão acompanhadas de decorações elaboradas e muitas vezes também terão Iluminações Rúnicas. Estas são armas caras de serem fabricadas, geralmente pertencem a divisões de guerreiros atiradores formados a partir da elite de Clãs, os quais possuem as riquezas para se armarem com estes mosquetes, tendo também moedas para pagar as Iluminações. Em Kol Darohm, não há decorações, mas as armas geralmente serão acompanhadas de símbolos e encantamentos vinculados a linhagem de um determinado Clã menor, que pode variar desde magias sombrias a até selos Infernais. Bramidos oferece o melhor de dois mundos, com constante poder de fogo sem recarregamento, além de notável precisão."
+    },
+    {
+      "nome": "Tempestuosa",
+      "cat": "fogo",
+      "grupo": "Longa",
+      "dano": "1d10 Perfurante",
+      "custo": "3.500po",
+      "peso": "13kg",
+      "props": [
+        "Munição Cartucho 16mm (distância 18/72m)",
+        "Duas Mãos",
+        "Recarga Lenta 7",
+        "Salva",
+        "Erro de Ignição 3",
+        "Arcaica",
+        "Pólvora Negra"
+      ],
+      "origem": [
+        "Anã"
+      ],
+      "sub": "Armas de Salva",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Desde o desenvolvimento das Pimenteiras e Trovejantes, os Anões desejavam expandir a utilidade da tecnologia, algo comum na sua doutrina tecnológica e sociedade, que dá preferência para o aprimoramento ao invés da criação de algo novo. Tempestuosa foram uma das duas novas aplicações da tecnologia das Pimenteiras e Trovejantes, elas são basicamente versões mais longas e pesadas de uma Pimenteira e com a capacidade de disparar mais de um dos seus canos ao mesmo tempo, podendo escolher quantos canos serão disparados. Cada cano possuirá sua própria munição e sua própria carga de pólvora para ignição, por este motivo a arma possui um infame longo período de recarregamento, mas oferece sete disparos continuos ou em uma salva poderosa e altamente imprecisa.  A arma também permite realizar disparos singulares, disparando cada cano individualmente. Esta é uma arma extremamente pesada, por possuir uma grande quantia de canos, além de ter um coice monumental quando disparando todos os seus canos ao mesmo tempo. Por este motivo é ensinado a atiradores disparar uma quantia de canos que se sinta confiante em sustentar o coice.\nTempestuosas são armas caras de serem fabricadas, necessitando um cuidado intenso para a arma não ser sucessível a um problema comum em seus protótipos ou versões fabricadas por aqueles que não possuem uma Licença: Explosão. Estas armas são geralmente equipadas por divisões de Clãs que possuem infindáveis riquezas, estas divisões comumente são utilizadas para a proteção de fortificações importantes ou para defender flancos vulneráveis em batalhas nos túneis. Muitos moradores da Umbreterna se viram no lado errado de uma divisão de Tempestuosas e não conseguiram nem reagir quando as salvas infindáveis de projéteis devastaram batalhões inteiros."
+    },
+    {
+      "nome": "Repetidora Anã",
+      "cat": "fogo",
+      "grupo": "Longa",
+      "dano": "2d10",
+      "custo": "3.500po",
+      "peso": "8kg",
+      "props": [
+        "Munição Cartucho 16mm (distância 18/72m)",
+        "Duas Mãos",
+        "Recarga Lenta 4",
+        "Rajada",
+        "Erro de Ignição 3",
+        "Arcaica",
+        "Pólvora Negra",
+        "Muito Pesada"
+      ],
+      "origem": [
+        "Anã"
+      ],
+      "sub": "Mosquetes Pesados",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Também chamada de Relampejante ou Arma de Gaita, é a segunda arma desenvolvida a partir da tecnologia de Pimenteiras e Trovejantes. As Repetidoras Anãs foram uma das armas que encontraram aplicação fora do âmbito anão, apesar de ainda ser de Licença Girladuhriana (e de Kol Darohm, mas nenhum Girladuhriano afirmaria isso), e por isso possui o seu nome em Comum mais utilizado que a tradução oficial dos Girladuhrianos. A Repetidora Anã é a alternativa tecnicamente mais precisa da Tempestuosa. Apesar de ainda ter a mesma distância efetiva de disparos, o seu mecanismo de disparos multiplos é mais semelhante ao do Trovejante que a Tempestuosa. Este mecanismo é um carregador retangular aonde as cargas de munições são carregadas, então cada vez que a arma é disparada, um pequeno mecanismo empurra o carregador para a direita e a próxima munição é alinhada, permitindo dois disparos consecutivos ao invés de um, no tempo que alguém daria um disparo. Este carregador é curiosamente similar a uma gaita de boca, por isso o apelido de Arma de Gaita por alguns. O objetivo da arma é oferecer maior poder de fogo, dois disparos por um, mas sem a necessidade da imprecisão de uma salva de disparos. Irônicamente, a Repetidora Anã é a versão mais conhecida da arma, até mais que uma Tempestuosa ou até o Bramido, e muitos estrangeiros acreditam que a Trovejante e a Tempestuosa são armas mais recentes, apesar de não ser o caso.\nEnquanto uma Tempestuosa é utilizada para a defesa de posições estratégicas e flancos, uma Repetidora Anã é utilizada para eliminar alvos prioritários, quando estes passaram do alcance de Bramidos. Sua concentração de continuo disparo permite maior eficiência eliminando alvos grandes, mas também batalhões de elite. Relampejantes costumam ser a última coisa que muitas guerreiras da elite drow vêem no campo de batalha."
+    },
+    {
+      "nome": "Más Notícias",
+      "cat": "fogo",
+      "grupo": "Longa",
+      "dano": "2d12 Perfurante",
+      "custo": "4.500po",
+      "peso": "13kg",
+      "props": [
+        "Munição Cartucho 20mm (distância 54/216m)",
+        "Duas Mãos",
+        "Recarga",
+        "Erro de Ignição 5",
+        "Arcaica",
+        "Pólvora Negra",
+        "Muito Pesada"
+      ],
+      "origem": [
+        "Anã"
+      ],
+      "sub": "Mosquetes Pesados",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Preferindo não depender de conjuradores poderosos, eliminar imensos monstros sempre foi um problema para as forças anãnicas, mas não apenas eles, eliminar conjuradores também era uma grande dor de cabeça. O Calibre 20mm foi inventado com este objetivo, uma esfera pesada de chumbo com uma poderosa carga de pólvora, suficiente para abrir um buraco na cabeça de um dragão, mas também causaria pressão o suficiente em uma arma para explodir qualquer dispositivo utilizado na época de sua invenção. Para sustentar a imensa pressão da carga de pólvora, os anões inventaram a Más Notícias, com um cano reforço e uma estrutura robusta, utilizando madeiras duras e arcos de aço para reforçar a estrutura da arma. Más Notícias geralmente são construídas para atiradores de elite, acompanhadas de bipés e elaboradas lunetas e apetrechos de mira.\nO uso destas armas geralmente é alocada para esquadrões de atiradores de elite dentre os Clãs anãnicos. Estes esquadrões são sempre compostos por um atirador e um auxiliar que carregará munições, suprimentos e armas reservas, geralmente também protegendo o atirador em si. O objetivo dos esquadrões é eliminar alvos de prioridade, principalmente monstros poderosos e conjuradores, antes mesmo que eles sejam capazes de reagir ou conjurar feitiços protetivos."
+    },
+    {
+      "nome": "Anadyra Arkebus",
+      "cat": "fogo",
+      "grupo": "Longa",
+      "dano": "4d4 Energia",
+      "custo": "1.500po",
+      "peso": "8kg",
+      "props": [
+        "Munição Cristal Aeternitas (distância 36/144m)",
+        "Duas Mãos",
+        "Recarga 10",
+        "Tecnomágica",
+        "Instável"
+      ],
+      "origem": [
+        "Anadyriano"
+      ],
+      "sub": "Armas Tecnomágicas",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "O Czarado de Anadyr teve uma adoção muito lenta de armas de pólvora negra para os arsenais do Exército Vermelho. A demora na adoção destas armas é devido a dificuldade que Anadyr teve ao acesso as receitas de pólvora negra, eventualmente não conseguindo uma fonte acessível de produção a partir de Girladuhr e nem de Kol Darohn. Eventualmente, eles desenvolveriam a sua própria receita, baseada na Qiangui e adotariam estas armas em larga escala, mas nunca substituíndo completamente o uso de arcos e bestas. No entanto, Anadyr está sempre procurando por armamentos mais eficientes para serem utilizados em campo de batalha, e uma coisa que eles tem acesso a uma imensa quantia, é Aeternitas.\nAnadyr possui acesso à vastas extensões da Umbreterna, principalmente regiões ricas em Aeternitas, graças a infusão de Energia Necrótica causada por conflitos passados, mas também experimentos intencionais. Aeternitas é usada em dezenas de fórmulas diferentes na alquimia Anadyriana, e também é utilizada como combustível para tecnomagia, como em outros lugares de Ethraid. Armas que utilizam Aeternitas para seus disparos foram criadas em diferentes lugares de Ethraid, mas quase todas elas possuem conexão em seu desenvolvimento, com exceção das armas criadas em Anadyr, que são projetos totalmente independentes. A Anadyra Kremen foi uma das duas armas desenvolvidas em Anadyr, uma pistola que utiliza pequenos cristais Aeternitas como munição. A arma possui uma aparência similar a qualquer outra pederneira, no entanto há um repositório do seu lado esquerdo próximo do gatilho, aonde o cristal é depositado. Este repositório possui um composto alquímico líquido que reage á Cristais Aeternitas, o transformando em uma substância gelatinosa. Esta substância flui para a câmara da pistola, então quando o gatilho é apertado, a comporta do cano da pistola se abre e a ignição causa o composto ser disparado da arma. Quando o repositório do cristal é aberto, o líquido imediatamente solidifica contra as paredes do repositório, permitindo ser retirado e a munição trocada, substituída ou destruída. Graças a este processo elaborado alquimico, estas armas são extremamente instáveis, garantindo o potencial de intensificarem seus disparos ao risco de sobreaquecerem e causarem terríveis queimaduras mágicas.\nUma Anadyra Arkebus é apenas a versão mais potente e precisa da Kremen, mas também mais longa."
+    },
+    {
+      "nome": "Mosquete Arcano",
+      "cat": "fogo",
+      "grupo": "Longa",
+      "dano": "4d4 Energia",
+      "custo": "1.500po",
+      "peso": "6kg",
+      "props": [
+        "Munição Cristal Aeternitas (distância 36/144m)",
+        "Duas Mãos",
+        "Recarga 10",
+        "Tecnomágica",
+        "Versatialidade Arcana"
+      ],
+      "origem": [
+        "Alariano",
+        "Nuwereldiano"
+      ],
+      "sub": "Armas Tecnomágicas",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Enquanto em Anadyr armas tecnomágicas estavam sendo desenvolvidas através de alquimia, no sul de Ethraid estes armamentos estavam sendo criados através de elaborados encantamentos mágicos. Alaria e Nuwereld estavam em uma disputa amigável para o desenvolvimento de armas tecnomágicas, e eventualmente, acabariam trabalhando em conjunto no processo de desenvolvimento. Nuwereld nunca realmente adotou o uso de armas de pólvora negra por questões culturais, mas Alaria tentou diversas vezes, todas elas sendo sabotadas pelo Reino de Arias, o que fez a nação por um longo período de tempo procurar desenvolver outros tipos de armamentos.\nA Pederneira Arcana é uma arma adequadamente mágica, construída com elaborados encantamentos que permitem se aproveitar da energia mágica de Cristais Aeternitas. A arma é capaz de concentrar a energia dos cristais e realizar disparos poderosos, sem nenhum risco para o usuário da arma. Além disso, o encantamento da arma pode ser modificado pelo seu usuário através do manuseio de anéis ou alavancas na arma, permitindo que a energia do cristal seja adaptada para os disparos da arma mudarem de elemento. Assim como o desenvolvimento de outras armas tecnomágicas em Ethraid, o uso dela acabou se tornando mais adequado para divisões especializadas.\nUm Mosquete Arcano é apenas a versão mais potente e precisa da Pederneira, mas também mais longa."
+    },
+    {
+      "nome": "Jezail",
+      "cat": "fogo",
+      "grupo": "Longa",
+      "dano": "1d10 Perfurante",
+      "custo": "600po",
+      "peso": "5kg",
+      "props": [
+        "Munição Cartucho 16mm (distância 48/192m)",
+        "Duas Mãos",
+        "Recarga 1",
+        "Arcaica",
+        "Pólvora Negra",
+        "Erro de Ignição 2"
+      ],
+      "origem": [
+        "Alariano"
+      ],
+      "sub": "Mosquetes",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": ""
+    },
+    {
+      "nome": "Bombarda de Mão",
+      "cat": "fogo",
+      "grupo": "Longa",
+      "dano": "",
+      "custo": "800po",
+      "peso": "5kg",
+      "props": [
+        "Munição Chumbo Grosso (distância 4,5/12m)",
+        "Duas Mãos",
+        "Recarga 2",
+        "Erro de Ignição 3",
+        "Dispersão (1d8)",
+        "Arcaica",
+        "Pólvora Negra"
+      ],
+      "origem": [
+        "Qiangi",
+        "Chajin"
+      ],
+      "sub": "Armas de Salva",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "A Bombarda de Mão é a arma de fogo original, que já foi utilizada por praticamente todas as civilizações que desenvolveram armas de fogo por conta própria. Ela é, efetivamente, um pequeno canhão em uma vara, uma arma extremamente arcaica e ineficiente.\nApesar de Pólvora Negra ser utilizada a milhares de anos em Qiang e eventualmente em Feng, eles nunca realmente adotaram os armamentos mais avançados desenvolvidos no ocidente, ou pelos Anões, graças a disputas comerciais e a intolerância dos anões a chegar a acordos mutuamente benéficos. Para não entrarem em disputas de Patente e Licença Comercial, os Qiangi decidiram aperfeiçoar seus antigos e ultrapassados modelos de Bombardas de Mão. Receitas melhoradas de pólvoras, canos mais bem construídos e a capacidade de modularidade, aumentando a quantia de canos, acabou tornando esta arma extremamente antiquada em uma ferramenta útil em campo de batalha, efetivamente, um bacamarte fabricado em larga escala e relativamente mais eficiente que a sua contraparte ocidental."
+    },
+    {
+      "nome": "Lança Granadas",
+      "cat": "fogo",
+      "grupo": "Pesada",
+      "dano": "6d6 Perfurante",
+      "custo": "5.500po",
+      "peso": "10kg",
+      "props": [
+        "Munição Granada Leve (distância 12/36m)",
+        "Duas Mãos",
+        "Recarga Lenta",
+        "Erro de Ignição 5",
+        "Arcaica",
+        "Pólvora Negra",
+        "Explosiva",
+        "Muito Pesada"
+      ],
+      "origem": [
+        "Ariasiano",
+        "Anã"
+      ],
+      "sub": "Explosivos",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Conjuradores sempre foram temidos pelo seu poder de fogo, literalmente no caso, com a capacidade de criar labaredas nas pontas dos deuses, arremessaram esferas explosivas de chamas e fazer chover tempestades flamejantes. Os anões, por sua vez, inventaram um dispositivo relativamente simples, já que se trata praticamente de um mosquete, mas ao invés de disparar chumbo, dispara granadas esféricas de fragmentação. Esta arma é chamada de Devastadora pelos anões, mas Lança Grandas para qualquer outro que não tenha a aptidão a dramatização dos povos anãnicos.\nApesar de ser um mecanismo de aparência simples, se tratando de um receptor de um mosquete de pederneira, o cano da arma é feito em uma qualidade diferente de aço ou bronze que é criado para sustentar a pressão necessária para disparar estes projéteis, além de tentar manter eles em relativa precisão. A arma também não pode ser recarregada pelo mesmo método de mosquetes, necessitando um reservatório para sua carga da pólvora necessária para disparar as granadas, complicando ainda mais o mecanismo de aparência simples. São armas imensamente caras, mas que são alocadas a esquadrões de Devastadores entre os Clãs anãnicos, designados especificamente para causar destruição entre as linhas inimigas enquanto avançam, seja em batalhas campais, ou na defesa de fortificações."
+    },
+    {
+      "nome": "Estripadora",
+      "cat": "fogo",
+      "grupo": "Pesada",
+      "dano": "2d10 Perfurante",
+      "custo": "6.000po",
+      "peso": "15kg",
+      "props": [
+        "Munição 20mm (18/72m)",
+        "Duas Mãos",
+        "Recarga Lenta 10",
+        "Erro de Ignição 3",
+        "Arcaica",
+        "Pólvora Negra",
+        "Muito Pesada"
+      ],
+      "origem": [
+        "Anã"
+      ],
+      "sub": "Mosquetes Pesados",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Mecanismos de Tambor não foram utilizados apenas em armas portáteis pelos anões, mas também em diferentes tipos e tamanhos de peças de artilharia. As Canhoneiras Leves de Repetição, ou Estripadoras, foi uma peça de artilharia leve inventada para ser utilizada na defesa de fortificações e embarcações contra infantaria, capaz de disparar munições de 20mm em uma considerável velocidade e sucessão de disparos.\nEm suas versões originais, elas são montadas em um mecanismo de tripé que permite a arma ser disparada em quase qualquer direção, permitindo realizar disparos contra criaturas vindo por posições abaixo do usuário ou acima. No entanto, eventualmente a arma seria adaptada para ser utilizada por divisões de Cavaleiros-Encouraçados em suas Armaduras Energizadas. Sem os tripés, estas armas são consideravelmente pesadas e dificeis de serem utilizadas, mas com o treinamento adequado, é possível manter poderosos disparos em sucessão contra os inimigos."
+    },
+    {
+      "nome": "Lança Fogodraco",
+      "cat": "fogo",
+      "grupo": "Pesada",
+      "dano": "5d6 Fogo",
+      "custo": "6.000po",
+      "peso": "45kg",
+      "props": [
+        "Munição Fogodraco (distância 6m)",
+        "Duas Mãos",
+        "Recarga Lenta 20",
+        "Erro de Ignição 5",
+        "Arcaica",
+        "Incendiária",
+        "Labareda",
+        "Muito Pesada",
+        "Plataforma"
+      ],
+      "origem": [
+        "Anã"
+      ],
+      "sub": "Incendiários",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Também chamadas Bafo de Dragão, estes elaborados armamentos anãnicos foram inventados ainda na Era Mítica, apesar de que na época os armamentos eram muito mais sucessíveis a erros de ignição e explosões acidentais. A arma originalmente utilizava Fogo Alquímico como sua munição, um composto pegajoso ainda muito utilizado atualmente como explosivo flamejante, no entanto ele é extremamente ineficiente para ser disparado neste tipo de arma, não tendo um bom alcance e não queimando nas temperaturas adequadas, além de ser terrível de armazenar adequadamente. Eventualmente na Era do Renascimento, por volta de 2.000 e.R, eles inventariam o Fogodraco. Fogodraco é uma espécie de Fogo Alquímico de receita secrata dos anões, capaz de queimar em temperaturas extremamente altas, mais líquido mas ainda pegajoso, sendo mais fácil de ser disparado em longos jatos incendiários.\nO Lança Fogodraco é dividido em duas partes, a arma e o reservatório. O reservatório se trata, praticamente, um barril de estrutura externa em madeira endurecida e reforçado com argolas de aço, o interior do barril é isolado em aço e selado com piche e borracha. O barril possuirá um conector aonde uma mangueira de borracha com aros de metal pode ser encaixada, permitindo que o barril seja trocado quando for esvaziado e conectado a arma. A arma é composta por um reservatório pressurizado no seu centro, aonde a mangueira que conecta com o reservatório é colocada. Atrás do reservatório, em direção ao usuário, haverá um fole que servirá para espirrar o fogo em direção do inimigo, através de um longo cano que auxiliará em focar os disparos, efetivamente mantendo-o pressurizado. Neste cano é aonde haverá a labareda que incendeia a arma, separado do restante do reservatório. A arma possuirá uma série de alças de metal em suas laterais para auxiliar no manuseio, seja enquanto dispara ou recarrega. Ela também possuirá uma alavanca do seu lado direito que serve para abrir e fechar o fluxo de Fogodraco na arma.\nClãs anãnicos imensamente ricos poderão ter esquadrões de Guerreiros do Fogo de Dragão, homens e mulheres pesadamente armados e geralmente vestindo Armaduras Energizadas, os quais empunham estas armas ou a sua outra versão. Enquanto empunhando estas armas, o seu objetivo é conter o avanço dos inimigos, principalmente nos túneis apertados da Umbreterna, mas também são abertamente aplicados em combate naval, aonde eles incendeiam os navios inimigos."
+    },
+    {
+      "nome": "Canhão de Fogodraco",
+      "cat": "fogo",
+      "grupo": "Pesada",
+      "dano": "5d8 Fogo",
+      "custo": "6.000po",
+      "peso": "45kg",
+      "props": [
+        "Munição Fogodraco (distância 9/27m)",
+        "Duas Mãos",
+        "Recarga Lenta 20",
+        "Erro de Ignição 5",
+        "Arcaica",
+        "Incendiária",
+        "Muito Pesada",
+        "Plataforma"
+      ],
+      "origem": [
+        "Anã"
+      ],
+      "sub": "Incendiários",
+      "nova": false,
+      "alt": [],
+      "variantes": [],
+      "desc": "Extremamente diferente em aparência de sua antecessora, o Lança Fogodraco, o Rabo de Dragão é uma arma desenvolvida recentemente para padrões anãnicos, ou seja, aproximadamente em 6.000 e.R. Esta arma praticamente não é encontrada fora das mãos de alguns Clãs especificos, pois para padrões anãnicos de Girladuhr a arma ainda é um protótipo. Esta arma utiliza o mesmo sistema de reservatório e alimentação da Lança Fogodraco, mas a arma em si é metade do tamanho, apesar de ter o mesmo peso massivo. A arma é terrivelmente pesada por ser uma construção completa em aço, chumbo e bronze, para sustentar as pressões e os calores do armamento.\nA arma utiliza sistemas de pressurização mais modernos, permitindo jatos concentrados de chamas em alcances um pouco maiores, causando maiores danos a individuos singulares e com maior precisão, mas ainda em alcances relativamente curtos. A arma é utilizada por esquadrões de suporte em campo de batalha, tomando posições similares ao uso da arma irmã, mas utilizada em circunstâncias que precisão é mais importante que simplesmente queimar tudo a frente."
+    }
+  ],
+  "propriedades": [
+    {
+      "nome": "Acuidade",
+      "desc": "Quando realizando um ataque com uma arma que possua Acuidade, você pode utilizar o modificador de Destreza ao invés de Força para a rolagem de ataque e dano. Você deve utilizar o mesmo modificador para ambas as rolagens."
+    },
+    {
+      "nome": "Ágil",
+      "desc": "Armas ágeis são construídas para se recuperar rapidamente após erros. Quando você errar um ataque com uma arma ágil, seu proximo ataque com a arma na mesma criatura tem Vantagem."
+    },
+    {
+      "nome": "Alcance",
+      "desc": "Uma arma com a propriedade Alcance adiciona 1,5 metros para o alcance dos seus ataques, assim como para estabelecer o alcance de seus Ataques de Oportunidade."
+    },
+    {
+      "nome": "Anti-Desarme",
+      "desc": "Esta arma foi feita de forma que permanece presa no braço do usuário. Esta arma não pode ser desarmada."
+    },
+    {
+      "nome": "Arcaica",
+      "desc": "Recebem +1 no Erro de Ignição cada vez que disparam mais de uma vez por turno. Um usuário não proficiente aumenta o nível de Erro de Ignição em 2 por ataque ao invés de 1. Este valor já será considerado no valor base do Erro de Ignição."
+    },
+    {
+      "nome": "Arma Dupla",
+      "desc": "Esta arma de duas mãos possui uma segunda lâmina, estaca ou protuberância que pode ser utilizada para atacar. Esta arma deve ser lidada como duas armas independentes para a regra de Combate com Duas Armas. Se a Arma Dupla tiver a propriedade Alcance, você apenas pode utilizar ou a propriedade de Arma Dupla ou Alcance a cada rodada. O dado ao lado da Arma Dupla definirá o dano causado pelos ataques de sua segunda parte."
+    },
+    {
+      "nome": "Arremesso",
+      "desc": "Se uma arma possuir a propriedade Arremesso, você pode arremessar esta arma com um ataque de combate à distância, podendo sacar esta arma como parte da jogada de ataque. Se a arma for uma arma corpo-a-corpo, utilize o mesmo modificador de ataque e dano que usaria em suas rolagens de ataque corpo-a-corpo para a jogada de ataque à distância.\nUma arma à distância possui a distância de ataque junto da propriedade Munição ou Arremesso. A distância estabelece dois números. O primeiro é a distância normal da arma, o segundo é a distância longa da arma. Quando estiver atacando além da distância normal, você possui Desvantagem em sua jogada de ataque. Você não pode atacar um alvo além da sua distância longa."
+    },
+    {
+      "nome": "Ataque Híbrido",
+      "desc": "Armas híbridas são armamentos que misturam a versatilidade do combate corpo-a-corpo com o poder bruto de armas de fogo. Quando acertar um ataque corpo a corpo com esta arma com uma ação de Ataque, você pode consumir uma munição para realizar um disparo contra o mesmo alvo, causando também o dano à distância da arma. Esse disparo ocorre como parte do ataque corpo a corpo, mas ainda exige uma rolagem de Erro de Ignição. Se o disparo de arma de fogo possuir alguma munição com efeito ou outra propriedade, como Dispersão, o acerto do ataque híbrido causará o efeito da munição ou propriedade."
+    },
+    {
+      "nome": "Brutal",
+      "desc": "Armas brutais são feitas para causar o máximo de ferimentos possível. Quando você acerta um crítico com uma arma brutal, acrescente mais um dado de dano da arma ao acertar um crítico. Exemplo: uma arma que causa 1d12 passa a causar 3d12 no crítico. Uma que causa 2d6 passa a causar 5d6."
+    },
+    {
+      "nome": "Carga",
+      "desc": "Armas de carga foram construídas para auxiliar em poderosas cargas frontais contra seus inimigos. Quando você acerta uma criatura com a arma de carga após avançar 6m ou mais em linha reta, você pode colocar seu modificador de dano novamente no dano da arma em seu primeiro ataque."
+    },
+    {
+      "nome": "Defensiva",
+      "desc": "Estas armas foram construídas para lutar de forma defensiva, geralmente criadas com um longo alcance ou superfícies planas para auxiliar em bloqueios. Enquanto armado com uma arma defensiva, você tem +1 em sua CA, porém este bônus não acumulará com o bônus de um escudo ou outra arma defensiva. Enquanto empunhando junto de um escudo, você recebe Vantagem em testes para resistir tentativas de Agarrar, Empurrar ou Derrubar."
+    },
+    {
+      "nome": "Derrubar",
+      "desc": "Estas armas tem contra-pesos ou ganchos longos para auxiliar em atacar as pernas de um inimigo. Você possui Vantagem em seu teste para Empurrar ou Derrubar inimigos. Os inimigos possuem Desvantagem em Salvaguardas para evitarem serem Empurrados ou Derrubados por você."
+    },
+    {
+      "nome": "Desarme",
+      "desc": "Estas armas são construídas com ganchos pontudos ou protuberâncias que auxiliam atacar as mãos ou armas dos seus inimigos. Uma vez por rodada quando você acertar um Ataque em um inimigo, você pode realizar um teste de Força (Atletismo) ou Destreza (Acrobacia) contra a Força (Atletismo) ou Destreza (Acrobacia) do seu inimigo, em um sucesso seu ele será Desarmado. Se você já possuir uma habilidade que possibilita Desarmar o seu alvo, terá Vantagem em seu teste para desarmá-lo com esta habilidade."
+    },
+    {
+      "nome": "Dispersão",
+      "desc": "Armas que tem a propriedade Dispersão tem dois tipos de dano, o dano regular e o dano de Dispersão, ambas rolagens separadas. Quando você acerta um alvo com uma arma com a propriedade dispersão, criaturas a 1,5 metros em volta dela recebem o dano de Dispersão. A criatura que sofre o dano de Dispersão deve fazer uma Salvaguarda de Destreza (ND = 8 + Bônus de Proficiência + Modificador de Destreza), não sofrerá o dano de Dispersão se passar no teste. O alvo original não realiza a Salvaguarda, ele não recebendo o dano de Dispersão. Armas de Dispersão não tem Desvantagem ao disparar contra um inimigo a até 1,5 metros do atirador."
+    },
+    {
+      "nome": "Duas Mãos",
+      "desc": "Uma arma de duas mãos requer as suas duas mãos para realizar ataques com ela."
+    },
+    {
+      "nome": "Empunhadura Livre",
+      "desc": "Esta arma é uma luva ou bracelete e pode ser mantida em sua mão mesmo quando estiver empunhando outra arma ou segurando outros objetos, com exceção de Escudos."
+    },
+    {
+      "nome": "Equilibrada",
+      "desc": "Esta arma possui um Dano Alternativo com o mesmo valor do dano principal da arma. O dano alternativo será listado ao lado da propriedade."
+    },
+    {
+      "nome": "Erro de Ignição",
+      "desc": "Armas de fogo arcaicas podem ter Erro de Ignição. Estas armas terão um valor em suas propriedades para o seu Erro de Ignição, por exemplo: Uma arma de fogo com Erro de Ignição 2, se no dado de ataque o personagem tirar 2 ou 1, no valor base, terá um Erro de Ignição e a arma irá emperrar. Uma arma emperrada não poderá disparar e o usuário da mesma será obrigado a gastar uma Ação para reparar a arma, fazendo um teste de Ofício (Ofício da Mecânica ou Especialização da Piroarmeiria) com DC 10 + Valor do Erro de Ignição da arma no momento que ela emperrou. Se passar no teste, a arma será reparada, se não passar, a arma se tornará \"quebrada\" e será necessário ser reparada fora de combate, pelo custo de 1/4 do valor da arma. Você precisa ser proficiente com o Ofício para reparar a arma."
+    },
+    {
+      "nome": "Explosiva",
+      "desc": "Estas armas de fogo disparam granadas capazes de causar dano em áreas de tamanho considerável. O alvo dos seus disparos sofrerá o dano base da arma. Além disso, ele e todos os alvos a 3 metros de sua posição deverão realizar uma Salvaguarda de Destreza (CD = 8 + Bônus de Proficiência + Modificador de Destreza) ou sofrerão 3d6 de Dano de Perfuração, metade em um sucesso da Salvaguarda. Em um Erro de Ignição, estas armas fazem suas granadas explodirem no usuário do armamento, causando automaticamente o dano base da arma no usuário. Errar o ataque ainda faz a munição explodir, todos os alvos na área aonde você disparou a granada ainda terão que rolar a Salvaguarda."
+    },
+    {
+      "nome": "Incendiária",
+      "desc": "Quando estas armas tem um erro de ignição, elas causam uma quantidade de dano igual aos seus dados de dano ao portador da arma, somando seu modificador de Dano. Armas Incendiárias sempre possuem um aumento do Erro de Ignição em 2 por ataque consecutivo, ao invés de 1 padrão do Arcaico. Se não for proficiente, o aumento é de 3 ao invés de 2."
+    },
+    {
+      "nome": "Instável",
+      "desc": "Esta arma tecnomágica foi construída de forma que pode ser sobrecarregada, aumentando o seu potencial de dano, porém também garantindo uma chance de explodir nas mãos do usuário. Antes de realizar um disparo, você pode decidir ativar a sobrecarga da arma, consumindo uma munição adicional para +1d4 de dano. Você deverá jogar 1d20 com ND 5 + a quantia de d4 acrescentados ao dano da arma, em uma falha, você sofrerá o mesmo dano da arma (com os dados do Instável) que causou ao seu inimigo."
+    },
+    {
+      "nome": "Labareda",
+      "desc": "Esta arma incendiária foi construída para disparar labaredas de chamas contra alvos azarados o suficiente para estarem a sua frente. Esta arma dispara labaredas em cones do tamanho de sua distância de disparo, todos os alvos neste cone deverão realizar uma Salvaguarda de Destreza (ND = 8 + Bônus de Proficiência + Modificador de Destreza) ou sofrerão o dano da arma, metade do dano em um sucesso da Salvaguarda."
+    },
+    {
+      "nome": "Leve",
+      "desc": "Armas leves são pequenas e fáceis de serem manejadas, sendo ideais para o combate com duas armas."
+    },
+    {
+      "nome": "Luta Desarmada",
+      "desc": "Este tipo de armamento cobre suas mãos com lâminas ou reforços pesados, auxiliando em seus golpes. Esta arma soma seu dano aos seus golpes desarmados. Se ela tiver um tipo de dano diferente, ela também converte seu dano a este tipo."
+    },
+    {
+      "nome": "Muito Pesada",
+      "desc": "Armas muito pesadas são difíceis de serem empunhadas, porém eficientes nas mãos daqueles fortes o suficiente para mantê-las em suas mãos. Com armas corpo-a-corpo, sempre que não acertar um alvo com um ataque de arma, você deve realizar uma Salvaguarda de Força de ND 12 para manter a arma firme em mãos ou terá Desvantagem no proximo ataque. Com armas à distância, se você se mover e disparar na mesma rodada, terá que realizar uma Salvaguarda de Força de ND 12 e se falhar será empurrado 3m para a direção oposta do disparo, será Derrubada e perderá o restante da sua movimentação na rodada. Se você disparar primeiro antes de se mover, perderá metade de sua movimentação. Isso substitui a propriedade Pesada dos armamentos, mantendo suas características originais somadas a desta propriedade."
+    },
+    {
+      "nome": "Munição",
+      "desc": "Você apenas pode utilizar uma arma que tenha a propriedade Munição para realizar um ataque á distância se você possuir a munição adequada para disparar da arma, munição a qual é mencionada na propriedade. Sacar a munição é parte de uma ação de ataque (você precisa de uma mão livre para recarregar uma arma de uma mão). Após uma luta, você pode consumir 1 minuto para recuperar até metade de sua munição (arredondada para baixo) que tenha usado ao longo da luta, o restante da munição é perdida. Você não pode recuperar munições de arma de fogo.\nUma arma á distância possui a distância de ataque junto da propriedade Munição ou Arremesso. A distância estabelece dois números. O primeiro é a distância normal da arma, o segundo é a distância longa da arma. Quando atacando além da distância normal, você possui Desvantagem em sua jogada de ataque. Você não pode atacar um alvo além da sua distância longa."
+    },
+    {
+      "nome": "Oculta",
+      "desc": "Armas ocultas são criadas com compartimentos secretos ou formatos fáceis de serem ocultados. Recebe Vantagem em Destreza (Prestidigitação) e Destreza (Furtividade) para manter a arma oculta."
+    },
+    {
+      "nome": "Obsidiana",
+      "desc": "Esta arma possui lâminas feitas de obsidiana, que causam ferimentos terríveis, mas são extremamente quebradiças. Uma vez por rodada quando acertar um ataque corpo-a-corpo com uma arma com a propriedade Obsidiana, você pode deixar fragmentos de obsidiana presos no corpo da criatura. A criatura irá sofrer o Modificador de Força do atacante em dano Cortante no inicio dos seus turnos até utilizar uma Ação para retirar o fragmento do seu corpo. Uma outra criatura pode utilizar uma Ação Ajudar para retirar o fragmento de obsidiana do corpo. Uma arma com esta propriedade possui 10 fragmentos de Obsidiana, você pode colocar novos fragmentos em uma arma de Obsidiana durante um Descanso Longo, cada fragmento custando 10% do custo da arma."
+    },
+    {
+      "nome": "Perfurante",
+      "desc": "Este armamento é extremamente eficiente perfurando armaduras grossas e escamas de criaturas poderosas. Quando você acerta uma criatura utilizando uma arma perfurante ou munição perfurante, se o alvo estiver utilizando armadura pesada ou armadura natural, você recebe +1 no seu ataque."
+    },
+    {
+      "nome": "Pesada",
+      "desc": "Você possui Desvantagem em rolagens de ataque com armas Pesadas se ela for uma arma Corpo-a-Corpo e o seu valor de Força não for 13 ou maior. Você possui Desvantagem em rolagens de ataque com armas Pesadas se ela for uma arma de Combate á Distância e o seu valor de Destreza não for 13 ou maior."
+    },
+    {
+      "nome": "Plataforma",
+      "desc": "Este armamento requer uma plataforma de disparo que, geralmente, é construída nas costas do seu usuário, na forma de uma mochila de metal e madeira. O usuário deste armamento carregará um grande dispositivo em suas costas, como por exemplo um barril pressurizado carregando o combústivel de Fogodraco. Isto impossibilita o usuário de carregar armamentos em suas costas, assim como mochilas. Enquanto estiver empunhando esta arma, trocar, soltar ou guardar sempre consumirá completamente sua Ação."
+    },
+    {
+      "nome": "Pólvora Negra",
+      "desc": "Armas de pólvora negra disparam projeteis ensurdecedores, partindo armaduras com uma força brutal. Quando disparadas, o som emitido pela arma pode ser ouvido a 150m. Infelizmente, armas de pólvora negra geralmente ficam inúteis quando molhadas. Se uma arma de pólvora negra for exposta a chuva pesada, submergidas ou molhadas em água, ela não poderá realizar disparos. Uma arma molhada só pode ser usada novamente após um Descanso Curto ou Longo."
+    },
+    {
+      "nome": "Precisa",
+      "desc": "Construída para precisão, esta arma é especialmente letal quando atacando da forma correta. O crítico desta arma é 19 ou 20."
+    },
+    {
+      "nome": "Preparar",
+      "desc": "Esta arma foi construída para formações militares, podendo ser utilizada para conter o avanço dos seus inimigos. Se um inimigo entrar no alcance da arma, você poderá utilizar a sua Reação e imediatamente rolar um ataque contra a criatura, causando o dano de sua arma contra o alvo em um acerto. Você apenas pode usar esta Reação se não tiver se movido mais do que a metade do seu deslocamento em sua ultima rodada."
+    },
+    {
+      "nome": "Prender",
+      "desc": "Uma arma com a propriedade Prender pode amarrar um alvo. Quando acertar uma criatura com esta arma que não seja superior a um tamanho maior que você, você pode utilizar a sua Ação Bônus para tentar Agarrar o alvo. Você não precisa de uma mão livre para Agarrar desta forma, a arma estará fazendo isto. Se você for bem sucedido, o alvo está Agarrado por você ou pela arma se você não estiver mais a empunhando. Até que o Agarrar seja finalizado, você não pode utilizar esta arma para atacar outro alvo. Se a arma tiver a propriedade Alcance, você deverá estar a 1,5 metros para atacar o alvo Agarrado. Se você não estiver mais empunhando a arma, a criatura continua agarrada pela arma em si, o alvo poderá utilizar sua Ação para realizar um teste de Destreza (Acrobacia) ou Força (Atletismo) de ND 10 para escapar da arma."
+    },
+    {
+      "nome": "Rajada",
+      "desc": "Armas de Rajada disparam diversos disparos consecutivos graças a possuir mais de um cano ou mecanismos rudimentares de repetição. Estas armas de repetição consomem duas munições ao invés de uma, seu dano sendo aumentado por este fator. Munições especiais irão aplicar o seu efeito duas vezes, se possível aplicar duas vezes, quando o ataque da arma acertar o seu alvo."
+    },
+    {
+      "nome": "Recarga",
+      "desc": "Você apenas pode realizar um disparo de uma arma com a propriedade Recarga quando você utilizar uma Ação, Ação Bônus ou Reação para dispará-la, independente de quantos ataques você normalmente pode realizar. Se houver um número ao lado de Recarga, ele determina quantos ataques você pode fazer antes de ter que recarregar a arma."
+    },
+    {
+      "nome": "Recarga Lenta",
+      "desc": "Armas com a propriedade Recarga Lenta irão precisar gastar uma Ação Bônus para recarregar após gastar todas as munições disponiveis na arma. O valor ao lado da propriedade Recarga Lenta é a quantidade de disparos que a arma pode realizar até precisar recarregar novamente.\nDuas armas leves com a propriedade Recarga Lenta precisam de uma única Ação Bônus para recarregar ambas."
+    },
+    {
+      "nome": "Salva",
+      "desc": "Armas com a propriedade Salva podem disparar uma salva de disparos, seja descarregando multiplos canos ou tendo a capacidade de realizar disparos em rápida sequência. Como uma Ação, você pode forçar um número de inimigos de sua escolha igual o seu Bônus de Proficiência em um quadrado de 3 metros, centralizado em um ponto dentro do alcance curto de sua arma, a fazer uma Salvaguarda de Destreza (ND = 8 + Bônus de Proficiência + Modificador de Carisma). Você pode decidir quantos disparos irá realizar com a Salva, com um máximo de disparos igual o seu Bônus de Proficiência, consumindo as munições já carregadas na arma. Ao realizar a Salva, antes de jogar o dano do seu ataque, você deverá jogar 1d20 como se estivesse realizando um ataque, para definir o seu Erro de Ignição, o ND sendo o valor do Erro de Ignição da arma + metade da quantia de dados de dano utilizados (arredondado para baixo). Efeitos especiais de munições apenas irão aplicar seus efeitos em alvos que falharem na Salvaguarda. Se for bem sucedido no teste de Erro de Ignição, a arma irá disparar e todas criaturas afetadas pela Salva que tiverem falhado na Salvaguarda irão receber dano igual ao dano da arma multiplicado pela quantia de disparos realizados. Realizar Salva requer que um personagem tenha Força 11."
+    },
+    {
+      "nome": "Tecnomágica",
+      "desc": "Estes armamentos foram desenvolvidos por artífices e magos de considerável poder e compreensão no funcionamento de armas de pólvora negra. Estas armas emitem auras mágicas, assim como podem ser desativadas com efeitos de anti-magia. O feitiço Dissipar Magia ou efeitos de anti-magia desativam este tipo de armamento, para ativá-lo novamente é necessário um reparo da arma similar ao do Erro de Ignição (utilizando o ND de Magia do Conjurador ou ND 10 se não houver). Armas Tecnomágicas são consideradas Armas Mágicas."
+    },
+    {
+      "nome": "Versátil",
+      "desc": "Uma arma Versátil pode ser utilizada com uma ou duas mãos. Enquanto empunhando a arma com as duas mãos, você causa o dano entre parenteses com um ataque corpo-a-corpo."
+    },
+    {
+      "nome": "Versatilidade Arcana",
+      "desc": "Esta arma tecnomágica foi construída por indivíduos cuidadosos e focados em aumentar o potencial do armamento. Com uma Ação Bônus, você pode mudar o elemento da arma para Fogo, Eletricidade ou Gelo, como também retornar ao elemento padrão da arma, que é Energia."
+    }
+  ],
+  "especiais": [
+    {
+      "nome": "Arco de Guerra Élfico",
+      "desc": "O tipo mais poderoso de arco, o arco de guerra élfico é construído com um artesanato único e especial, proporcionando um potencial bélico devastador. Se acertar um alvo de tamanho Médio sem armadura pesada ou sem armadura natural igual ou superior a 17, o disparo atravessa o corpo da criatura e também acerta uma criatura a até 1,5m do alvo original. Se o resultado do ataque original também acertar a Classe de Armadura da criatura adjacente, ela sofrerá o dano da arma também."
+    },
+    {
+      "nome": "Arco de Guerra",
+      "desc": "Os Arcos de Guerra são armas construídas para poder bruto, requisitando mais da força dos seus usuários do que outros arcos. Você soma metade do seu Modificador de Força (arredondado para cima) no dano dos ataques deste arco."
+    },
+    {
+      "nome": "Arpoeira Anã",
+      "desc": "Esta arma é efetivamente uma balista portátil, construída pelos anões para servir como uma arma de suporte em esquadrões de armadura energizada. É necessário que o seu valor do atributo Força seja 17 ou maior para conseguir realizar disparos com esta arma. Graças a sua munição, azagaias com propriedades especiais podem ser disparadas pela arma, causando seus efeitos."
+    },
+    {
+      "nome": "Punhal do Assassino",
+      "desc": "Este Punhal tem um compartimento para armazenar venenos, este compartimento deposita o veneno com mais eficiência na lâmina da arma. Você pode armazenar o dobro de doses de um veneno nesta arma. Além disso o ND do veneno aumenta em 2."
+    },
+    {
+      "nome": "Shotel",
+      "desc": "O Shotel tem uma longa curvatura similar a uma foice, garantindo a ele uma vantagem única contra usuários de escudo. Ignora o CA base do Escudo inimigo."
+    }
+  ],
+  "aliases": {
+    "pesado": "Pesada",
+    "defensivo": "Defensiva",
+    "versatialidade arcana": "Versatilidade Arcana",
+    "muito pesado": "Muito Pesada",
+    "ataque hibrido": "Ataque Híbrido",
+    "versatil": "Versátil"
+  },
+  "blocos": [
+    {
+      "nome": "Sereguiano",
+      "nivel": "Primários",
+      "desc": "O Bloco Sereguiano é composto por armamentos compartilhados por todas nações do continente de Sereg, além de algumas outras civililizações e facções de outros continentes, sendo um dos blocos com maior arco de influência."
+    },
+    {
+      "nome": "Glauriano",
+      "nivel": "Primários",
+      "desc": "O Bloco Glauriano possui menor alcance de influência, mas possui uma imensa quantia de armamentos compartilhados dentro dele."
+    },
+    {
+      "nome": "Daes",
+      "nivel": "Primários",
+      "desc": "O Bloco do continente de Dae possui poucos armamentos compartilhados entre si, graças ao isolacionismo natural da maior parte de suas nações e povos."
+    },
+    {
+      "nome": "Anãnico",
+      "nivel": "Primários",
+      "desc": "O Bloco Anãnico engloba armamentos desenvolvidos por civilizações de maioria anãnica. A maioria dos armamentos deste bloco são armas de pólvora negra, e boa parte destas são exclusivas do desenvolvido anãnico. Praticamente apenas as nações de maioria anãnica possuem acesso a estes armamentos, mas nações da Aliança de Onoir (Ornoir, Hibernia e Arias) podem ter facilidade em ter acesso a este Bloco."
+    },
+    {
+      "nome": "Élfico",
+      "nivel": "Primários",
+      "desc": "Menor que o bloco dos anões, o Bloco Élfico possui mais armamentos compartilhados com outros blocos. Este Bloco também engloba outras espécies de elfos, como os Shadar-Kai, Eladrin e Astrais. Eles também englobam povos diretamente sob influência élfica, como os Skâw e Ótaakh. Povos de civilizações e comunidades de seguidores de Saoirse podem ter acesso a este bloco."
+    },
+    {
+      "nome": "Dakshano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural de Daksha Nan."
+    },
+    {
+      "nome": "Strigoi",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Imperium Strigoi ou o Império de Strigos, um dos blocos com maior raio de influência entre os secundários."
+    },
+    {
+      "nome": "Ornoiriano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Sacro Reino de Ornoir."
+    },
+    {
+      "nome": "Hiberniano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Reino de Hibernia."
+    },
+    {
+      "nome": "Girladuhriano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Império de Girladuhr. Não deve ser confundido com o Bloco Anãnico, este bloco se limita a armamentos exclusivos de Girladuhr em si."
+    },
+    {
+      "nome": "Qiangi",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural da Dinastia Qiang."
+    },
+    {
+      "nome": "Chajin",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural da Dinastia Feng."
+    },
+    {
+      "nome": "Ariasiano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Reino de Arias."
+    },
+    {
+      "nome": "Domatano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural da República Mercantíl de Domato."
+    },
+    {
+      "nome": "Etruscano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Principado de Etrusca."
+    },
+    {
+      "nome": "Heikei",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Shogunato de Heiko."
+    },
+    {
+      "nome": "Drealoniano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Reino das Rainhas de Drealon."
+    },
+    {
+      "nome": "Empysiano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural da Federação de Empysia. É um bloco profundamente conectado com o Império Drach."
+    },
+    {
+      "nome": "Hoheniano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural de Hohenreich ou Reino de Hohen."
+    },
+    {
+      "nome": "Anadyriano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Czarado de Anadyr."
+    },
+    {
+      "nome": "Zhenyano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural da Voivodina de Zhenya."
+    },
+    {
+      "nome": "Kersiano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural da Teocracia de Kersi."
+    },
+    {
+      "nome": "Serakiano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural de Serak."
+    },
+    {
+      "nome": "Igbó",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Reino Igbó."
+    },
+    {
+      "nome": "Ramano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Almirantado Ramane."
+    },
+    {
+      "nome": "Izingani",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural dos Izingani Zikababa."
+    },
+    {
+      "nome": "Jökulsano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do povo Jökulsano."
+    },
+    {
+      "nome": "Alariano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Malikado de Alaria."
+    },
+    {
+      "nome": "Vaathuen",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural de Vaathuen."
+    },
+    {
+      "nome": "Saknuano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural da Coroa de Saknu."
+    },
+    {
+      "nome": "Draqueano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Império Drach."
+    },
+    {
+      "nome": "Shadar-Kai",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do povo Shadar-Kai. Apesar de ser um bloco de espécie, ele é de relevância inferior."
+    },
+    {
+      "nome": "Hat'Challeano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural da República Federativa de Hat'Challah."
+    },
+    {
+      "nome": "Na Keiki",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural dos Hale Maemae."
+    },
+    {
+      "nome": "Tlaxcano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Império de Tlaxcala."
+    },
+    {
+      "nome": "Deireadhiano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Matriarcado de Deireadh."
+    },
+    {
+      "nome": "Silvano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural da República Elfica de Silvania. Não deve ser confundido com o bloco élfico."
+    },
+    {
+      "nome": "Arboriano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural da República Elfica de Arboria. Não deve ser confundido com o bloco élfico."
+    },
+    {
+      "nome": "Teohuacani",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural do Império de Teohuacan."
+    },
+    {
+      "nome": "Nuwereldiano",
+      "nivel": "Secundários",
+      "desc": "Bloco Cultural da Magocracia de Nuwereld."
+    },
+    {
+      "nome": "Rak e Kuobao",
+      "nivel": "Terciários",
+      "desc": "Bloco Cultural das Tribos Rak e as Tribos de Heyux, respectivamente."
+    },
+    {
+      "nome": "Povo Yunga",
+      "nivel": "Terciários",
+      "desc": "Bloco Cultural dos Povos do Sul da Espinha de Ethraid."
+    },
+    {
+      "nome": "Tlametiano",
+      "nivel": "Terciários",
+      "desc": "Bloco Cultural da Confederação de Tlametzli."
+    },
+    {
+      "nome": "Tetocoyano",
+      "nivel": "Terciários",
+      "desc": "Bloco Cultural de Hoq Takiy."
+    },
+    {
+      "nome": "Skâw",
+      "nivel": "Terciários",
+      "desc": "Bloco Cultural da Nação Skâwwapi. Possui influência no Acordo Ótaakh e na Assembleia Iyoa."
+    }
+  ]
+}
