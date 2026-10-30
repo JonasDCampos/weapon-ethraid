@@ -3309,7 +3309,7 @@
     [
      "1º",
      "+2",
-     "Artes Marciais, Defesa sem Armadura",
+     "Artes Marciais, Defesa sem Armadura, Treinamento Exótico",
      "1d6",
      "0",
      "+0 m"
@@ -3317,7 +3317,7 @@
     [
      "2º",
      "+2",
-     "Foco do Monge, Movimento sem Armadura, Metabolismo Sobrenatural",
+     "Foco do Monge, Movimento Sem Armadura, Metabolismo Incomum",
      "1d6",
      "2",
      "+3 m"
@@ -3325,7 +3325,7 @@
     [
      "3º",
      "+2",
-     "Defletir Ataques, Subclasse de Monge",
+     "Deviar Ataques, Subclasse de Monge",
      "1d6",
      "3",
      "+3 m"
@@ -3333,7 +3333,7 @@
     [
      "4º",
      "+2",
-     "Aumento de Valor de Atributo, Queda Lenta",
+     "Aprimoramento de Atributo, Queda Lenta",
      "1d6",
      "4",
      "+3 m"
@@ -3349,7 +3349,7 @@
     [
      "6º",
      "+3",
-     "Golpes Potencializados, Característica de Subclasse",
+     "Golpes Fortalecidos, Característica de Subclasse",
      "1d8",
      "6",
      "+4,5 m"
@@ -3365,7 +3365,7 @@
     [
      "8º",
      "+3",
-     "Aumento de Valor de Atributo",
+     "Aprimoramento de Atributo",
      "1d8",
      "8",
      "+4,5 m"
@@ -3397,7 +3397,7 @@
     [
      "12º",
      "+4",
-     "Aumento de Valor de Atributo",
+     "Aprimoramento de Atributo",
      "1d10",
      "12",
      "+6 m"
@@ -3405,7 +3405,7 @@
     [
      "13º",
      "+5",
-     "Defletir Energia",
+     "Desviar Energia",
      "1d10",
      "13",
      "+6 m"
@@ -3429,7 +3429,7 @@
     [
      "16º",
      "+5",
-     "Aumento de Valor de Atributo",
+     "Aprimoramento de Atributo",
      "1d10",
      "16",
      "+7,5 m"
